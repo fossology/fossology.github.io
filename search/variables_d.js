@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['label_9039',['label',['../d3/dfe/structmm__cache.html#ab553ce8f91fc84901f3ac5cab1704def',1,'mm_cache']]],
+  ['ldebug_9040',['lDebug',['../db/d97/parse_8c.html#a19e9eab26d09f4abb40d0fd2cca6a58d',1,'parse.c']]],
+  ['ldiags_9041',['lDiags',['../db/d97/parse_8c.html#a1a10b79472744f800a89cbd3dbeb78b7',1,'parse.c']]],
+  ['len_9042',['len',['../df/d72/structlicense.html#a133345619233566d1717d5c843d0f7ea',1,'license::len()'],['../db/d12/structojomatch.html#a72f69c8d20e37badda0648b23da04765',1,'ojomatch::len()']]],
+  ['lft_9043',['lft',['../d3/d1f/structuploadtree__struct.html#accf2c2511b637d16c666887b174a8fd0',1,'uploadtree_struct']]],
+  ['licencename_9044',['licenceName',['../dd/daf/structLicenceAndMatchPositions.html#a807f195472c69011464503d3ef99b797',1,'LicenceAndMatchPositions']]],
+  ['license_9045',['license',['../d4/d56/structrpmpkginfo.html#a666975214ca47948b17058ac45dcea9d',1,'rpmpkginfo']]],
+  ['license_5ffetch_5flimit_9046',['LICENSE_FETCH_LIMIT',['../d3/dee/classFossology_1_1UI_1_1Api_1_1Controllers_1_1LicenseController.html#ab89776e6f8f6215aea0b41399fa443a4',1,'Fossology::UI::Api::Controllers::LicenseController']]],
+  ['license_5ffk_9047',['license_fk',['../db/d12/structojomatch.html#a1b404379e0a68e7aaa3346d9adb08838',1,'ojomatch::license_fk()'],['../d8/d65/structOjoDatabaseEntry.html#a121374ff7d6772724337c9e3fe29aa26',1,'OjoDatabaseEntry::license_fk()']]],
+  ['licensefileid_9048',['licenseFileId',['../dd/daf/structLicenceAndMatchPositions.html#a92c7721853ba1788ef8b8d5ec66dc847',1,'LicenceAndMatchPositions']]],
+  ['licenselist_9049',['licenseList',['../d9/dc4/structcurScan.html#aca23dc3028904f22058f14c982b22546',1,'curScan']]],
+  ['licenserefcache_9050',['licenseRefCache',['../d3/df9/classOjosDatabaseHandler.html#ad14ebf217a34889fb0a826f68a795cf0',1,'OjosDatabaseHandler']]],
+  ['licstr_9051',['licStr',['../db/d97/parse_8c.html#a0c1d150b59b1ee57f74be8af9ca9027d',1,'parse.c']]],
+  ['lictext_9052',['licText',['../df/d24/nomos_2agent__tests_2Unit_2run__tests_8c.html#a449afd395ad29c4be6538cc9c06b0aaf',1,'run_tests.c']]],
+  ['limit_5fparam_9053',['LIMIT_PARAM',['../d3/dee/classFossology_1_1UI_1_1Api_1_1Controllers_1_1LicenseController.html#a1ec2b3889d37b63bf64adb24c935ae82',1,'Fossology\UI\Api\Controllers\LicenseController\LIMIT_PARAM()'],['../d0/d43/classFossology_1_1UI_1_1Api_1_1Controllers_1_1UploadController.html#a5a76af1c6b431d2800d5b8c5472be953',1,'Fossology\UI\Api\Controllers\UploadController\LIMIT_PARAM()']]],
+  ['listoutfile_9054',['ListOutFile',['../d2/df2/externs_8h.html#acb94873f63e4957eeb3e1a7429598084',1,'ListOutFile():&#160;ununpack_globals.h'],['../dc/da7/ununpack__globals_8h.html#acb94873f63e4957eeb3e1a7429598084',1,'ListOutFile():&#160;ununpack_globals.h']]],
+  ['lock_9055',['lock',['../d2/d68/structjob__t.html#a170cd2c2c7f002ac34d807da39e5f7a3',1,'job_t']]],
+  ['log_9056',['log',['../d2/d68/structjob__t.html#aed80742639514648ab2d938bb2493cd9',1,'job_t::log()'],['../db/dfc/structlog__event__args.html#a53083cda02c93172bcf165a6d2675200',1,'log_event_args::log()']]],
+  ['log_5ffile_9057',['log_file',['../d2/ddc/structlog__t.html#a4b4e0462e2e547a46c5cbeb64e981df9',1,'log_t']]],
+  ['log_5fname_9058',['log_name',['../d2/ddc/structlog__t.html#a210b37809411d87ced842eecf2f318f5',1,'log_t']]],
+  ['logcmdline_9059',['logcmdline',['../d2/d3c/structscheduler__t.html#aaaadf3c62db397a10e15bfe79c8280b0',1,'scheduler_t']]],
+  ['logdir_9060',['logdir',['../d2/d3c/structscheduler__t.html#a788e78a2803349b59ca98fc1d1030c06',1,'scheduler_t']]],
+  ['logfile_9061',['logFile',['../dd/d3c/structfo__dbmanager.html#add96f8464595eed670453ac11cbc0240',1,'fo_dbmanager']]],
+  ['ltsr_9062',['ltsr',['../db/d97/parse_8c.html#a8e2f5816545ac018b864a61a747fd146',1,'parse.c']]]
+];

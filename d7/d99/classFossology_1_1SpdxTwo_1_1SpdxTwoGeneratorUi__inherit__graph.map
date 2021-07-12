@@ -1,0 +1,5 @@
+<map id="Fossology\SpdxTwo\SpdxTwoGeneratorUi" name="Fossology\SpdxTwo\SpdxTwoGeneratorUi">
+<area shape="rect" id="node1" title="Call SPDX2 agent to generate report from UI." alt="" coords="5,1019,223,1213"/>
+<area shape="rect" id="node2" href="$d4/d53/classFossology_1_1Lib_1_1Plugin_1_1DefaultPlugin.html" title=" " alt="" coords="29,219,199,971"/>
+<area shape="rect" id="node3" href="$d8/d3d/interfaceFossology_1_1Lib_1_1Plugin_1_1Plugin.html" title=" " alt="" coords="37,5,191,171"/>
+</map>

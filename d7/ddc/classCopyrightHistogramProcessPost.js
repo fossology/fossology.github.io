@@ -1,0 +1,27 @@
+var classCopyrightHistogramProcessPost =
+[
+    [ "__construct", "d7/ddc/classCopyrightHistogramProcessPost.html#a9b2bfc612ec04fda93f437f29b61a2e7", null ],
+    [ "addSearchFilter", "d7/ddc/classCopyrightHistogramProcessPost.html#ac482a72bc0628ea3e16e6d193d6566c3", null ],
+    [ "doDelete", "d7/ddc/classCopyrightHistogramProcessPost.html#a9123e8ee5cd967617eea32c0bb2d3e26", null ],
+    [ "doDeleteDecision", "d7/ddc/classCopyrightHistogramProcessPost.html#a3223e590eadfd474d5e15d160a5b13b6", null ],
+    [ "doDeleteHashDecision", "d7/ddc/classCopyrightHistogramProcessPost.html#ad5fe4904d117be5bead1dfabb798ad76", null ],
+    [ "doGetData", "d7/ddc/classCopyrightHistogramProcessPost.html#a453c1ea54eb4b3953896db8487958ca2", null ],
+    [ "doUndo", "d7/ddc/classCopyrightHistogramProcessPost.html#ad47a6a38333333e93f497b9b7141629c", null ],
+    [ "doUndoDecision", "d7/ddc/classCopyrightHistogramProcessPost.html#a59dffe3ee18bc9c53b3dd34c5e82d53c", null ],
+    [ "doUndoHashDecision", "d7/ddc/classCopyrightHistogramProcessPost.html#adf2445a8026c5e8401e23e19446f86d1", null ],
+    [ "doUpdate", "d7/ddc/classCopyrightHistogramProcessPost.html#a14489b46ae8ca22971b35af8770218b1", null ],
+    [ "fillTableRow", "d7/ddc/classCopyrightHistogramProcessPost.html#ab4ccb7e830b4b318a41261666bb96afa", null ],
+    [ "getCopyrights", "d7/ddc/classCopyrightHistogramProcessPost.html#ad4e9809df1e162293dfc16305e8904d9", null ],
+    [ "getOrderString", "d7/ddc/classCopyrightHistogramProcessPost.html#ae081de78dd63d7a16239d9651031c413", null ],
+    [ "getTableData", "d7/ddc/classCopyrightHistogramProcessPost.html#a96a41578ed78bd2255c710201bdb8c21", null ],
+    [ "getTableName", "d7/ddc/classCopyrightHistogramProcessPost.html#a24fa73c5a080254b5aa6fe3b243f9c64", null ],
+    [ "getTableRowAction", "d7/ddc/classCopyrightHistogramProcessPost.html#a1b7c8cc4152be11fcb24f1c85d40eb87", null ],
+    [ "Output", "d7/ddc/classCopyrightHistogramProcessPost.html#acfd737bc243d3aa9b3b8e1fe92ebdd87", null ],
+    [ "$copyrightDao", "d7/ddc/classCopyrightHistogramProcessPost.html#a54395fe8a4af1860784c93b4b008823f", null ],
+    [ "$dataTablesUtility", "d7/ddc/classCopyrightHistogramProcessPost.html#a31ef687d0f1fcd9d866f1180d93a8a87", null ],
+    [ "$dbManager", "d7/ddc/classCopyrightHistogramProcessPost.html#adb07adcc8e20d2ba8306d66c2878efd1", null ],
+    [ "$listPage", "d7/ddc/classCopyrightHistogramProcessPost.html#a1d97c5d4ff0614cfed03c8cb6167eee7", null ],
+    [ "$textFindingTypes", "d7/ddc/classCopyrightHistogramProcessPost.html#a7a4d95e6f91f86c334a3cce1071681b1", null ],
+    [ "$uploadDao", "d7/ddc/classCopyrightHistogramProcessPost.html#ad10c060704591c9ef1ef0edd4e9e66f8", null ],
+    [ "$uploadtree_tablename", "d7/ddc/classCopyrightHistogramProcessPost.html#af4deca66bfa50475f4e644104f05c1e0", null ]
+];

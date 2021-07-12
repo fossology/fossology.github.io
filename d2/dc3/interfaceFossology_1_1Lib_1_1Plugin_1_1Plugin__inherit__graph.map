@@ -1,0 +1,51 @@
+<map id="Fossology\Lib\Plugin\Plugin" name="Fossology\Lib\Plugin\Plugin">
+<area shape="rect" id="node1" title=" " alt="" coords="4571,5,4726,171"/>
+<area shape="rect" id="node2" href="$d7/d54/classFO__Plugin.html" title="This is the Plugin class. All plugins should:" alt="" coords="4401,358,4545,831"/>
+<area shape="rect" id="node48" href="$de/d33/classFossology_1_1Lib_1_1Plugin_1_1AgentPlugin.html" title=" " alt="" coords="4569,424,4728,765"/>
+<area shape="rect" id="node49" href="$d4/d53/classFossology_1_1Lib_1_1Plugin_1_1DefaultPlugin.html" title=" " alt="" coords="4753,219,4923,971"/>
+<area shape="rect" id="node3" href="$d5/ded/classacme__review.html" title=" " alt="" coords="5,1077,204,1419"/>
+<area shape="rect" id="node4" href="$d4/d07/classadmin__bucket__pool.html" title=" " alt="" coords="228,1195,384,1301"/>
+<area shape="rect" id="node5" href="$da/da2/classadmin__folder__delete.html" title="UI plugin to delete folders." alt="" coords="408,1195,564,1301"/>
+<area shape="rect" id="node6" href="$d4/d2a/classadmin__license__file.html" title=" " alt="" coords="588,1107,763,1389"/>
+<area shape="rect" id="node7" href="$d9/ddd/classadmin__obligation__file.html" title=" " alt="" coords="787,1107,982,1389"/>
+<area shape="rect" id="node8" href="$d0/dcd/classadmin__scheduler.html" title="This is a class for operations on the scheduler from GUI." alt="" coords="1007,1158,1184,1338"/>
+<area shape="rect" id="node9" href="$df/da9/classadmin__tag.html" title=" " alt="" coords="1209,1180,1387,1316"/>
+<area shape="rect" id="node10" href="$df/d64/classadmin__tag__manage.html" title=" " alt="" coords="1412,1195,1563,1301"/>
+<area shape="rect" id="node11" href="$d9/d74/classagent__copyright__once.html" title="One&#45;Shot plugin for Copyright/Email/URL Analysis." alt="" coords="1587,1187,1753,1309"/>
+<area shape="rect" id="node12" href="$da/d85/classagent__demomod.html" title="UI plugin for demomod (handle user requests)" alt="" coords="1777,1158,1936,1338"/>
+<area shape="rect" id="node13" href="$dd/d56/classagent__nomos__once.html" title="Class to run one&#45;shot nomos." alt="" coords="1961,1165,2153,1331"/>
+<area shape="rect" id="node14" href="$da/dd1/classagent__wget__agent.html" title="UI plugin for WGET_AGENT." alt="" coords="2177,1158,2336,1338"/>
+<area shape="rect" id="node15" href="$d8/d14/classajax__filebucket.html" title=" " alt="" coords="2360,1202,2481,1294"/>
+<area shape="rect" id="node16" href="$d2/d31/classajax__filelic.html" title="Find uploadtree_pk for a given license." alt="" coords="2505,1165,2632,1331"/>
+<area shape="rect" id="node17" href="$da/d4a/classajax__schedule__agent.html" title=" " alt="" coords="2656,1202,2815,1294"/>
+<area shape="rect" id="node18" href="$dd/d6e/classajax__tags.html" title=" " alt="" coords="2839,1202,2960,1294"/>
+<area shape="rect" id="node19" href="$db/d93/classAjaxClearingView.html" title=" " alt="" coords="2984,1019,3231,1477"/>
+<area shape="rect" id="node20" href="$df/da2/classAjaxNoticeFiles.html" title=" " alt="" coords="3254,1195,3385,1301"/>
+<area shape="rect" id="node21" href="$de/d0c/classchangeLicenseProcessPost.html" title=" " alt="" coords="3409,1187,3605,1309"/>
+<area shape="rect" id="node22" href="$dd/d85/classClearingView.html" title=" " alt="" coords="3629,1092,3876,1404"/>
+<area shape="rect" id="node23" href="$d3/dc2/classcopyright__list.html" title=" " alt="" coords="3900,1151,4075,1345"/>
+<area shape="rect" id="node24" href="$d7/ddc/classCopyrightHistogramProcessPost.html" title="Handles Ajax requests for copyright." alt="" coords="4099,1048,4329,1448"/>
+<area shape="rect" id="node25" href="$d9/db1/classcore__auth.html" title=" " alt="" coords="4353,1121,4592,1375"/>
+<area shape="rect" id="node26" href="$df/dba/classcore__debug.html" title="Plugin for core debug." alt="" coords="4616,1202,4737,1294"/>
+<area shape="rect" id="node27" href="$d1/dde/classcore__debug__fileloc.html" title="Plugin to display global variables." alt="" coords="4761,1195,4904,1301"/>
+<area shape="rect" id="node28" href="$d1/d2e/classcore__debug__menus.html" title="Plugin to debug menus." alt="" coords="4928,1180,5076,1316"/>
+<area shape="rect" id="node29" href="$de/d44/classcore__init.html" title=" " alt="" coords="5100,1143,5275,1353"/>
+<area shape="rect" id="node30" href="$d0/da0/classcore__smauth.html" title=" " alt="" coords="5299,1158,5425,1338"/>
+<area shape="rect" id="node31" href="$d4/d81/classcore__uploads.html" title=" " alt="" coords="5449,1202,5571,1294"/>
+<area shape="rect" id="node32" href="$d7/d6d/classdashboard.html" title=" " alt="" coords="5595,1121,5849,1375"/>
+<area shape="rect" id="node33" href="$d6/dee/classdashboardReporting.html" title=" " alt="" coords="5873,1187,6027,1309"/>
+<area shape="rect" id="node34" href="$de/d1c/classdebug__flush__cache.html" title="Plugin to flush all cached pages." alt="" coords="6051,1202,6196,1294"/>
+<area shape="rect" id="node35" href="$d9/db6/classdebug__user.html" title="Plugin to print debug information about current user." alt="" coords="6220,1202,6341,1294"/>
+<area shape="rect" id="node36" href="$d3/d19/classfoconfig.html" title="display and set FOSSology configuration" alt="" coords="6365,1187,6513,1309"/>
+<area shape="rect" id="node37" href="$df/dd4/classfolder__create.html" title=" " alt="" coords="6537,1195,6659,1301"/>
+<area shape="rect" id="node38" href="$dc/d9f/classfolder__properties.html" title=" " alt="" coords="6683,1195,6817,1301"/>
+<area shape="rect" id="node39" href="$d9/df8/classFossdashConfig.html" title="display and set FOSSology configuration" alt="" coords="6841,1187,6989,1309"/>
+<area shape="rect" id="node40" href="$dc/db1/classFossology_1_1UI_1_1Ajax_1_1AjaxShowJobs.html" title="Provide data for jobs table." alt="" coords="7013,1107,7247,1389"/>
+<area shape="rect" id="node41" href="$db/d99/classgroup__add.html" title="add a new group" alt="" coords="7271,1202,7392,1294"/>
+<area shape="rect" id="node42" href="$dd/d3e/classHistogramBase.html" title="Base class for histogram plugins." alt="" coords="7417,1114,7609,1382"/>
+<area shape="rect" id="node43" href="$db/db8/classLicenseListFiles.html" title=" " alt="" coords="7633,1158,7825,1338"/>
+<area shape="rect" id="node44" href="$d7/d29/classlist__bucket__files.html" title=" " alt="" coords="7849,1195,7993,1301"/>
+<area shape="rect" id="node45" href="$d7/d9e/classmaintagent.html" title="Queue the maintenance agent with the requested parameters." alt="" coords="8017,1187,8147,1309"/>
+<area shape="rect" id="node46" href="$d6/d22/classPopupLicense.html" title=" " alt="" coords="8171,1202,8292,1294"/>
+<area shape="rect" id="node47" href="$d3/d31/classsearch.html" title=" " alt="" coords="8316,1158,8483,1338"/>
+</map>

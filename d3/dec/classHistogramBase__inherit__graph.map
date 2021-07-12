@@ -1,0 +1,9 @@
+<map id="HistogramBase" name="HistogramBase">
+<area shape="rect" id="node1" title="Base class for histogram plugins." alt="" coords="267,740,459,1008"/>
+<area shape="rect" id="node4" href="$d2/d9e/classCopyrightHistogram.html" title="Create histogram plugin for copyright." alt="" coords="5,1056,167,1192"/>
+<area shape="rect" id="node5" href="$d0/d27/classEccHistogram.html" title="Create UI plugin for ecc agent." alt="" coords="191,1056,352,1192"/>
+<area shape="rect" id="node6" href="$df/dc3/classEmailHistogram.html" title=" " alt="" coords="376,1056,537,1192"/>
+<area shape="rect" id="node7" href="$de/da6/classKeywordHistogram.html" title=" " alt="" coords="561,1056,723,1192"/>
+<area shape="rect" id="node2" href="$d7/d54/classFO__Plugin.html" title="This is the Plugin class. All plugins should:" alt="" coords="291,219,435,692"/>
+<area shape="rect" id="node3" href="$d8/d3d/interfaceFossology_1_1Lib_1_1Plugin_1_1Plugin.html" title=" " alt="" coords="286,5,441,171"/>
+</map>

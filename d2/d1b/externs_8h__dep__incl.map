@@ -1,0 +1,8 @@
+<map id="src/ununpack/agent/externs.h" name="src/ununpack/agent/externs.h">
+<area shape="rect" id="node1" title="Stores all extern variables used by the agent." alt="" coords="352,5,501,47"/>
+<area shape="rect" id="node2" href="$dc/d51/traverse_8c.html" title="Traverse directories." alt="" coords="5,95,155,136"/>
+<area shape="rect" id="node3" href="$da/dc9/ununpack-ar_8c.html" title="The universal unpacker &#45; Code to unpack an AR file." alt="" coords="179,95,328,136"/>
+<area shape="rect" id="node4" href="$dd/df0/ununpack-disk_8c.html" title="The universal unpacker code to unpack a disk file system." alt="" coords="352,95,501,136"/>
+<area shape="rect" id="node5" href="$d7/df3/ununpack-iso_8c.html" title="The universal unpacker code to unpack an ISO file system." alt="" coords="525,95,675,136"/>
+<area shape="rect" id="node6" href="$da/dd1/ununpack_2agent_2utils_8c.html" title="Contains all utility functions used by FOSSology." alt="" coords="699,95,848,136"/>
+</map>

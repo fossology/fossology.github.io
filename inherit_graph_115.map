@@ -1,0 +1,164 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d8/d3d/interfaceFossology_1_1Lib_1_1Plugin_1_1Plugin.html" title=" " alt="" coords="5,4171,160,4213"/>
+<area shape="rect" id="node2" href="$d7/d54/classFO__Plugin.html" title="This is the Plugin class. All plugins should:" alt="" coords="242,1728,329,1755"/>
+<area shape="rect" id="node75" href="$de/d33/classFossology_1_1Lib_1_1Plugin_1_1AgentPlugin.html" title=" " alt="" coords="208,4171,363,4213"/>
+<area shape="rect" id="node101" href="$d4/d53/classFossology_1_1Lib_1_1Plugin_1_1DefaultPlugin.html" title=" " alt="" coords="208,6250,363,6291"/>
+<area shape="rect" id="node3" href="$d5/ded/classacme__review.html" title=" " alt="" coords="483,5,592,32"/>
+<area shape="rect" id="node4" href="$d4/d07/classadmin__bucket__pool.html" title=" " alt="" coords="463,56,611,83"/>
+<area shape="rect" id="node5" href="$da/da2/classadmin__folder__delete.html" title="UI plugin to delete folders." alt="" coords="459,107,615,133"/>
+<area shape="rect" id="node6" href="$d4/d2a/classadmin__license__file.html" title=" " alt="" coords="466,157,609,184"/>
+<area shape="rect" id="node7" href="$d9/ddd/classadmin__obligation__file.html" title=" " alt="" coords="456,208,619,235"/>
+<area shape="rect" id="node8" href="$d0/dcd/classadmin__scheduler.html" title="This is a class for operations on the scheduler from GUI." alt="" coords="471,259,604,285"/>
+<area shape="rect" id="node9" href="$df/da9/classadmin__tag.html" title=" " alt="" coords="492,309,583,336"/>
+<area shape="rect" id="node10" href="$df/d64/classadmin__tag__manage.html" title=" " alt="" coords="462,360,613,387"/>
+<area shape="rect" id="node11" href="$d9/d74/classagent__copyright__once.html" title="One&#45;Shot plugin for Copyright/Email/URL Analysis." alt="" coords="455,411,620,437"/>
+<area shape="rect" id="node12" href="$da/d85/classagent__demomod.html" title="UI plugin for demomod (handle user requests)" alt="" coords="471,461,603,488"/>
+<area shape="rect" id="node13" href="$dd/d56/classagent__nomos__once.html" title="Class to run one&#45;shot nomos." alt="" coords="463,512,611,539"/>
+<area shape="rect" id="node14" href="$da/dd1/classagent__wget__agent.html" title="UI plugin for WGET_AGENT." alt="" coords="466,563,609,589"/>
+<area shape="rect" id="node15" href="$d8/d14/classajax__filebucket.html" title=" " alt="" coords="477,613,597,640"/>
+<area shape="rect" id="node16" href="$d2/d31/classajax__filelic.html" title="Find uploadtree_pk for a given license." alt="" coords="491,664,583,691"/>
+<area shape="rect" id="node17" href="$da/d4a/classajax__schedule__agent.html" title=" " alt="" coords="458,715,617,741"/>
+<area shape="rect" id="node18" href="$dd/d6e/classajax__tags.html" title=" " alt="" coords="495,765,580,792"/>
+<area shape="rect" id="node19" href="$db/d93/classAjaxClearingView.html" title=" " alt="" coords="469,816,606,843"/>
+<area shape="rect" id="node20" href="$df/da2/classAjaxNoticeFiles.html" title=" " alt="" coords="476,867,599,893"/>
+<area shape="rect" id="node21" href="$de/d0c/classchangeLicenseProcessPost.html" title=" " alt="" coords="439,917,635,944"/>
+<area shape="rect" id="node22" href="$dd/d85/classClearingView.html" title=" " alt="" coords="483,968,591,995"/>
+<area shape="rect" id="node23" href="$d3/dc2/classcopyright__list.html" title=" " alt="" coords="482,1019,593,1045"/>
+<area shape="rect" id="node24" href="$d7/ddc/classCopyrightHistogramProcessPost.html" title="Handles Ajax requests for copyright." alt="" coords="422,1069,653,1096"/>
+<area shape="rect" id="node25" href="$d9/db1/classcore__auth.html" title=" " alt="" coords="494,1120,581,1147"/>
+<area shape="rect" id="node26" href="$df/dba/classcore__debug.html" title="Plugin for core debug." alt="" coords="489,1171,586,1197"/>
+<area shape="rect" id="node27" href="$d1/dde/classcore__debug__fileloc.html" title="Plugin to display global variables." alt="" coords="466,1221,609,1248"/>
+<area shape="rect" id="node28" href="$d1/d2e/classcore__debug__menus.html" title="Plugin to debug menus." alt="" coords="463,1272,611,1299"/>
+<area shape="rect" id="node29" href="$de/d44/classcore__init.html" title=" " alt="" coords="498,1323,577,1349"/>
+<area shape="rect" id="node30" href="$d0/da0/classcore__smauth.html" title=" " alt="" coords="484,1373,591,1400"/>
+<area shape="rect" id="node31" href="$d4/d81/classcore__uploads.html" title=" " alt="" coords="483,1424,591,1451"/>
+<area shape="rect" id="node32" href="$d7/d6d/classdashboard.html" title=" " alt="" coords="492,1475,583,1501"/>
+<area shape="rect" id="node33" href="$d6/dee/classdashboardReporting.html" title=" " alt="" coords="461,1525,614,1552"/>
+<area shape="rect" id="node34" href="$de/d1c/classdebug__flush__cache.html" title="Plugin to flush all cached pages." alt="" coords="465,1576,610,1603"/>
+<area shape="rect" id="node35" href="$d9/db6/classdebug__user.html" title="Plugin to print debug information about current user." alt="" coords="489,1627,586,1653"/>
+<area shape="rect" id="node36" href="$d3/d19/classfoconfig.html" title="display and set FOSSology configuration" alt="" coords="500,1677,575,1704"/>
+<area shape="rect" id="node37" href="$df/dd4/classfolder__create.html" title=" " alt="" coords="483,1728,591,1755"/>
+<area shape="rect" id="node38" href="$dc/d9f/classfolder__properties.html" title=" " alt="" coords="471,1779,604,1805"/>
+<area shape="rect" id="node39" href="$d9/df8/classFossdashConfig.html" title="display and set FOSSology configuration" alt="" coords="476,1829,599,1856"/>
+<area shape="rect" id="node40" href="$dc/db1/classFossology_1_1UI_1_1Ajax_1_1AjaxShowJobs.html" title="Provide data for jobs table." alt="" coords="421,1880,654,1907"/>
+<area shape="rect" id="node41" href="$db/d99/classgroup__add.html" title="add a new group" alt="" coords="492,1931,583,1957"/>
+<area shape="rect" id="node42" href="$dd/d3e/classHistogramBase.html" title="Base class for histogram plugins." alt="" coords="476,1981,599,2008"/>
+<area shape="rect" id="node47" href="$db/db8/classLicenseListFiles.html" title=" " alt="" coords="475,2032,599,2059"/>
+<area shape="rect" id="node48" href="$d7/d29/classlist__bucket__files.html" title=" " alt="" coords="474,2083,601,2109"/>
+<area shape="rect" id="node49" href="$d7/d9e/classmaintagent.html" title="Queue the maintenance agent with the requested parameters." alt="" coords="489,2133,586,2160"/>
+<area shape="rect" id="node50" href="$d6/d22/classPopupLicense.html" title=" " alt="" coords="482,2184,593,2211"/>
+<area shape="rect" id="node51" href="$d3/d31/classsearch.html" title=" " alt="" coords="505,2235,570,2261"/>
+<area shape="rect" id="node52" href="$d4/d76/classshowjobs.html" title=" " alt="" coords="496,2285,579,2312"/>
+<area shape="rect" id="node53" href="$d6/d24/classSpashtCopyrightHistogramProcessPost.html" title="Handles Ajax requests for copyright." alt="" coords="439,2337,636,2378"/>
+<area shape="rect" id="node54" href="$db/d34/classui__browse.html" title=" " alt="" coords="493,2403,581,2429"/>
+<area shape="rect" id="node55" href="$da/d1c/classui__buckets.html" title=" " alt="" coords="492,2453,583,2480"/>
+<area shape="rect" id="node56" href="$d3/d7e/classui__demomod.html" title="browse an upload and display the demomod data (first bytes of the file)" alt="" coords="484,2504,591,2531"/>
+<area shape="rect" id="node57" href="$d8/d23/classui__diff__buckets.html" title=" " alt="" coords="478,2555,597,2581"/>
+<area shape="rect" id="node58" href="$da/d73/classui__download.html" title="downlad file(s)" alt="" coords="485,2605,589,2632"/>
+<area shape="rect" id="node59" href="$d6/dc1/classui__nomos__diff.html" title="Compare License Browser, list license histogram." alt="" coords="481,2656,594,2683"/>
+<area shape="rect" id="node60" href="$d6/da7/classui__picker.html" title=" " alt="" coords="497,2707,577,2733"/>
+<area shape="rect" id="node61" href="$da/d41/classui__refresh.html" title=" " alt="" coords="494,2757,581,2784"/>
+<area shape="rect" id="node62" href="$d5/d1a/classui__report__conf.html" title=" " alt="" coords="480,2808,595,2835"/>
+<area shape="rect" id="node63" href="$da/d3c/classui__reunpack.html" title="Scheduler an reunpack." alt="" coords="487,2859,588,2885"/>
+<area shape="rect" id="node64" href="$d6/d03/classui__spasht.html" title=" " alt="" coords="495,2909,579,2936"/>
+<area shape="rect" id="node65" href="$d8/d4b/classui__tag.html" title=" " alt="" coords="506,2960,569,2987"/>
+<area shape="rect" id="node66" href="$d1/dbc/classui__topnav.html" title="top navigater logo on UI" alt="" coords="494,3011,581,3037"/>
+<area shape="rect" id="node67" href="$de/d07/classui__treenav.html" title=" " alt="" coords="492,3061,583,3088"/>
+<area shape="rect" id="node68" href="$d3/d90/classui__view.html" title=" " alt="" coords="501,3112,573,3139"/>
+<area shape="rect" id="node69" href="$d5/dd2/classui__view__info.html" title=" " alt="" coords="485,3163,589,3189"/>
+<area shape="rect" id="node70" href="$dc/d0e/classUIExportList.html" title=" " alt="" coords="487,3213,588,3240"/>
+<area shape="rect" id="node71" href="$dc/d1c/classupload__properties.html" title=" " alt="" coords="468,3264,607,3291"/>
+<area shape="rect" id="node72" href="$d5/d85/classupload__tagging.html" title=" " alt="" coords="476,3315,599,3341"/>
+<area shape="rect" id="node73" href="$d8/db9/classuser__add.html" title=" " alt="" coords="497,3365,578,3392"/>
+<area shape="rect" id="node74" href="$de/dad/classuser__del.html" title="delete a user" alt="" coords="499,3416,576,3443"/>
+<area shape="rect" id="node43" href="$d2/d9e/classCopyrightHistogram.html" title="Create histogram plugin for copyright." alt="" coords="733,1905,887,1932"/>
+<area shape="rect" id="node44" href="$d0/d27/classEccHistogram.html" title="Create UI plugin for ecc agent." alt="" coords="754,1956,866,1983"/>
+<area shape="rect" id="node45" href="$df/dc3/classEmailHistogram.html" title=" " alt="" coords="747,2007,873,2033"/>
+<area shape="rect" id="node46" href="$de/da6/classKeywordHistogram.html" title=" " alt="" coords="737,2057,883,2084"/>
+<area shape="rect" id="node76" href="$d9/dd0/classAdj2nestAgentPlugin.html" title=" " alt="" coords="459,3467,616,3493"/>
+<area shape="rect" id="node77" href="$d1/df3/classBucketAgentPlugin.html" title=" " alt="" coords="465,3517,609,3544"/>
+<area shape="rect" id="node78" href="$d3/ddc/classCopyrightAgentPlugin.html" title="Create UI plugin for copyright agent." alt="" coords="456,3568,619,3595"/>
+<area shape="rect" id="node79" href="$d9/d26/classDeciderAgentPlugin.html" title="UI plugin for DeciderAgent." alt="" coords="462,3619,613,3645"/>
+<area shape="rect" id="node80" href="$d1/dda/classEccAgentPlugin.html" title="Create UI plugin for ECC agent." alt="" coords="476,3669,599,3696"/>
+<area shape="rect" id="node81" href="$d1/d09/classFossology_1_1DeciderJob_1_1UI_1_1DeciderJobAgentPlugin.html" title="UI plugin for DeciderJobAgent." alt="" coords="441,3721,633,3762"/>
+<area shape="rect" id="node82" href="$db/d93/classFossology_1_1Ninka_1_1Ui_1_1NinkaAgentPlugin.html" title=" " alt="" coords="464,3786,611,3827"/>
+<area shape="rect" id="node83" href="$d1/d1a/classFossology_1_1Ojo_1_1Ui_1_1OjosAgentPlugin.html" title=" " alt="" coords="436,3851,639,3893"/>
+<area shape="rect" id="node84" href="$dc/d80/classFossology_1_1Reuser_1_1ReuserAgentPlugin.html" title="UI element for reuser during Uploading new package." alt="" coords="426,3917,649,3958"/>
+<area shape="rect" id="node85" href="$d0/dd4/classFossology_1_1SpdxTwo_1_1DepFiveAgentPlugin.html" title="DEP5 copyright file generation." alt="" coords="435,3982,640,4023"/>
+<area shape="rect" id="node86" href="$d7/dc9/classFossology_1_1SpdxTwo_1_1SpdxTwoAgentPlugin.html" title="Generate SPDX2 report for multiple uploads." alt="" coords="433,4047,642,4089"/>
+<area shape="rect" id="node87" href="$db/db3/classFossology_1_1SpdxTwo_1_1SpdxTwoTagValueAgentPlugin.html" title="Add multiple uploads to SPDX2 report in Tag:Value format." alt="" coords="433,4113,642,4154"/>
+<area shape="rect" id="node88" href="$d8/daa/classKeywordAgentPlugin.html" title=" " alt="" coords="459,4179,615,4205"/>
+<area shape="rect" id="node89" href="$df/d4c/classMimetypeAgentPlugin.html" title="UI plugin for mimetype agent." alt="" coords="454,4229,621,4256"/>
+<area shape="rect" id="node90" href="$d6/dfb/classMonkAgentPlugin.html" title=" " alt="" coords="469,4280,605,4307"/>
+<area shape="rect" id="node91" href="$d5/d12/classMonkBulkAgentPlugin.html" title=" " alt="" coords="455,4331,620,4357"/>
+<area shape="rect" id="node92" href="$da/d3e/classNomosAgentPlugin.html" title="UI plugin for NOMOS." alt="" coords="464,4381,611,4408"/>
+<area shape="rect" id="node93" href="$d9/d5e/classPkgAgentPlugin.html" title="UI plugin of pkgagent." alt="" coords="475,4432,599,4459"/>
+<area shape="rect" id="node94" href="$db/d01/classReadMeOssAgentPlugin.html" title="Generate report for multiple uploads at browse mod." alt="" coords="449,4483,626,4509"/>
+<area shape="rect" id="node95" href="$d6/dee/classReportImportAgentPlugin.html" title=" " alt="" coords="444,4533,631,4560"/>
+<area shape="rect" id="node96" href="$d4/df8/classResoAgentPlugin.html" title="Create UI plugin for Reso agent." alt="" coords="471,4584,603,4611"/>
+<area shape="rect" id="node97" href="$d0/d04/classsoftwareHeritageAgentPlugin.html" title=" " alt="" coords="431,4635,643,4661"/>
+<area shape="rect" id="node98" href="$d2/d4e/classSpashtAgentPlugin.html" title=" " alt="" coords="465,4685,609,4712"/>
+<area shape="rect" id="node99" href="$d5/d2c/classUnifiedReportAgentPlugin.html" title="Generate unified report for multiple uploads." alt="" coords="443,4736,632,4763"/>
+<area shape="rect" id="node100" href="$d0/dc0/classUnpackAgentPlugin.html" title="UI for ununpack agent to schedule a job." alt="" coords="463,4787,612,4813"/>
+<area shape="rect" id="node102" href="$d9/ddd/classAdminContentDelete.html" title=" " alt="" coords="458,4837,617,4864"/>
+<area shape="rect" id="node103" href="$de/dad/classAdminContentMove.html" title=" " alt="" coords="462,4888,613,4915"/>
+<area shape="rect" id="node104" href="$db/d5e/classAgentAdder.html" title=" " alt="" coords="488,4939,587,4965"/>
+<area shape="rect" id="node105" href="$d2/da7/classAjaxSHDetailsBrowser.html" title=" " alt="" coords="453,4989,621,5016"/>
+<area shape="rect" id="node106" href="$d6/db7/classAjaxUploadAgents.html" title=" " alt="" coords="466,5040,609,5067"/>
+<area shape="rect" id="node107" href="$dc/dce/classChangeLicenseBulk.html" title=" " alt="" coords="463,5091,612,5117"/>
+<area shape="rect" id="node108" href="$d4/dfa/classFossology_1_1Agent_1_1Copyright_1_1UI_1_1Xpview.html" title="Default plugin." alt="" coords="439,5142,635,5183"/>
+<area shape="rect" id="node112" href="$d1/d97/classFossology_1_1DelAgent_1_1UI_1_1Page_1_1AdminUploadDelete.html" title="UI plugin to delete uploaded files." alt="" coords="432,5207,643,5249"/>
+<area shape="rect" id="node113" href="$d0/d0a/classFossology_1_1DemoHello_1_1DemoHello.html" title="UI component for demomod (Visible in menu)" alt="" coords="455,5273,619,5314"/>
+<area shape="rect" id="node114" href="$da/dab/classFossology_1_1Lib_1_1Plugin_1_1TestPlugin.html" title=" " alt="" coords="460,5338,615,5379"/>
+<area shape="rect" id="node115" href="$df/d7e/classFossology_1_1Monk_1_1AdminMonkRevision.html" title=" " alt="" coords="433,5403,642,5445"/>
+<area shape="rect" id="node116" href="$da/d38/classFossology_1_1Monk_1_1UI_1_1OneShot.html" title=" " alt="" coords="435,5469,639,5496"/>
+<area shape="rect" id="node117" href="$d2/dad/classFossology_1_1Reuser_1_1ReuserPlugin.html" title="UI plugin for reuser." alt="" coords="425,5520,650,5547"/>
+<area shape="rect" id="node118" href="$d6/dbe/classFossology_1_1SoftwareHeritage_1_1UI_1_1softwareHeritagePlugin.html" title=" " alt="" coords="435,5571,639,5613"/>
+<area shape="rect" id="node119" href="$d0/dd3/classFossology_1_1SpdxTwo_1_1SpdxTwoGeneratorUi.html" title="Call SPDX2 agent to generate report from UI." alt="" coords="433,5637,642,5678"/>
+<area shape="rect" id="node120" href="$d7/d26/classFossology_1_1UI_1_1Ajax_1_1AjaxAdminScheduler.html" title=" " alt="" coords="431,5702,644,5743"/>
+<area shape="rect" id="node121" href="$d1/d8c/classFossology_1_1UI_1_1Ajax_1_1AjaxAllJobStatus.html" title=" " alt="" coords="443,5767,631,5809"/>
+<area shape="rect" id="node122" href="$df/d1c/classFossology_1_1UI_1_1Ajax_1_1AjaxBrowse.html" title=" " alt="" coords="428,5833,647,5860"/>
+<area shape="rect" id="node123" href="$db/da4/classFossology_1_1UI_1_1Ajax_1_1AjaxBulkHistory.html" title=" " alt="" coords="437,5885,637,5926"/>
+<area shape="rect" id="node124" href="$db/def/classFossology_1_1UI_1_1Ajax_1_1AjaxExplorer.html" title=" " alt="" coords="425,5951,650,5977"/>
+<area shape="rect" id="node125" href="$d7/db9/classFossology_1_1UI_1_1Ajax_1_1AjaxFileBrowser.html" title=" " alt="" coords="440,6002,635,6043"/>
+<area shape="rect" id="node126" href="$d8/dd5/classFossology_1_1UI_1_1Ajax_1_1AjaxFolderContents.html" title=" " alt="" coords="432,6067,643,6109"/>
+<area shape="rect" id="node127" href="$df/d09/classFossology_1_1UI_1_1Ajax_1_1AjaxJobInfo.html" title=" " alt="" coords="429,6133,645,6160"/>
+<area shape="rect" id="node128" href="$d4/df4/classFossology_1_1UI_1_1Ajax_1_1AjaxJobStatus.html" title=" " alt="" coords="442,6185,633,6226"/>
+<area shape="rect" id="node129" href="$d1/d16/classFossology_1_1UI_1_1Ajax_1_1AjaxLicenseStdComments.html" title=" " alt="" coords="427,6250,647,6291"/>
+<area shape="rect" id="node130" href="$dc/de8/classFossology_1_1UI_1_1Ajax_1_1AjaxManageToken.html" title="Class to handle ajax calls to revoke an API token." alt="" coords="426,6315,649,6357"/>
+<area shape="rect" id="node131" href="$d9/d69/classFossology_1_1UI_1_1Ajax_1_1ScheduleAgent.html" title=" " alt="" coords="437,6381,638,6422"/>
+<area shape="rect" id="node132" href="$db/dd3/classFossology_1_1UI_1_1Page_1_1AboutPage.html" title="about page on UI" alt="" coords="431,6447,644,6473"/>
+<area shape="rect" id="node133" href="$d0/d2f/classFossology_1_1UI_1_1Page_1_1AdminGroupDelete.html" title=" " alt="" coords="425,6498,650,6539"/>
+<area shape="rect" id="node134" href="$d5/d6a/classFossology_1_1UI_1_1Page_1_1AdminGroupUsers.html" title=" " alt="" coords="425,6563,650,6605"/>
+<area shape="rect" id="node135" href="$d9/dc4/classFossology_1_1UI_1_1Page_1_1AdminLicenseCandidate.html" title=" " alt="" coords="420,6629,655,6670"/>
+<area shape="rect" id="node136" href="$dc/dc8/classFossology_1_1UI_1_1Page_1_1AdminLicenseFromCSV.html" title="Upload a file from the users computer using the UI." alt="" coords="420,6694,655,6735"/>
+<area shape="rect" id="node137" href="$db/d3e/classFossology_1_1UI_1_1Page_1_1AdminLicenseStdComments.html" title=" " alt="" coords="420,6759,655,6801"/>
+<area shape="rect" id="node138" href="$db/dd6/classFossology_1_1UI_1_1Page_1_1AdminLicenseToCSV.html" title=" " alt="" coords="420,6825,655,6866"/>
+<area shape="rect" id="node139" href="$d2/da3/classFossology_1_1UI_1_1Page_1_1AdminObligationFromCSV.html" title="Upload a file from the users computer using the UI." alt="" coords="411,6890,664,6931"/>
+<area shape="rect" id="node140" href="$d4/d3f/classFossology_1_1UI_1_1Page_1_1AdminObligationToCSV.html" title=" " alt="" coords="411,6955,664,6997"/>
+<area shape="rect" id="node141" href="$d2/da2/classFossology_1_1UI_1_1Page_1_1AdviceLicense.html" title=" " alt="" coords="443,7021,631,7062"/>
+<area shape="rect" id="node142" href="$dc/d88/classFossology_1_1UI_1_1Page_1_1AllJobStatus.html" title=" " alt="" coords="447,7086,628,7127"/>
+<area shape="rect" id="node143" href="$d2/de4/classFossology_1_1UI_1_1Page_1_1BrowseLicense.html" title=" " alt="" coords="441,7151,633,7193"/>
+<area shape="rect" id="node144" href="$d0/d34/classFossology_1_1UI_1_1Page_1_1GettingStartedPage.html" title=" " alt="" coords="441,7217,633,7258"/>
+<area shape="rect" id="node145" href="$d8/d12/classFossology_1_1UI_1_1Page_1_1HomePage.html" title="about page on UI" alt="" coords="430,7283,645,7309"/>
+<area shape="rect" id="node146" href="$d6/d60/classFossology_1_1UI_1_1Page_1_1ThirdPartyLicensesPage.html" title="Third Party Licenses page on UI." alt="" coords="432,7334,643,7375"/>
+<area shape="rect" id="node147" href="$d1/d96/classFossology_1_1UI_1_1Page_1_1UploadPageBase.html" title=" " alt="" coords="442,7399,633,7441"/>
+<area shape="rect" id="node156" href="$d2/d90/classFoUnifiedReportGenerator.html" title="Unified report generator UI plugin." alt="" coords="442,7465,633,7492"/>
+<area shape="rect" id="node157" href="$d6/d2f/classReadMeOssPlugin.html" title="Agent plugin for Readme_OSS agent." alt="" coords="468,7516,607,7543"/>
+<area shape="rect" id="node158" href="$dd/d23/classReportImportPlugin.html" title=" " alt="" coords="463,7567,611,7593"/>
+<area shape="rect" id="node159" href="$d1/d90/classui__file__browse.html" title=" " alt="" coords="480,7617,595,7644"/>
+<area shape="rect" id="node160" href="$d5/d3c/classUploadInstructions.html" title=" " alt="" coords="465,7668,609,7695"/>
+<area shape="rect" id="node161" href="$db/d88/classUploadPermissionPage.html" title=" " alt="" coords="452,7719,623,7745"/>
+<area shape="rect" id="node162" href="$d8/d92/classUserEditPage.html" title=" " alt="" coords="483,7769,591,7796"/>
+<area shape="rect" id="node109" href="$d6/d83/classFossology_1_1Agent_1_1Copyright_1_1UI_1_1CopyrightView.html" title=" " alt="" coords="712,5077,908,5118"/>
+<area shape="rect" id="node110" href="$d6/d2a/classFossology_1_1Agent_1_1Copyright_1_1UI_1_1EccView.html" title=" " alt="" coords="712,5142,908,5183"/>
+<area shape="rect" id="node111" href="$d4/df3/classFossology_1_1Agent_1_1Copyright_1_1UI_1_1KeywordView.html" title=" " alt="" coords="712,5207,908,5249"/>
+<area shape="rect" id="node148" href="$d3/dc4/classFossology_1_1UI_1_1Page_1_1UploadFilePage.html" title="Upload a file from the users computer using the UI." alt="" coords="715,7290,905,7331"/>
+<area shape="rect" id="node150" href="$d6/d54/classFossology_1_1UI_1_1Page_1_1UploadSrvPage.html" title=" " alt="" coords="715,7366,905,7407"/>
+<area shape="rect" id="node152" href="$d1/db1/classFossology_1_1UI_1_1Page_1_1UploadUrlPage.html" title=" " alt="" coords="715,7435,905,7477"/>
+<area shape="rect" id="node154" href="$da/d7c/classFossology_1_1UI_1_1Page_1_1UploadVcsPage.html" title="Upload from some Version Conntrol System using the UI." alt="" coords="715,7507,905,7549"/>
+<area shape="rect" id="node149" href="$db/dd9/classFossology_1_1UI_1_1Api_1_1Helper_1_1UploadHelper_1_1HelperToUploadFilePage.html" title=" " alt="" coords="956,7272,1179,7328"/>
+<area shape="rect" id="node151" href="$d4/d1d/classFossology_1_1UI_1_1Api_1_1Helper_1_1UploadHelper_1_1HelperToUploadSrvPage.html" title=" " alt="" coords="956,7352,1179,7408"/>
+<area shape="rect" id="node153" href="$d8/db0/classFossology_1_1UI_1_1Api_1_1Helper_1_1UploadHelper_1_1HelperToUploadUrlPage.html" title=" " alt="" coords="956,7432,1179,7488"/>
+<area shape="rect" id="node155" href="$d6/dc7/classFossology_1_1UI_1_1Api_1_1Helper_1_1UploadHelper_1_1HelperToUploadVcsPage.html" title=" " alt="" coords="956,7512,1179,7568"/>
+</map>

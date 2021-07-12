@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$da/d74/classFossology_1_1Lib_1_1Agent_1_1Agent.html" title="Structure of an Agent with all required parameters." alt="" coords="5,275,157,316"/>
+<area shape="rect" id="node2" href="$d7/d6c/classFossology_1_1Decider_1_1DeciderAgent.html" title="Agent to decide license findings in an upload." alt="" coords="219,5,414,47"/>
+<area shape="rect" id="node3" href="$da/df8/classFossology_1_1DeciderJob_1_1DeciderJobAgent.html" title="Get the decision from Monk bulk and apply decisions." alt="" coords="236,71,397,112"/>
+<area shape="rect" id="node4" href="$db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html" title=" " alt="" coords="228,136,405,177"/>
+<area shape="rect" id="node5" href="$d1/d66/classFossology_1_1Reso_1_1ResoAgent.html" title=" " alt="" coords="218,202,415,229"/>
+<area shape="rect" id="node6" href="$d4/d03/classFossology_1_1Reuser_1_1ReuserAgent.html" title="The reuser agent." alt="" coords="205,253,428,279"/>
+<area shape="rect" id="node7" href="$d4/d89/classFossology_1_1SoftwareHeritage_1_1softwareHeritageAgent.html" title=" " alt="" coords="215,304,419,345"/>
+<area shape="rect" id="node8" href="$db/d7b/classFossology_1_1Spasht_1_1SpashtAgent.html" title="The Spasht agent." alt="" coords="206,370,427,397"/>
+<area shape="rect" id="node9" href="$df/d02/classFossology_1_1SpdxTwo_1_1SpdxTwoAgent.html" title="SPDX2 agent." alt="" coords="212,421,421,463"/>
+<area shape="rect" id="node10" href="$d7/d57/classReadmeOssAgent.html" title="Readme_OSS agent generates list of licenses and copyrights found in an upload." alt="" coords="247,487,386,514"/>
+<area shape="rect" id="node11" href="$d1/d15/classUnifiedReport.html" title="Generates unified report." alt="" coords="261,538,372,565"/>
+</map>

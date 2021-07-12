@@ -1,0 +1,4 @@
+<map id="Fossology\UI\Api\Controllers\FolderController" name="Fossology\UI\Api\Controllers\FolderController">
+<area shape="rect" id="node1" title="Controller for Folder model." alt="" coords="5,175,211,325"/>
+<area shape="rect" id="node2" href="$db/d5a/classFossology_1_1UI_1_1Api_1_1Controllers_1_1RestController.html" title="Base controller for REST calls." alt="" coords="5,5,211,127"/>
+</map>
