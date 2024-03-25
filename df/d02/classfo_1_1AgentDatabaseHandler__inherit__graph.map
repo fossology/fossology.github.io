@@ -1,0 +1,7 @@
+<map id="fo::AgentDatabaseHandler" name="fo::AgentDatabaseHandler">
+<area shape="rect" id="node1" title="Database handler for agents." alt="" coords="381,5,615,244"/>
+<area shape="rect" id="node2" href="$d2/d40/classCopyrightDatabaseHandler.html" title="Manages database related requests for agent." alt="" coords="5,358,228,597"/>
+<area shape="rect" id="node3" href="$d7/dd8/classNinkaDatabaseHandler.html" title=" " alt="" coords="252,373,488,582"/>
+<area shape="rect" id="node4" href="$d3/df9/classOjosDatabaseHandler.html" title=" " alt="" coords="512,365,743,589"/>
+<area shape="rect" id="node5" href="$d0/dec/classScancodeDatabaseHandler.html" title=" " alt="" coords="767,292,1003,663"/>
+</map>
