@@ -1,0 +1,37 @@
+<map id="Fossology\Lib\Plugin\AgentPlugin" name="Fossology\Lib\Plugin\AgentPlugin">
+<area shape="rect" id="node1" title=" " alt="" coords="3457,219,3616,560"/>
+<area shape="rect" id="node3" href="$d9/dd0/classAdj2nestAgentPlugin.html" title=" " alt="" coords="5,652,164,773"/>
+<area shape="rect" id="node4" href="$d1/df3/classBucketAgentPlugin.html" title=" " alt="" coords="188,652,347,773"/>
+<area shape="rect" id="node5" href="$d3/ddc/classCopyrightAgentPlugin.html" title="Create UI plugin for copyright agent." alt="" coords="371,652,534,773"/>
+<area shape="rect" id="node6" href="$d9/d26/classDeciderAgentPlugin.html" title="UI plugin for DeciderAgent." alt="" coords="559,637,773,788"/>
+<area shape="rect" id="node7" href="$d1/dda/classEccAgentPlugin.html" title="Create UI plugin for ECC agent." alt="" coords="797,652,956,773"/>
+<area shape="rect" id="node8" href="$d3/de2/classFossology_1_1CliXml_1_1UI_1_1CliXmlAgentPlugin.html" title=" " alt="" coords="981,652,1133,773"/>
+<area shape="rect" id="node9" href="$d9/dc8/classFossology_1_1CycloneDX_1_1UI_1_1CycloneDXAgentPlugin.html" title=" " alt="" coords="1157,652,1351,773"/>
+<area shape="rect" id="node10" href="$d1/d09/classFossology_1_1DeciderJob_1_1UI_1_1DeciderJobAgentPlugin.html" title="UI plugin for DeciderJobAgent." alt="" coords="1375,652,1594,773"/>
+<area shape="rect" id="node11" href="$d3/d21/classFossology_1_1DecisionExporter_1_1UI_1_1DecisionExporterAgentPlugin.html" title="Generate decision dump for uploads." alt="" coords="1619,659,1852,766"/>
+<area shape="rect" id="node12" href="$df/da9/classFossology_1_1DecisionImporter_1_1UI_1_1FoDecisionImporter.html" title=" " alt="" coords="1876,637,2080,788"/>
+<area shape="rect" id="node13" href="$db/d93/classFossology_1_1Ninka_1_1Ui_1_1NinkaAgentPlugin.html" title=" " alt="" coords="2104,645,2263,781"/>
+<area shape="rect" id="node14" href="$d1/d1a/classFossology_1_1Ojo_1_1Ui_1_1OjosAgentPlugin.html" title=" " alt="" coords="2287,645,2490,781"/>
+<area shape="rect" id="node15" href="$d3/ddc/classFossology_1_1ReadmeOSS_1_1UI_1_1ReadMeOssAgentPlugin.html" title="Generate report for multiple uploads at browse mod." alt="" coords="2515,652,2713,773"/>
+<area shape="rect" id="node16" href="$dc/d80/classFossology_1_1Reuser_1_1ReuserAgentPlugin.html" title="UI element for reuser during Uploading new package." alt="" coords="2737,623,3024,803"/>
+<area shape="rect" id="node17" href="$d1/d6e/classFossology_1_1Scancode_1_1Ui_1_1ScancodesAgentPlugin.html" title=" " alt="" coords="3048,608,3239,817"/>
+<area shape="rect" id="node18" href="$d7/d00/classFossology_1_1SpdxTwo_1_1UI_1_1DepFiveAgentPlugin.html" title="DEP5 copyright file generation." alt="" coords="3263,652,3429,773"/>
+<area shape="rect" id="node19" href="$d8/d70/classFossology_1_1SpdxTwo_1_1UI_1_1SpdxTwoAgentPlugin.html" title="Generate SPDX2 report for multiple uploads." alt="" coords="3453,652,3620,773"/>
+<area shape="rect" id="node20" href="$d9/dbe/classFossology_1_1SpdxTwo_1_1UI_1_1SpdxTwoCommaSeparatedValuesAgentPlugin.html" title="Add multiple uploads to CSV reports including SPDX identifiers." alt="" coords="3645,645,3887,781"/>
+<area shape="rect" id="node21" href="$d0/d15/classFossology_1_1SpdxTwo_1_1UI_1_1SpdxTwoTagValueAgentPlugin.html" title="Add multiple uploads to SPDX2 report in Tag:Value format." alt="" coords="3911,652,4130,773"/>
+<area shape="rect" id="node22" href="$d1/d0c/classFossology_1_1UnifiedReport_1_1UI_1_1UnifiedReportAgentPlugin.html" title="Generate unified report for multiple uploads." alt="" coords="4154,659,4365,766"/>
+<area shape="rect" id="node23" href="$d6/d16/classIpraAgentPlugin.html" title=" " alt="" coords="4389,667,4548,759"/>
+<area shape="rect" id="node24" href="$d8/daa/classKeywordAgentPlugin.html" title=" " alt="" coords="4572,652,4731,773"/>
+<area shape="rect" id="node25" href="$df/d4c/classMimetypeAgentPlugin.html" title="UI plugin for mimetype agent." alt="" coords="4755,667,4921,759"/>
+<area shape="rect" id="node26" href="$d6/dfb/classMonkAgentPlugin.html" title=" " alt="" coords="4945,652,5104,773"/>
+<area shape="rect" id="node27" href="$d5/d12/classMonkBulkAgentPlugin.html" title=" " alt="" coords="5129,659,5294,766"/>
+<area shape="rect" id="node28" href="$da/d3e/classNomosAgentPlugin.html" title="UI plugin for NOMOS." alt="" coords="5319,652,5477,773"/>
+<area shape="rect" id="node29" href="$d9/d5e/classPkgAgentPlugin.html" title="UI plugin of pkgagent." alt="" coords="5501,659,5660,766"/>
+<area shape="rect" id="node30" href="$d6/dee/classReportImportAgentPlugin.html" title=" " alt="" coords="5684,652,5888,773"/>
+<area shape="rect" id="node31" href="$d4/df8/classResoAgentPlugin.html" title="Create UI plugin for Reso agent." alt="" coords="5912,652,6071,773"/>
+<area shape="rect" id="node32" href="$de/d12/classScanossAgentPlugin.html" title="UI plugin of scanoss Agent." alt="" coords="6095,652,6253,773"/>
+<area shape="rect" id="node33" href="$d2/d4e/classSpashtAgentPlugin.html" title=" " alt="" coords="6277,652,6436,773"/>
+<area shape="rect" id="node34" href="$d0/dc0/classUnpackAgentPlugin.html" title="UI for ununpack agent to schedule a job." alt="" coords="6460,659,6619,766"/>
+<area shape="rect" id="node35" href="$d0/d04/classsoftwareHeritageAgentPlugin.html" title=" " alt="" coords="6643,667,6855,759"/>
+<area shape="rect" id="node2" href="$d8/d3d/interfaceFossology_1_1Lib_1_1Plugin_1_1Plugin.html" title=" " alt="" coords="3459,5,3614,171"/>
+</map>
