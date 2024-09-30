@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['badrequestcontroller_5885',['BadRequestController',['../d0/d1d/classFossology_1_1UI_1_1Api_1_1Controllers_1_1BadRequestController.html',1,'Fossology::UI::Api::Controllers']]],
+  ['basicfoldertest_5886',['BasicFolderTest',['../d0/df5/classBasicFolderTest.html',1,'']]],
+  ['bomreportgenerator_5887',['BomReportGenerator',['../db/d1b/classFossology_1_1CycloneDX_1_1BomReportGenerator.html',1,'Fossology::CycloneDX']]],
+  ['browselicense_5888',['BrowseLicense',['../d2/de4/classFossology_1_1UI_1_1Page_1_1BrowseLicense.html',1,'Fossology::UI::Page']]],
+  ['browseuploaddelete_5889',['BrowseUploadDelete',['../dd/dd3/classFossology_1_1DelAgent_1_1UI_1_1Page_1_1BrowseUploadDelete.html',1,'Fossology::DelAgent::UI::Page']]],
+  ['browseuploadedtest_5890',['browseUPloadedTest',['../dd/d8f/classbrowseUPloadedTest.html',1,'']]],
+  ['bucketagentplugin_5891',['BucketAgentPlugin',['../d1/df3/classBucketAgentPlugin.html',1,'']]],
+  ['bucketdef_5fstruct_5892',['bucketdef_struct',['../d7/dde/structbucketdef__struct.html',1,'']]],
+  ['bucketpool_5fstruct_5893',['bucketpool_struct',['../d1/d4c/structbucketpool__struct.html',1,'']]],
+  ['build_5894',['Build',['../d2/de0/classBuild.html',1,'']]],
+  ['bulkaction_5895',['BulkAction',['../d8/d79/structBulkAction.html',1,'']]],
+  ['bulkarguments_5896',['BulkArguments',['../d7/d39/structBulkArguments.html',1,'']]],
+  ['bulkhistory_5897',['BulkHistory',['../d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html',1,'Fossology::UI::Api::Models']]],
+  ['bulkmatchesgetter_5898',['BulkMatchesGetter',['../d3/d64/classFossology_1_1Lib_1_1Report_1_1BulkMatchesGetter.html',1,'Fossology::Lib::Report']]],
+  ['bulkreuser_5899',['BulkReuser',['../d0/db5/classFossology_1_1Decider_1_1BulkReuser.html',1,'Fossology::Decider']]],
+  ['bulktest_5900',['bulkTest',['../d3/d04/classbulkTest.html',1,'']]]
+];
