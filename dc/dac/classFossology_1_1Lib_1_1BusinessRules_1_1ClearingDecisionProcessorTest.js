@@ -1,0 +1,26 @@
+var classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest =
+[
+    [ "createClearingEvent", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#ab933eef66d45057a55e98c1847fd624f", null ],
+    [ "createScannerDetectedLicenses", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#af107c79e28cba1e90009351dc32eb48f", null ],
+    [ "setUp", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#af694102f2ce264584e220a662326e8f7", null ],
+    [ "tearDown", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#a8730ebc69c20fd96eb53762590fc16e5", null ],
+    [ "testGetCurrentClearingsWithoutDecisions", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#ad0c9fb6ba981f2d35f23ee3fdbeb1201", null ],
+    [ "testMakeDecisionFromLastEvents", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#ab252b39c805ee74f1fd1a56d82249d0f", null ],
+    [ "testMakeDecisionFromLastEventsWithInvalidType", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#a7af2f4ce0005c5f483a9a37f530aba52", null ],
+    [ "testMakeDecisionFromLastEventsWithNoLicenseKnownType", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#a8aa5e7f17d70f2a5debd59e3aad0d745", null ],
+    [ "testMakeDecisionFromLastEventsWithNoLicenseKnownTypeShouldNotCreateANewDecisionWhenNoLicensesShouldBeRemoved", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#af388b2cf860f2fcd2efae6cfecd31222", null ],
+    [ "testMakeDecisionFromLastEventsWithNoLicenseKnownTypeShouldNotCreateANewDecisionWhenNoLicensesShouldBeRemovedAndTheScopeDoesNotChange", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#ad91b710dfe2ed8eabee8994a9a635408", null ],
+    [ "$agentLicenseEventProcessor", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#a4577cf7b3dbeb64b841416e1cd98b25f", null ],
+    [ "$clearingDao", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#ad2a87bae53d4cb2579c2cf1646a58a8d", null ],
+    [ "$clearingDecisionProcessor", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#a3fba97f75c4c63f0fb67a922557e6bd7", null ],
+    [ "$clearingEventProcessor", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#a1e9cf7bfdcef476406e4e6728b88e549", null ],
+    [ "$dbManager", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#ae96e4ffbe719a0859add6da56e123787", null ],
+    [ "$groupId", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#accb3166193dd07241c2b24db4a76130b", null ],
+    [ "$includeSubFolders", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#a3f2d53aebc1d7244cd99d968f20e35a3", null ],
+    [ "$itemTreeBounds", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#a06e3af0cd2198e2f30a323b120cb1d04", null ],
+    [ "$timestamp", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#ac3ff9c77f6eba7f266a60608a61f1dc6", null ],
+    [ "$uploadTreeId", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#adf182ca3f2f85d5ddb65471020f98d05", null ],
+    [ "$userId", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#a5b5694893a26bc36922f0a99873595f4", null ],
+    [ "MATCH_ID", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#a44741620072a968b0030da3eea5b3735", null ],
+    [ "PERCENTAGE", "dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html#a57cbacf51ba8d96a08526dd1b4405654", null ]
+];
