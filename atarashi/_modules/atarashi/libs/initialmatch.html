@@ -1,0 +1,211 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>atarashi.libs.initialmatch &#8212; atarashi 0.0.9 documentation</title>
+    <link rel="stylesheet" href="../../../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">atarashi 0.0.9 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for atarashi.libs.initialmatch</h1><div class="highlight"><pre>
+<span class="ch">#!/usr/bin/python</span>
+<span class="c1"># -*- coding: utf-8 -*-</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Copyright 2018 Aman Jain (amanjain5221@gmail.com)</span>
+
+<span class="sd">This program is free software; you can redistribute it and/or</span>
+<span class="sd">modify it under the terms of the GNU General Public License</span>
+<span class="sd">version 2 as published by the Free Software Foundation.</span>
+<span class="sd">This program is distributed in the hope that it will be useful,</span>
+<span class="sd">but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span class="sd">MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span class="sd">GNU General Public License for more details.</span>
+
+<span class="sd">You should have received a copy of the GNU General Public License along</span>
+<span class="sd">with this program; if not, write to the Free Software Foundation, Inc.,</span>
+<span class="sd">51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="n">__author__</span> <span class="o">=</span> <span class="s2">&quot;Aman Jain&quot;</span>
+<span class="n">__email__</span> <span class="o">=</span> <span class="s2">&quot;amanjain5221@gmail.com&quot;</span>
+
+<span class="kn">import</span> <span class="nn">itertools</span>
+
+
+<div class="viewcode-block" id="HeadersNgramSim"><a class="viewcode-back" href="../../../source/atarashi.libs.initialmatch.html#atarashi.libs.initialmatch.HeadersNgramSim">[docs]</a><span class="k">def</span> <span class="nf">HeadersNgramSim</span><span class="p">(</span><span class="n">header</span><span class="p">,</span> <span class="n">processedData</span><span class="p">):</span>
+  <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">  Creates array of ngrams</span>
+<span class="sd">  Check with the processed data how much are matching</span>
+<span class="sd">  sim_score = matches/ count of ngrams</span>
+
+<span class="sd">  :param header: License Header</span>
+<span class="sd">  :param processedData: Input file extracted and processed data</span>
+<span class="sd">  :return: Array of JSON with scanning results</span>
+<span class="sd">  &#39;&#39;&#39;</span>
+  <span class="n">header</span> <span class="o">=</span> <span class="n">header</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+  <span class="n">ngrams</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">8</span><span class="p">):</span>
+    <span class="n">ngrams</span> <span class="o">+=</span> <span class="p">[</span><span class="n">header</span><span class="p">[</span><span class="n">j</span><span class="p">:</span><span class="n">j</span> <span class="o">+</span> <span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">header</span><span class="p">)</span> <span class="o">-</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]</span>
+  <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">for</span> <span class="n">ngram</span> <span class="ow">in</span> <span class="n">ngrams</span><span class="p">:</span>
+    <span class="k">if</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">ngram</span><span class="p">)</span> <span class="ow">in</span> <span class="n">processedData</span><span class="p">:</span>
+      <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+  <span class="n">sim</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">ngrams</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">sim</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">count</span><span class="p">)</span> <span class="o">/</span> <span class="nb">float</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">ngrams</span><span class="p">))</span>
+  <span class="k">return</span> <span class="n">sim</span></div>
+
+
+<div class="viewcode-block" id="spdx_identifer"><a class="viewcode-back" href="../../../source/atarashi.libs.initialmatch.html#atarashi.libs.initialmatch.spdx_identifer">[docs]</a><span class="k">def</span> <span class="nf">spdx_identifer</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">shortnames</span><span class="p">):</span>
+  <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">  Identify SPDX-License-Identifier</span>
+<span class="sd">  Make sure the identifier must be present in Fossology merged license list</span>
+
+<span class="sd">  :param data: Input File data</span>
+<span class="sd">  :param shortnames: Array of shortnames (SPDX-ID)</span>
+<span class="sd">  :return: Array of JSON with scanning results</span>
+<span class="sd">  &#39;&#39;&#39;</span>
+  <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>  <span class="c1"># preprocessing of data</span>
+  <span class="n">shortnamesLow</span> <span class="o">=</span> <span class="p">[</span><span class="n">shortname</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="k">for</span> <span class="n">shortname</span> <span class="ow">in</span> <span class="n">shortnames</span><span class="p">]</span>
+  <span class="n">tokenized_data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+  <span class="n">possible_spdx</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="k">for</span> <span class="n">idx</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tokenized_data</span><span class="p">)):</span>
+    <span class="k">if</span> <span class="s2">&quot;spdx-license-identifier:&quot;</span> <span class="ow">in</span> <span class="n">tokenized_data</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="ow">or</span> <span class="s2">&quot;license:&quot;</span> <span class="ow">in</span> <span class="n">tokenized_data</span><span class="p">[</span><span class="n">idx</span><span class="p">]:</span>
+      <span class="n">possible_spdx</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tokenized_data</span><span class="p">[</span><span class="n">idx</span><span class="p">])</span>
+
+  <span class="n">spdx_identifiers</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="k">for</span> <span class="n">identifiers</span> <span class="ow">in</span> <span class="n">possible_spdx</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">identifiers</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">):</span>
+      <span class="k">if</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">shortnamesLow</span><span class="p">:</span>
+        <span class="n">shortnameIndex</span> <span class="o">=</span> <span class="n">shortnamesLow</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        <span class="n">spdx_identifiers</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+          <span class="s1">&#39;shortname&#39;</span><span class="p">:</span> <span class="n">shortnames</span><span class="p">[</span><span class="n">shortnameIndex</span><span class="p">],</span>
+          <span class="s1">&#39;sim_type&#39;</span><span class="p">:</span> <span class="s1">&#39;SPDXIdentifier&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;sim_score&#39;</span><span class="p">:</span> <span class="mf">1.0</span><span class="p">,</span>
+          <span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span>
+        <span class="p">})</span>
+
+  <span class="k">return</span> <span class="n">spdx_identifiers</span></div>
+
+
+<div class="viewcode-block" id="initial_match"><a class="viewcode-back" href="../../../source/atarashi.libs.initialmatch.html#atarashi.libs.initialmatch.initial_match">[docs]</a><span class="k">def</span> <span class="nf">initial_match</span><span class="p">(</span><span class="n">filePath</span><span class="p">,</span> <span class="n">processedData</span><span class="p">,</span> <span class="n">licenses</span><span class="p">):</span>
+  <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">  :param inputFile: Input file path</span>
+<span class="sd">  :param licenseList: Processed License List path</span>
+<span class="sd">  :return: Array of JSON with scanning results from spdx_identifer and HeadersNgramSim</span>
+<span class="sd">  &#39;&#39;&#39;</span>
+
+  <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filePath</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+    <span class="n">raw_data</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+
+  <span class="c1"># Match SPDX identifiers</span>
+  <span class="n">spdx_identifiers</span> <span class="o">=</span> <span class="n">spdx_identifer</span><span class="p">(</span><span class="n">raw_data</span><span class="p">,</span> <span class="n">licenses</span><span class="p">[</span><span class="s1">&#39;shortname&#39;</span><span class="p">])</span>
+
+  <span class="c1"># match with headers</span>
+  <span class="c1"># similarity with headers</span>
+  <span class="n">exact_match_header</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="n">header_sim_match</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="k">for</span> <span class="n">idx</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">licenses</span><span class="p">)):</span>
+    <span class="n">header</span> <span class="o">=</span> <span class="n">licenses</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">idx</span><span class="p">][</span><span class="s1">&#39;processed_header&#39;</span><span class="p">]</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">header</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="k">if</span> <span class="n">header</span> <span class="ow">in</span> <span class="n">processedData</span><span class="p">:</span>
+        <span class="n">exact_match_header</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+          <span class="s1">&#39;shortname&#39;</span><span class="p">:</span> <span class="n">licenses</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">idx</span><span class="p">][</span><span class="s1">&#39;shortname&#39;</span><span class="p">],</span>
+          <span class="s1">&#39;sim_type&#39;</span><span class="p">:</span> <span class="s1">&#39;ExactHeader&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;sim_score&#39;</span><span class="p">:</span> <span class="mf">1.0</span><span class="p">,</span>
+          <span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span>
+        <span class="p">})</span>
+      <span class="n">ngram_sim</span> <span class="o">=</span> <span class="n">HeadersNgramSim</span><span class="p">(</span><span class="n">header</span><span class="p">,</span> <span class="n">processedData</span><span class="p">)</span>
+      <span class="k">if</span> <span class="n">ngram_sim</span> <span class="o">&gt;=</span> <span class="mf">0.7</span><span class="p">:</span>
+        <span class="n">header_sim_match</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+          <span class="s1">&#39;shortname&#39;</span><span class="p">:</span> <span class="n">licenses</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">idx</span><span class="p">][</span><span class="s1">&#39;shortname&#39;</span><span class="p">],</span>
+          <span class="s1">&#39;sim_type&#39;</span><span class="p">:</span> <span class="s1">&#39;HeaderNgramSimilarity&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;sim_score&#39;</span><span class="p">:</span> <span class="n">ngram_sim</span><span class="p">,</span>
+          <span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span>
+        <span class="p">})</span>
+
+  <span class="c1"># match with full text</span>
+  <span class="n">exact_match_fulltext</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="k">for</span> <span class="n">idx</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">licenses</span><span class="p">)):</span>
+    <span class="n">full_text</span> <span class="o">=</span> <span class="n">licenses</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">idx</span><span class="p">][</span><span class="s1">&#39;processed_text&#39;</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">full_text</span> <span class="ow">in</span> <span class="n">processedData</span><span class="p">:</span>
+      <span class="n">exact_match_fulltext</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+        <span class="s1">&#39;shortname&#39;</span><span class="p">:</span> <span class="n">licenses</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">idx</span><span class="p">][</span><span class="s1">&#39;shortname&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;sim_type&#39;</span><span class="p">:</span> <span class="s1">&#39;ExactFullText&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;sim_score&#39;</span><span class="p">:</span> <span class="mf">1.0</span><span class="p">,</span>
+        <span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span>
+      <span class="p">})</span>
+
+  <span class="n">matches</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">chain</span><span class="p">(</span><span class="n">spdx_identifiers</span><span class="p">,</span> <span class="n">exact_match_header</span><span class="p">,</span> <span class="n">exact_match_fulltext</span><span class="p">,</span> <span class="n">header_sim_match</span><span class="p">[:</span><span class="mi">5</span><span class="p">]))</span>
+  <span class="k">return</span> <span class="n">matches</span></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">atarashi 0.0.9 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Aman Jain.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>
