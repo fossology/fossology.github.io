@@ -1,0 +1,5 @@
+<map id="Fossology\Lib\Exceptions\DuplicateTokenKeyException" name="Fossology\Lib\Exceptions\DuplicateTokenKeyException">
+<area shape="rect" id="node1" title="Exception when a token has duplicate key for same user." alt="" coords="5,256,219,348"/>
+<area shape="rect" id="node2" href="$d3/db8/classFossology_1_1Lib_1_1Exception.html" title="Fossology exception." alt="" coords="23,131,201,208"/>
+<area shape="rect" id="node3" title=" " alt="" coords="69,5,155,83"/>
+</map>
