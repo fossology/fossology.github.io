@@ -1,0 +1,5 @@
+<map id="Fossology\DelAgent\UI\Page\BrowseUploadDelete" name="Fossology\DelAgent\UI\Page\BrowseUploadDelete">
+<area shape="rect" id="node1" title="UI plugin to delete uploaded files." alt="" coords="5,1048,221,1184"/>
+<area shape="rect" id="node2" href="$d4/d53/classFossology_1_1Lib_1_1Plugin_1_1DefaultPlugin.html" title=" " alt="" coords="28,219,199,1000"/>
+<area shape="rect" id="node3" href="$d8/d3d/interfaceFossology_1_1Lib_1_1Plugin_1_1Plugin.html" title=" " alt="" coords="36,5,191,171"/>
+</map>
