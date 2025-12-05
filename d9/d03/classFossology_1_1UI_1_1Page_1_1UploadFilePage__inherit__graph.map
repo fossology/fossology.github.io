@@ -1,0 +1,7 @@
+<map id="Fossology\UI\Page\UploadFilePage" name="Fossology\UI\Page\UploadFilePage">
+<area shape="rect" id="node1" title="Upload a file from the users computer using the UI." alt="" coords="68,1511,259,1647"/>
+<area shape="rect" id="node5" href="$db/dd9/classFossology_1_1UI_1_1Api_1_1Helper_1_1UploadHelper_1_1HelperToUploadFilePage.html" title=" " alt="" coords="52,1695,275,1801"/>
+<area shape="rect" id="node2" href="$d1/d96/classFossology_1_1UI_1_1Page_1_1UploadPageBase.html" title=" " alt="" coords="5,1048,321,1463"/>
+<area shape="rect" id="node3" href="$d4/d53/classFossology_1_1Lib_1_1Plugin_1_1DefaultPlugin.html" title=" " alt="" coords="78,219,249,1000"/>
+<area shape="rect" id="node4" href="$d8/d3d/interfaceFossology_1_1Lib_1_1Plugin_1_1Plugin.html" title=" " alt="" coords="86,5,241,171"/>
+</map>
