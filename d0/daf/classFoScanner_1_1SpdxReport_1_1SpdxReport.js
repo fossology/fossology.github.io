@@ -1,0 +1,27 @@
+var classFoScanner_1_1SpdxReport_1_1SpdxReport =
+[
+    [ "__init__", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#a095afe6d574d35cc30461b87d54992fc", null ],
+    [ "__add_copyright_file", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#a6e36582e6e14ddb811fd9400fd2e4ed0", null ],
+    [ "__add_extracted_licenses", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#a2fa8520493a3adf0b48567562d38b71b", null ],
+    [ "__add_files_to_document", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#a222a552149fc852bff819209fe1b6ba8", null ],
+    [ "__add_license_file", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#ac04837916e5d628e6a522237edf05580", null ],
+    [ "__calculate_verification_code", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#adf65b8898151c2c5b3c9f0a2e2593cca", null ],
+    [ "__create_copyright_file_from_component", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#a5a3a48f23a65841d648ffad9bcf4b14c", null ],
+    [ "__create_copyright_files", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#a8183da34d02a171b632227881ae57299", null ],
+    [ "__create_license_file_from_component", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#ab68247458aea683314476f2b74f9ae38", null ],
+    [ "__create_license_files", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#ab0a9d16879c54ec5c575e8625d109f4f", null ],
+    [ "__create_packages", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#ad538c956ca32a64b569da33ea710ce6f", null ],
+    [ "__get_file_info", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#adbcfad68da654d28a6675b90160b49a2", null ],
+    [ "__get_file_spdx_id", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#ae85ab0d1bf1a0cf15d7d5c0b1e8f9036", null ],
+    [ "__get_license_or_ref", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#a9f8a08fc43f8b87d227344ef7b864d19", null ],
+    [ "__get_package_for_component", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#a90133a0c2ac98b0d72ac9659a6813428", null ],
+    [ "__get_package_spdx_id", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#ade4485b2e6ce112217c4cd773809eded", null ],
+    [ "__get_spdx_file", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#a4ca05676f60237acf0e54f4453d53a0f", null ],
+    [ "__update_package_verification_code", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#a08fbcbd218405f4023de3ae33bbf903b", null ],
+    [ "finalize_document", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#a0737a7a86ce5cad77fc809998c750370", null ],
+    [ "write_report", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#af7be4b0f8d2058a91edd09506f5d165c", null ],
+    [ "_allowed_licenses_set", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#ade9defd12cabbd25a28d650d7780c400", null ],
+    [ "_spdx_lic_cache", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#a5cb3dda6f52add8e32f66da37fd2831f", null ],
+    [ "cli_options", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#a455a5be18d8af3cb5ab7094cfefb8294", null ],
+    [ "scanner", "d0/daf/classFoScanner_1_1SpdxReport_1_1SpdxReport.html#a78d6fec848d30d29e6c88fd5c918aef9", null ]
+];
