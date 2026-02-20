@@ -1,0 +1,26 @@
+var structMatch =
+[
+    [ "Match", "d2/db6/structMatch.html#a927859eb131c7981e18e831351bbd6e3", null ],
+    [ "Match", "d2/db6/structMatch.html#a3f2e44080f163a8908dbb600b687aa65", null ],
+    [ "Match", "d2/db6/structMatch.html#a483a08c143e0f7017c2ed7a3d0f84f03", null ],
+    [ "~Match", "d2/db6/structMatch.html#a4cbfcaff4f14e7411242423f19c28153", null ],
+    [ "getLength", "d2/db6/structMatch.html#aef41c91c2197a145ad12789c139b8670", null ],
+    [ "getLicenseFullName", "d2/db6/structMatch.html#acad837b633bdee394bfbf92c13d16f19", null ],
+    [ "getMatchName", "d2/db6/structMatch.html#a5d44d343c983cb004f8001fc7bd26afe", null ],
+    [ "getPercentage", "d2/db6/structMatch.html#acc06fc3588f9651c9cc68ae9ab718045", null ],
+    [ "getStartPosition", "d2/db6/structMatch.html#a56c4622d40b9f54e821b7163a9523abb", null ],
+    [ "getTextUrl", "d2/db6/structMatch.html#acdb7679ccc635be637abd881eb42a9f4", null ],
+    [ "getType", "d2/db6/structMatch.html#a85b9869888925769c2747eb31b14fea8", null ],
+    [ "diff", "d2/db6/structMatch.html#a4899268fa41772d79ad63cd283c628cb", null ],
+    [ "full", "d2/db6/structMatch.html#a5c35bed1fef0d4995baa9da7bafdb599", null ],
+    [ "length", "d2/db6/structMatch.html#ae19f43d71f585ed51a87c9a04b1ee7c1", null ],
+    [ "license", "d2/db6/structMatch.html#aa7029c967204f4135f09f9ea38c60883", null ],
+    [ "licenseFullName", "d2/db6/structMatch.html#a2ed40a7e89352faa226cb628a7a2e0ae", null ],
+    [ "matchName", "d2/db6/structMatch.html#a96b851f8028ad5a9b3577f4b5a00aaf1", null ],
+    [ "percentage", "d2/db6/structMatch.html#a63732ef42c1a7c57edb4f6c66d45e733", null ],
+    [ "ptr", "d2/db6/structMatch.html#a6a61ca0460c01475f0532f1f3bfada2b", null ],
+    [ "startPosition", "d2/db6/structMatch.html#a26bbba888e7b025d07bb478de72d1d03", null ],
+    [ "textUrl", "d2/db6/structMatch.html#a6e67336a9b996dddef1f96000e5b884b", null ],
+    [ "type", "d2/db6/structMatch.html#a0e83142c78f3bd9afe917306c79aea7e", null ],
+    [ "type", "d2/db6/structMatch.html#aa377f9fd260722f3abde7091788053a8", null ]
+];

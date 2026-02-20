@@ -1,0 +1,28 @@
+var classFossology_1_1CycloneDX_1_1CycloneDXAgent =
+[
+    [ "__construct", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#aa20d63a544e43847eb5528eb857c7a00", null ],
+    [ "computeUri", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#ae1d4ef59dcccd02f674a223e6378bd92", null ],
+    [ "generateFileComponents", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#aff3026ec9729eb8d9b99b30e6de64d89", null ],
+    [ "getMimeType", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#a71f95477c99aa66f6f1030e8db46439a", null ],
+    [ "getUri", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#a9c2fd3fbb1c61c624ac7be7f9b298d9a", null ],
+    [ "processUploadId", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#a8791f1af1dd904a3db70db118813bc02", null ],
+    [ "renderPackage", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#a355d2229ea77ed4ce8923f5ae9d393f6", null ],
+    [ "updateReportTable", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#a260e01d35fbe6494da708d288de5841a", null ],
+    [ "writeReport", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#a2358fe92e27c91c8f0553a4812830278", null ],
+    [ "$additionalUploads", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#a8f10539c758e4bed29d23e2fe6a89198", null ],
+    [ "$agentNames", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#a6c9ab0cbca2e2883043e16f337608343", null ],
+    [ "$clearingDao", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#ada10557a23d903dc59d3275a9d350ad4", null ],
+    [ "$dbManager", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#a35449f97f3e5d3d1f5908342982c6b03", null ],
+    [ "$licenseDao", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#a8af69f5e6700a32f109bd470fd491aeb", null ],
+    [ "$licenseMap", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#a4d7a531c15ff80056e894839b1897bcb", null ],
+    [ "$licensesInDocument", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#ae9e6e15269816b965bdc691c9c583f2c", null ],
+    [ "$outputFormat", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#aa89babbf715d8b24b5b27f41f7a1b2a6", null ],
+    [ "$packageName", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#a14404505e80f3a95b30686bf99c19632", null ],
+    [ "$reportGenerator", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#af4f0e1beac8f25f68cb584c652aa34a3", null ],
+    [ "$reportutils", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#a838d258c942eb77802875f999b8baea6", null ],
+    [ "$uploadDao", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#ad5f6125f1cddb5b436b0cfbbf009e229", null ],
+    [ "$uri", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#acae11e9b96ef4b3d63019b1e7687d77b", null ],
+    [ "DEFAULT_OUTPUT_FORMAT", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#acd12bb930c256ba7f7ecae9eb3931351", null ],
+    [ "OUTPUT_FORMAT_KEY", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#a13bcbee1cd545ec46c5e62fb1bc87265", null ],
+    [ "UPLOADS_ADD_KEY", "d7/dea/classFossology_1_1CycloneDX_1_1CycloneDXAgent.html#ad34265f952b906de4d288ec3b2300130", null ]
+];
