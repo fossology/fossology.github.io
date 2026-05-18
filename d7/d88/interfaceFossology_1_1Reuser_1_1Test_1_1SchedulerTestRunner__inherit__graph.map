@@ -1,0 +1,5 @@
+<map id="Fossology\Reuser\Test\SchedulerTestRunner" name="Fossology\Reuser\Test\SchedulerTestRunner">
+<area shape="rect" id="node1" title="Scheduler run interface." alt="" coords="121,5,287,97"/>
+<area shape="rect" id="node2" href="$d1/d1f/classFossology_1_1Reuser_1_1Test_1_1SchedulerTestRunnerCli.html" title="Handles scheduler interaction." alt="" coords="5,197,184,303"/>
+<area shape="rect" id="node3" href="$d6/d44/classFossology_1_1Reuser_1_1Test_1_1SchedulerTestRunnerMock.html" title="Create mock objects for reuser." alt="" coords="208,145,419,355"/>
+</map>

@@ -1,0 +1,25 @@
+var classTestReport =
+[
+    [ "__construct", "d7/d4d/classTestReport.html#af3430affeea648e288f81f0b6b30755f", null ],
+    [ "getException", "d7/d4d/classTestReport.html#a2405f1565640bda3ad44c4533c875449", null ],
+    [ "getFailures", "d7/d4d/classTestReport.html#a9861616161e93d62455f7c4ae2b67ece", null ],
+    [ "getResult", "d7/d4d/classTestReport.html#a8dd9392196bc7359b08f6c6054b5965d", null ],
+    [ "getSuite", "d7/d4d/classTestReport.html#a6f0448388882278b69e4cc4580fb89e9", null ],
+    [ "globdata", "d7/d4d/classTestReport.html#a747204d8897e695c73905482461f3b81", null ],
+    [ "parseDateTime", "d7/d4d/classTestReport.html#a6f888f9465aabb946711e7e2aa825af3", null ],
+    [ "parseElapseTime", "d7/d4d/classTestReport.html#ada4b45f648c31d0b104d7c0bd54e898a", null ],
+    [ "parseLicenseResults", "d7/d4d/classTestReport.html#a4a3f9e2c33c4931bd18c30f6cc30ddcf", null ],
+    [ "parseLicenseTotals", "d7/d4d/classTestReport.html#a24bcabad7637e495359af264580806e4", null ],
+    [ "parseResults", "d7/d4d/classTestReport.html#ae26084f199bb8cf35111e3e2db607bff", null ],
+    [ "parseResultsFile", "d7/d4d/classTestReport.html#a56b6335605316b75ef07ebbf1f9bd76c", null ],
+    [ "parseSuiteName", "d7/d4d/classTestReport.html#ad90ff0c268a8974cbcb7c8f3cb0f1755", null ],
+    [ "suiteSummary", "d7/d4d/classTestReport.html#ac5eb2bcc90e5ded5eb24bfa90d19355b", null ],
+    [ "$Date", "d7/d4d/classTestReport.html#a951830c427d04a4d4116ef9a8f93ff32", null ],
+    [ "$results", "d7/d4d/classTestReport.html#ab96ec98c48f5744749aa4321944e901f", null ],
+    [ "$resultsFile", "d7/d4d/classTestReport.html#ad8c2a48c8e5ac6c08ed97d31fd233de3", null ],
+    [ "$resultsPath", "d7/d4d/classTestReport.html#ae17c8fb9c24407c74a461ba1b48830c7", null ],
+    [ "$smarty", "d7/d4d/classTestReport.html#a494e9b9862885cdb7779f604b3ee6423", null ],
+    [ "$Svn", "d7/d4d/classTestReport.html#a16c4d689c7f612b728aea345366ec782", null ],
+    [ "$testRuns", "d7/d4d/classTestReport.html#abdce65dbff74fe5915afe48483d4cc70", null ],
+    [ "$Time", "d7/d4d/classTestReport.html#a12aaa77169c4d3df561458a0c6d5ed1a", null ]
+];
