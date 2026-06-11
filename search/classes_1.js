@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['badrequestcontroller_6526',['BadRequestController',['../d0/d1d/classFossology_1_1UI_1_1Api_1_1Controllers_1_1BadRequestController.html',1,'Fossology::UI::Api::Controllers']]],
+  ['basicfoldertest_6527',['BasicFolderTest',['../d0/df5/classBasicFolderTest.html',1,'']]],
+  ['bomreportgenerator_6528',['BomReportGenerator',['../db/d1b/classFossology_1_1CycloneDX_1_1BomReportGenerator.html',1,'Fossology::CycloneDX']]],
+  ['browselicense_6529',['BrowseLicense',['../d2/de4/classFossology_1_1UI_1_1Page_1_1BrowseLicense.html',1,'Fossology::UI::Page']]],
+  ['browseuploaddelete_6530',['BrowseUploadDelete',['../dd/dd3/classFossology_1_1DelAgent_1_1UI_1_1Page_1_1BrowseUploadDelete.html',1,'Fossology::DelAgent::UI::Page']]],
+  ['browseuploadedtest_6531',['browseUPloadedTest',['../dd/d8f/classbrowseUPloadedTest.html',1,'']]],
+  ['bucketagentplugin_6532',['BucketAgentPlugin',['../d1/df3/classBucketAgentPlugin.html',1,'']]],
+  ['bucketdef_5fstruct_6533',['bucketdef_struct',['../d7/dde/structbucketdef__struct.html',1,'']]],
+  ['bucketpool_5fstruct_6534',['bucketpool_struct',['../d1/d4c/structbucketpool__struct.html',1,'']]],
+  ['build_6535',['Build',['../d2/de0/classBuild.html',1,'']]],
+  ['bulkaction_6536',['BulkAction',['../d8/d79/structBulkAction.html',1,'']]],
+  ['bulkarguments_6537',['BulkArguments',['../d7/d39/structBulkArguments.html',1,'']]],
+  ['bulkhistory_6538',['BulkHistory',['../d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html',1,'Fossology::UI::Api::Models']]],
+  ['bulkhistorytest_6539',['BulkHistoryTest',['../d8/d35/classFossology_1_1UI_1_1Api_1_1Test_1_1Models_1_1BulkHistoryTest.html',1,'Fossology::UI::Api::Test::Models']]],
+  ['bulkmatchesgetter_6540',['BulkMatchesGetter',['../d3/d64/classFossology_1_1Lib_1_1Report_1_1BulkMatchesGetter.html',1,'Fossology::Lib::Report']]],
+  ['bulkreuser_6541',['BulkReuser',['../d0/db5/classFossology_1_1Decider_1_1BulkReuser.html',1,'Fossology::Decider']]],
+  ['bulktest_6542',['bulkTest',['../d3/d04/classbulkTest.html',1,'']]],
+  ['bulktextexport_6543',['BulkTextExport',['../d9/d95/classFossology_1_1Lib_1_1Application_1_1BulkTextExport.html',1,'Fossology::Lib::Application']]],
+  ['bulktextexporttest_6544',['BulkTextExportTest',['../d3/d8d/classFossology_1_1Lib_1_1Application_1_1BulkTextExportTest.html',1,'Fossology::Lib::Application']]]
+];
