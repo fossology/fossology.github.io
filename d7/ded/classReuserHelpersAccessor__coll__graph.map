@@ -1,0 +1,7 @@
+<map id="ReuserHelpersAccessor" name="ReuserHelpersAccessor">
+<area shape="rect" id="node1" title="Thin subclass that exposes private helper methods for testing." alt="" coords="11,1391,251,1527"/>
+<area shape="rect" id="node2" href="$d0/d4b/classMockReuserDatabaseHandler.html" title="Test double for ReuserDatabaseHandler." alt="" coords="5,985,257,1341"/>
+<area shape="rect" id="node3" href="$d2/d23/classReuserDatabaseHandler.html" title="Database handler for the reuser agent." alt="" coords="15,609,247,936"/>
+<area shape="rect" id="node4" href="$de/d65/classfo_1_1AgentDatabaseHandler.html" title="Database handler for agents." alt="" coords="15,321,248,560"/>
+<area shape="rect" id="node5" href="$d3/d64/classfo_1_1DbManager.html" title="DB wrapper for agents." alt="" coords="38,5,225,259"/>
+</map>

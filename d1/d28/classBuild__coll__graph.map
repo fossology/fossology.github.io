@@ -1,0 +1,4 @@
+<map id="Build" name="Build">
+<area shape="rect" id="node1" title="make fossology, check for warnings and errors" alt="" coords="5,175,127,252"/>
+<area shape="rect" id="node2" href="$d6/d13/classFoIntegration.html" title="base class for fossology integration." alt="" coords="5,5,127,127"/>
+</map>

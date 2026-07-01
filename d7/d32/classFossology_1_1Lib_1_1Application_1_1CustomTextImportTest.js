@@ -1,0 +1,26 @@
+var classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest =
+[
+    [ "makeLicense", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a17bc53f6079c2cfce49341f214adc549", null ],
+    [ "parseBooleanProvider", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#af0e795f923536a054de7e25d9234ffad", null ],
+    [ "setUp", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#aba3e2fb109fe54aecfe02cf5e1b57e44", null ],
+    [ "tearDown", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a45d651366e2c30f58354802ff014ec6b", null ],
+    [ "testAssociateLicensesHandlesCommaSeparatedList", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a632e140664c91f6029696bd560e465af", null ],
+    [ "testAssociateLicensesLooksUpOrLaterNameDirectly", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a0436a49a59f65bc2816e83cbe37d794d", null ],
+    [ "testAssociateLicensesLooksUpSpdxNameDirectly", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#ac6b569cc832875a1511cafc1f5a5a5fc", null ],
+    [ "testAssociateLicensesTrimsWhitespace", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a62dfe949f111b259aa36b1569c6a55c1", null ],
+    [ "testAutoCreatesUnknownValidLicense", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a4e97d3480ba38fb62d7b5c058552843f", null ],
+    [ "testImportJsonDataReturnsCountMessage", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a1ba22073bc7fae45f80ae99b0b09f2b3", null ],
+    [ "testImportJsonDataSkipsRowsWithoutText", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a3c4f5fa7204d519cbc3fd76f27b82757", null ],
+    [ "testImportPhraseRejectsEmptyText", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#ae5428ec1ca8d97a6f2c4b75d1be615e5", null ],
+    [ "testImportPhrasesSkipsDuplicateText", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a1842fcdf9dbcc46fdec0e431ca36ccde", null ],
+    [ "testMapHeadersMapsCapitalisedNames", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#ad013c10a4f886a0b3c7c4b678ab2395d", null ],
+    [ "testMapHeadersMapsLowerCaseNames", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a37a07386e2a13d94b8ea5a3a5e53dc09", null ],
+    [ "testNormalizeBulkExportValuesArrayAcknowledgement", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#ad1f7ad98dedc04fee4b5f4fa88a0e2b0", null ],
+    [ "testNormalizeBulkExportValuesPipeAcknowledgement", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a32f94fc2197d8bc15cff38efc5f26794", null ],
+    [ "testNormalizeBulkExportValuesRestoresNewlines", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a38871ba7331865b707431b90d0a642a8", null ],
+    [ "testParseBoolean", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a109e23b34fe3649be45aceaf59a723d4", null ],
+    [ "$dbManager", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a198d1f2996bb3efa0fc77103bf47cc2e", null ],
+    [ "$importer", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#adee7007b11caca30adfd5b8614ca9234", null ],
+    [ "$licenseDao", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a2495b20522fcced8666569ac5e5528f1", null ],
+    [ "$userDao", "d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html#a4ea2eb976cc1a66cf0230a28f6be0bcd", null ]
+];

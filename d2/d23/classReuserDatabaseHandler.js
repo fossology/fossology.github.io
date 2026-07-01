@@ -1,0 +1,26 @@
+var classReuserDatabaseHandler =
+[
+    [ "ReuserDatabaseHandler", "d2/d23/classReuserDatabaseHandler.html#a328321b1c6caaad3ff0e178ad1cc0fe0", null ],
+    [ "ReuserDatabaseHandler", "d2/d23/classReuserDatabaseHandler.html#ac21bf9b908973e09ace49bcee869b8a6", null ],
+    [ "~ReuserDatabaseHandler", "d2/d23/classReuserDatabaseHandler.html#a8a07997e9599a5e237035b0d3681d06d", null ],
+    [ "createCopyOfClearingDecision", "d2/d23/classReuserDatabaseHandler.html#a3ff8b74db6a38fa6aaf04f4c7cbc2f5f", null ],
+    [ "createDecisionFromEvents", "d2/d23/classReuserDatabaseHandler.html#a60571fd4cefc66fa72f4631d05d55c39", null ],
+    [ "diffLineCount", "d2/d23/classReuserDatabaseHandler.html#aca6b6d5e9e9c5be2b19db2e24f513be4", null ],
+    [ "getClearingDecisionMapByPfile", "d2/d23/classReuserDatabaseHandler.html#a7cb780ecee007b87366bf0323bc3ab7a", null ],
+    [ "getDecisionTypePriority", "d2/d23/classReuserDatabaseHandler.html#a7e7cc27b47a2fbd032183103024a2fd8", null ],
+    [ "getParentItemBounds", "d2/d23/classReuserDatabaseHandler.html#a3518024ddfac3596390fb942dc4c92f4", null ],
+    [ "getRepoPathOfPfile", "d2/d23/classReuserDatabaseHandler.html#ab6681f2118672fefb40d457ad3d7aaeb", null ],
+    [ "getReusedUploads", "d2/d23/classReuserDatabaseHandler.html#afbe61fd1e045e712b355fa84f99a8a1c", null ],
+    [ "getUploadTreePksForPfiles", "d2/d23/classReuserDatabaseHandler.html#afdad1ddc8451e30d3d1959c00e0b346d", null ],
+    [ "insertClearingEvent", "d2/d23/classReuserDatabaseHandler.html#ad22fc59c5e8210e5c56aa329e94a337b", null ],
+    [ "isValidIdentifier", "d2/d23/classReuserDatabaseHandler.html#aad962457c415bac2686f0cb9c37dab48", null ],
+    [ "processEnhancedUploadReuse", "d2/d23/classReuserDatabaseHandler.html#aac2049eaaa423ebb90e43b1bf0eaafbe", null ],
+    [ "processUploadReuse", "d2/d23/classReuserDatabaseHandler.html#a00a4d07ce4fef23ab5dfce3848f679c3", null ],
+    [ "replaceUnicodeControlChars", "d2/d23/classReuserDatabaseHandler.html#ad9d31456144cf0f55f8b01b010e2363b", null ],
+    [ "reuseConfSettings", "d2/d23/classReuserDatabaseHandler.html#afc1acf635b492ccd791217b25904d1a4", null ],
+    [ "reuseCopyrights", "d2/d23/classReuserDatabaseHandler.html#aed7b193b12981b2e333b470a0faccb14", null ],
+    [ "reuseMainLicense", "d2/d23/classReuserDatabaseHandler.html#a60aa81e265ba894bb346066fcc8b9de7", null ],
+    [ "shellEscape", "d2/d23/classReuserDatabaseHandler.html#abcd238278bbfd40e67d5592643427eaa", null ],
+    [ "spawn", "d2/d23/classReuserDatabaseHandler.html#a78e904e1ffb0fa7d365fda5726c866f1", null ],
+    [ "writeArsRecord", "d2/d23/classReuserDatabaseHandler.html#aedc42403e529580e1c973185d99968fa", null ]
+];
