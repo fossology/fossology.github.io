@@ -1,0 +1,27 @@
+var classFossology_1_1ReportImport_1_1SpdxThreeImportSource =
+[
+    [ "__construct", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a71a061c929c740b54c0a7ec74161955a", null ],
+    [ "getAllFiles", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a48b7c8452a882a5486afc3f9c11a58c0", null ],
+    [ "getConcludedLicenseInfoForFile", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#af4fecd83d42c30ab52dc388d9397a4ac", null ],
+    [ "getCopyrightTextsForFile", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#aca23a579688af79518937ea082f7e134", null ],
+    [ "getDataForFile", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#ab621a6d773c28c305ca5f678d6e10783", null ],
+    [ "getHashesMap", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#aa10de5e37567f5e4583ebf8fb450a767", null ],
+    [ "getLicenseInfoForFile", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#ae9c2114221f8c39363975490f2afb2fe", null ],
+    [ "getLicenseInfoInFileForFile", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a19afbd814e79797979be4d169b5a81b9", null ],
+    [ "getSpdxDoc", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#aa91f45990ea13c33313deb8ae8b9c967", null ],
+    [ "getVersion", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#aa43b6b157e00724726ee0664729d3f25", null ],
+    [ "handleLicenseInfo", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a28541e06f9a901b0c327be333785f401", null ],
+    [ "handleLicenseSet", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a0997d43d26e5512b6cd173f1c236442c", null ],
+    [ "isNotNoassertion", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#ab63f8bd6abf7a5ce391c558f54326466", null ],
+    [ "parse", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a4e5eb3c7cf8ebdf05d49b66e6c76cc6b", null ],
+    [ "parseLicense", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a287a6d32a2b6c70f9ad5a560acf318b5", null ],
+    [ "parseLicenseId", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a9650c7c99183aaebc0fcaaf604e7f5b7", null ],
+    [ "stripLicenseRefPrefix", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a556f70a69626f4d45cacb06271f0d6f5", null ],
+    [ "$filename", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#ab2c7b71662102cdfd29d585040a4aafc", null ],
+    [ "$graph", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a00820e26d9cc1f3382b5181d2fb95dbc", null ],
+    [ "$spdxDoc", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a6f5ef447aed14fbe7f63aeb926c099d8", null ],
+    [ "$uri", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a1f5b7900152ae5625b1ea30d90880213", null ],
+    [ "SPDX_FILE", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a12359eeae4c0fdd1465273fa65929cd2", null ],
+    [ "SPDX_URL", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a193b39378f6e14121e6edb8e3a7eab18", null ],
+    [ "TERMS", "da/d69/classFossology_1_1ReportImport_1_1SpdxThreeImportSource.html#a8a602608a04d8a96b82bb73fefc8f27c", null ]
+];
