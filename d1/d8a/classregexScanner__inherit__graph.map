@@ -1,0 +1,4 @@
+<map id="regexScanner" name="regexScanner">
+<area shape="rect" id="node1" title="Provides a regex scanner using predefined regexs." alt="" coords="5,160,141,311"/>
+<area shape="rect" id="node2" href="$df/df2/classscanner.html" title="Abstract class to provide interface to scanners." alt="" coords="15,5,131,112"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="IsValidIdentifierTest" name="IsValidIdentifierTest">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1589,271,1989"/>
+<area shape="rect" id="node2" title=" " alt="" coords="25,1420,208,1497"/>
+<area shape="rect" id="node3" href="$d8/d31/classReuserHelpersAccessor.html" title="Thin subclass that exposes private helper methods for testing." alt="" coords="233,1391,473,1527"/>
+<area shape="rect" id="node4" href="$d0/d4b/classMockReuserDatabaseHandler.html" title="Test double for ReuserDatabaseHandler." alt="" coords="227,985,479,1341"/>
+<area shape="rect" id="node5" href="$d2/d23/classReuserDatabaseHandler.html" title="Database handler for the reuser agent." alt="" coords="237,609,469,936"/>
+<area shape="rect" id="node6" href="$de/d65/classfo_1_1AgentDatabaseHandler.html" title="Database handler for agents." alt="" coords="236,321,469,560"/>
+<area shape="rect" id="node7" href="$d3/d64/classfo_1_1DbManager.html" title="DB wrapper for agents." alt="" coords="259,5,446,259"/>
+</map>

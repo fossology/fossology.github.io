@@ -1,0 +1,4 @@
+<map id="Fossology\DeciderJob\Test\SchedulerTestRunnerCli" name="Fossology\DeciderJob\Test\SchedulerTestRunnerCli">
+<area shape="rect" id="node1" title="Mock for cli inputs." alt="" coords="5,145,215,252"/>
+<area shape="rect" id="node2" href="$df/db5/interfaceFossology_1_1DeciderJob_1_1Test_1_1SchedulerTestRunner.html" title="Interface for scheduler. Called by test case." alt="" coords="14,5,206,97"/>
+</map>
