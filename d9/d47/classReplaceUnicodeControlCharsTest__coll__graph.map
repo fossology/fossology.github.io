@@ -1,0 +1,9 @@
+<map id="ReplaceUnicodeControlCharsTest" name="ReplaceUnicodeControlCharsTest">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1589,255,2077"/>
+<area shape="rect" id="node2" title=" " alt="" coords="17,1420,200,1497"/>
+<area shape="rect" id="node3" href="$d8/d31/classReuserHelpersAccessor.html" title="Thin subclass that exposes private helper methods for testing." alt="" coords="225,1391,465,1527"/>
+<area shape="rect" id="node4" href="$d0/d4b/classMockReuserDatabaseHandler.html" title="Test double for ReuserDatabaseHandler." alt="" coords="219,985,471,1341"/>
+<area shape="rect" id="node5" href="$d2/d23/classReuserDatabaseHandler.html" title="Database handler for the reuser agent." alt="" coords="229,609,461,936"/>
+<area shape="rect" id="node6" href="$de/d65/classfo_1_1AgentDatabaseHandler.html" title="Database handler for agents." alt="" coords="228,321,461,560"/>
+<area shape="rect" id="node7" href="$d3/d64/classfo_1_1DbManager.html" title="DB wrapper for agents." alt="" coords="251,5,438,259"/>
+</map>
