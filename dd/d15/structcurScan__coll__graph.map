@@ -1,0 +1,5 @@
+<map id="curScan" name="curScan">
+<area shape="rect" id="node1" title="Struct that tracks state related to current file being scanned." alt="" coords="5,476,121,700"/>
+<area shape="rect" id="node2" href="$d8/d10/structlist.html" title="list_t type structure used to keep various lists. (e.g. there are multiple lists)." alt="" coords="24,204,103,355"/>
+<area shape="rect" id="node3" href="$d9/df5/structlistitem.html" title="tricky data structure used for a list of &#39;items&#39;" alt="" coords="27,5,99,141"/>
+</map>

@@ -1,0 +1,26 @@
+var classFossology_1_1ReportImport_1_1ReportImportAgent =
+[
+    [ "__construct", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#abc54c3dcde8212f582121beef47ccab1", null ],
+    [ "getEntries", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#aee63c4a352f900b465b2c3ad2010f8f1", null ],
+    [ "getEntriesForFilename", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#a7310a729e1b5802675042564ef6c8418", null ],
+    [ "getEntriesForHash", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#ad43ec4ac19575c4226fc8c9ee7c5fb38", null ],
+    [ "getImportSource", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#a1cbc91073964b0b23e50b291b2109eb8", null ],
+    [ "processUploadId", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#a7dfd78c80fb34d82824fb8bbaa9bfc3c", null ],
+    [ "setAgent_PK", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#a86726267dc3dfa4c28e407be0d1afe23", null ],
+    [ "$agent_pk", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#a526cc6f80b6169135d3f94938495643d", null ],
+    [ "$clearingDao", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#a2506d2e1605dcc39a647dc233711081d", null ],
+    [ "$copyrightDao", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#acff4fe19a047e4aa2e729d2f5aea7567", null ],
+    [ "$dbManager", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#aed49a19a8105e1b91dd39ba483dae49b", null ],
+    [ "$licenseDao", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#ad6e4de595212e5d1d18e7c0ba4e801bf", null ],
+    [ "$uploadDao", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#a0fcab93dbdc1aa9a3e4250f430d958d8", null ],
+    [ "$userDao", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#ad4e216da01ec74370289b7bc3e458cf7", null ],
+    [ "ACLA_KEY", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#a0ec6f33fe8584222213f34724bb51d15", null ],
+    [ "ACLAO_KEY", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#ae659ee8df772a422c325eaa64a3c3033", null ],
+    [ "ACLATBD_KEY", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#a19ee9bbea29bbe65761574677a3000ad", null ],
+    [ "ALFC_KEY", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#a5ee55a7492962e6af3c60270e7f597cf", null ],
+    [ "ALIFI_KEY", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#a6b846be67c6830335919fa3628b2cd42", null ],
+    [ "ANLA_KEY", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#a06c61a3055143962dea4bee66d6cc0a6", null ],
+    [ "COPYRIGHTS_KEY", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#a931aca52981742e5a5129e45f2d760b5", null ],
+    [ "LMATCH_KEY", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#ab19f33eb50ae6f63d37e1de76cd36659", null ],
+    [ "REPORT_KEY", "db/dde/classFossology_1_1ReportImport_1_1ReportImportAgent.html#a7e250403de3971c1d9326b79059a0a83", null ]
+];

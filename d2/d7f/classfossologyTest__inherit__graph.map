@@ -1,0 +1,51 @@
+<map id="fossologyTest" name="fossologyTest">
+<area shape="rect" id="node1" title=" " alt="" coords="4351,131,4485,501"/>
+<area shape="rect" id="node3" href="$d5/d51/classfossologyTestCase.html" title=" " alt="" coords="4319,549,4517,817"/>
+<area shape="rect" id="node2" title=" " alt="" coords="4364,5,4472,83"/>
+<area shape="rect" id="node4" href="$de/d5c/classAddUserTest.html" title=" " alt="" coords="5,917,132,1038"/>
+<area shape="rect" id="node5" href="$da/dff/classAdminCustomTextManagementTest.html" title=" " alt="" coords="157,917,423,1038"/>
+<area shape="rect" id="node6" href="$d0/df5/classBasicFolderTest.html" title=" " alt="" coords="447,924,594,1031"/>
+<area shape="rect" id="node7" href="$d0/dac/classCreateDeleteFldrTest.html" title=" " alt="" coords="619,924,801,1031"/>
+<area shape="rect" id="node8" href="$df/d73/classCreateFolderTest.html" title=" " alt="" coords="826,917,981,1038"/>
+<area shape="rect" id="node9" href="$db/d62/classDeleteFolderTest.html" title=" " alt="" coords="1005,924,1159,1031"/>
+<area shape="rect" id="node10" href="$df/d0d/classDupFolderTest.html" title=" " alt="" coords="1183,917,1338,1038"/>
+<area shape="rect" id="node11" href="$da/d6c/classDupUploadTest.html" title=" " alt="" coords="1362,931,1503,1023"/>
+<area shape="rect" id="node12" href="$d9/d9e/classDupUserTest.html" title=" " alt="" coords="1527,917,1655,1038"/>
+<area shape="rect" id="node13" href="$d0/d4a/classEditFolderDescriptionOnlyTest.html" title=" " alt="" coords="1680,909,1897,1045"/>
+<area shape="rect" id="node14" href="$db/d8b/classEditFolderNameOnlyTest.html" title=" " alt="" coords="1921,909,2128,1045"/>
+<area shape="rect" id="node15" href="$db/d5a/classEditFolderTest.html" title=" " alt="" coords="2153,909,2302,1045"/>
+<area shape="rect" id="node16" href="$d5/d03/classEmailUserTest.html" title=" " alt="" coords="2326,924,2465,1031"/>
+<area shape="rect" id="node17" href="$d1/dfc/classFoldersCreateMenuTest.html" title=" " alt="" coords="2489,939,2680,1016"/>
+<area shape="rect" id="node18" href="$d4/dcd/classFoldersDeleteMenuTest.html" title=" " alt="" coords="2704,939,2895,1016"/>
+<area shape="rect" id="node19" href="$d0/dc8/classFoldersEditMenuTest.html" title=" " alt="" coords="2919,939,3093,1016"/>
+<area shape="rect" id="node20" href="$d0/def/classFoldersMoveMenuTest.html" title=" " alt="" coords="3117,939,3301,1016"/>
+<area shape="rect" id="node21" href="$da/dd5/classMoveFolderTest.html" title=" " alt="" coords="3325,865,3479,1089"/>
+<area shape="rect" id="node22" href="$d9/d33/classOneShotTablegplv21Test.html" title=" " alt="" coords="3503,931,3709,1023"/>
+<area shape="rect" id="node23" href="$d8/d6f/classOneShotgplv21Test.html" title="Run one&#45;shot license analysis on LGPL_v2.1 license." alt="" coords="3733,924,3903,1031"/>
+<area shape="rect" id="node24" href="$d1/d12/classSearchMenuTest.html" title=" " alt="" coords="3927,939,4079,1016"/>
+<area shape="rect" id="node25" href="$df/ded/classTestAboutMenu.html" title=" " alt="" coords="4103,931,4250,1023"/>
+<area shape="rect" id="node26" href="$df/d23/classTestRepoLogin.html" title=" " alt="" coords="4275,931,4391,1023"/>
+<area shape="rect" id="node27" href="$d9/d2f/classUploadFileMenuTest.html" title=" " alt="" coords="4415,939,4592,1016"/>
+<area shape="rect" id="node28" href="$d7/dcb/classUploadFileTest.html" title=" " alt="" coords="4617,931,4758,1023"/>
+<area shape="rect" id="node29" href="$d7/d2d/classUploadInstructMenuTest.html" title=" " alt="" coords="4782,939,4985,1016"/>
+<area shape="rect" id="node30" href="$df/d66/classUploadOneShotMenuTest.html" title=" " alt="" coords="5009,939,5219,1016"/>
+<area shape="rect" id="node31" href="$d4/dfd/classUploadServerMenuTest.html" title=" " alt="" coords="5243,939,5439,1016"/>
+<area shape="rect" id="node32" href="$d8/d6d/classUploadSrvTest.html" title=" " alt="" coords="5463,931,5613,1023"/>
+<area shape="rect" id="node33" href="$db/d0b/classUploadUrlMenuTest.html" title=" " alt="" coords="5637,939,5810,1016"/>
+<area shape="rect" id="node34" href="$d2/d85/classUploadUrlTest.html" title=" " alt="" coords="5835,939,5972,1016"/>
+<area shape="rect" id="node35" href="$d9/d26/classUploadsDeleteMenuTest.html" title=" " alt="" coords="5996,939,6200,1016"/>
+<area shape="rect" id="node36" href="$d2/d04/classUploadsMoveMenuTest.html" title=" " alt="" coords="6225,939,6422,1016"/>
+<area shape="rect" id="node37" href="$dd/d8f/classbrowseUPloadedTest.html" title=" " alt="" coords="6447,924,6629,1031"/>
+<area shape="rect" id="node38" href="$d0/d7c/classcleanupRF.html" title=" " alt="" coords="6654,931,6817,1023"/>
+<area shape="rect" id="node39" href="$dd/dc2/classcleanupTestData.html" title=" " alt="" coords="6841,917,7027,1038"/>
+<area shape="rect" id="node40" href="$d0/da2/classcreateSuiUsers.html" title=" " alt="" coords="7051,924,7222,1031"/>
+<area shape="rect" id="node41" href="$db/dbe/classcreateUIUsers.html" title=" " alt="" coords="7246,887,7422,1067"/>
+<area shape="rect" id="node42" href="$da/d92/classmyFirstTest.html" title=" " alt="" coords="7447,917,7565,1038"/>
+<area shape="rect" id="node43" href="$d8/dbe/classnoEmailUserTest.html" title=" " alt="" coords="7590,931,7747,1023"/>
+<area shape="rect" id="node44" href="$df/d44/classrhelTest.html" title=" " alt="" coords="7772,924,7891,1031"/>
+<area shape="rect" id="node45" href="$d8/dff/classrunMyTest.html" title=" " alt="" coords="7915,917,8033,1038"/>
+<area shape="rect" id="node46" href="$d5/d20/classsomeTest.html" title=" " alt="" coords="8058,917,8229,1038"/>
+<area shape="rect" id="node47" href="$d7/d44/classuploadSrvDirTest.html" title=" " alt="" coords="8253,931,8412,1023"/>
+<area shape="rect" id="node48" href="$d1/d90/classuploadSrvFileTest.html" title=" " alt="" coords="8437,931,8599,1023"/>
+<area shape="rect" id="node49" href="$d2/dab/classuploadTestDataTest.html" title=" " alt="" coords="8624,895,8825,1060"/>
+</map>
