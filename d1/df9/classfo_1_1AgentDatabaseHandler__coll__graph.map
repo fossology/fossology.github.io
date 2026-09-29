@@ -1,0 +1,4 @@
+<map id="fo::AgentDatabaseHandler" name="fo::AgentDatabaseHandler">
+<area shape="rect" id="node1" title="Database handler for agents." alt="" coords="5,321,239,560"/>
+<area shape="rect" id="node2" href="$d3/d64/classfo_1_1DbManager.html" title="DB wrapper for agents." alt="" coords="29,5,215,259"/>
+</map>
