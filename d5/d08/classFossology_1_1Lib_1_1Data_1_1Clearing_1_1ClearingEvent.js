@@ -1,0 +1,26 @@
+var classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent =
+[
+    [ "__construct", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#ad682d0a516a4f16e3807148db0901b3f", null ],
+    [ "getAcknowledgement", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#a3e89d0ff250eccb0a8fdda4339bce0a7", null ],
+    [ "getClearingLicense", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#a7b5b389b824c402671d4877a0958b4ee", null ],
+    [ "getComment", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#ad324ed6b38ef4709a227136607fb6e0a", null ],
+    [ "getEventId", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#a58c638e170aad69bed98ec631c9e6f94", null ],
+    [ "getEventType", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#acbd6d52c2a1bf729cfaab16e719668e6", null ],
+    [ "getGroupId", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#a69c59e663562b215afbfb5f1042446f1", null ],
+    [ "getLicenseFullName", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#a2ac3345b65b9ee3f0d24d81f6224fcb8", null ],
+    [ "getLicenseId", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#a7bed094553dab7094c273120fc55ccc9", null ],
+    [ "getLicenseRef", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#adb87df6cedf6bbea19b1519bc9605a23", null ],
+    [ "getLicenseShortName", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#a77996c43616aaef681a9bb772994bcf4", null ],
+    [ "getReportinfo", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#af8650decada738e9b41d10ace6e192c5", null ],
+    [ "getTimeStamp", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#ac6c9d31124f30d4a70d2e5b57bf17fe0", null ],
+    [ "getUploadTreeId", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#a4a2378b14386f0e3407fedba80e4941b", null ],
+    [ "getUserId", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#aa1e8bce49563ac229b2f01a2f3332b96", null ],
+    [ "isRemoved", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#ad1c94599c64cd24e60fe679555858733", null ],
+    [ "$clearingLicense", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#a974c11236aaee06907f89c7636bcdd06", null ],
+    [ "$eventId", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#adcedbfbfc13be84a5c7d71dc473beea6", null ],
+    [ "$eventType", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#aa88948f2dbc66fc69840fbe7148297c0", null ],
+    [ "$groupId", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#ab78c4c9c770852527a6ada0d1c1a27f8", null ],
+    [ "$timeStamp", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#ab7a7f0ef301578094c9dcb0709e891fb", null ],
+    [ "$uploadTreeId", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#a11f698e591f2e46d056ded214c7cca8e", null ],
+    [ "$userId", "d5/d08/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEvent.html#a2cf17870c172927f8eba95383b8da171", null ]
+];

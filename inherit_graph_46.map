@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$de/d65/classfo_1_1AgentDatabaseHandler.html" title="Database handler for agents." alt="" coords="5,132,200,159"/>
+<area shape="rect" id="node2" href="$db/d68/classCompatibilityDatabaseHandler.html" title=" " alt="" coords="248,5,471,32"/>
+<area shape="rect" id="node3" href="$d2/d40/classCopyrightDatabaseHandler.html" title="Manages database related requests for agent." alt="" coords="260,56,459,83"/>
+<area shape="rect" id="node4" href="$d7/dd8/classNinkaDatabaseHandler.html" title=" " alt="" coords="273,107,445,133"/>
+<area shape="rect" id="node5" href="$d3/df9/classOjosDatabaseHandler.html" title=" " alt="" coords="277,157,441,184"/>
+<area shape="rect" id="node6" href="$d2/d23/classReuserDatabaseHandler.html" title="Database handler for the reuser agent." alt="" coords="269,208,449,235"/>
+<area shape="rect" id="node9" href="$d0/dec/classScancodeDatabaseHandler.html" title=" " alt="" coords="261,259,458,285"/>
+<area shape="rect" id="node7" href="$d0/d4b/classMockReuserDatabaseHandler.html" title="Test double for ReuserDatabaseHandler." alt="" coords="519,208,733,235"/>
+<area shape="rect" id="node8" href="$d8/d31/classReuserHelpersAccessor.html" title="Thin subclass that exposes private helper methods for testing." alt="" coords="781,208,956,235"/>
+</map>

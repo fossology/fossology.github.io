@@ -1,0 +1,3 @@
+<map id="stale_ctx" name="stale_ctx">
+<area shape="rect" id="node1" title="Context for collect_stale_jobs traversal: carries current time so each node can apply a per&#45;job grace..." alt="" coords="5,5,87,97"/>
+</map>

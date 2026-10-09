@@ -1,0 +1,5 @@
+<map id="OjoState" name="OjoState">
+<area shape="rect" id="node1" title="Store the state of the agent." alt="" coords="112,321,247,457"/>
+<area shape="rect" id="node2" href="$df/da5/classOjoAgent.html" title=" " alt="" coords="5,42,145,222"/>
+<area shape="rect" id="node3" href="$dd/d23/classOjoCliOptions.html" title="Store the options sent through the CLI." alt="" coords="169,5,400,259"/>
+</map>
