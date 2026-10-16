@@ -1,0 +1,248 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>atarashi.libs.ngram &#8212; atarashi 0.0.9 documentation</title>
+    <link rel="stylesheet" href="../../../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">atarashi 0.0.9 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for atarashi.libs.ngram</h1><div class="highlight"><pre>
+<span class="ch">#!/usr/bin/python</span>
+<span class="c1"># -*- coding: utf-8 -*-</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Copyright 2018 Aman Jain (amanjain5221@gmail.com)</span>
+
+<span class="sd">This program is free software; you can redistribute it and/or</span>
+<span class="sd">modify it under the terms of the GNU General Public License</span>
+<span class="sd">version 2 as published by the Free Software Foundation.</span>
+<span class="sd">This program is distributed in the hope that it will be useful,</span>
+<span class="sd">but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span class="sd">MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span class="sd">GNU General Public License for more details.</span>
+
+<span class="sd">You should have received a copy of the GNU General Public License along</span>
+<span class="sd">with this program; if not, write to the Free Software Foundation, Inc.,</span>
+<span class="sd">51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">import</span> <span class="nn">argparse</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">multiprocessing</span> <span class="k">import</span> <span class="n">Pool</span> <span class="k">as</span> <span class="n">ThreadPool</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">pathlib</span> <span class="k">import</span> <span class="n">Path</span>
+
+<span class="kn">from</span> <span class="nn">tqdm</span> <span class="k">import</span> <span class="n">tqdm</span>
+
+<span class="kn">from</span> <span class="nn">atarashi.libs.license_clustering</span> <span class="k">import</span> <span class="n">cluster_licenses</span>
+<span class="kn">from</span> <span class="nn">atarashi.license.licenseLoader</span> <span class="k">import</span> <span class="n">LicenseLoader</span>
+
+<span class="n">__author__</span> <span class="o">=</span> <span class="s2">&quot;Aman Jain&quot;</span>
+<span class="n">__email__</span> <span class="o">=</span> <span class="s2">&quot;amanjain5221@gmail.com&quot;</span>
+
+<span class="n">globalLicenseList</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+
+
+<div class="viewcode-block" id="find_ngrams"><a class="viewcode-back" href="../../../source/atarashi.libs.ngram.html#atarashi.libs.ngram.find_ngrams">[docs]</a><span class="k">def</span> <span class="nf">find_ngrams</span><span class="p">(</span><span class="n">input_list</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+  <span class="sd">&#39;&#39;&#39;Zip ngrams of given length n from Input list&#39;&#39;&#39;</span>
+  <span class="k">return</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="p">[</span><span class="n">input_list</span><span class="p">[</span><span class="n">i</span><span class="p">:]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">)])</span></div>
+
+
+<div class="viewcode-block" id="load_database"><a class="viewcode-back" href="../../../source/atarashi.libs.ngram.html#atarashi.libs.ngram.load_database">[docs]</a><span class="k">def</span> <span class="nf">load_database</span><span class="p">(</span><span class="n">licenseList</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+  <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">  Store the unique n-grams N=[2,5,6,7,8] for each license cluster</span>
+
+<span class="sd">  :param licenseList: Processed License List path</span>
+<span class="sd">  :return: Return uniqueNgrams array, license cluster array, licenses array</span>
+<span class="sd">  &#39;&#39;&#39;</span>
+  <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">licenseList</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+    <span class="n">licenses</span> <span class="o">=</span> <span class="n">LicenseLoader</span><span class="o">.</span><span class="n">fetch_licenses</span><span class="p">(</span><span class="n">licenseList</span><span class="p">)</span>
+    <span class="k">if</span> <span class="s1">&#39;processed_text&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">licenses</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>
+      <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;The license list does not contain processed_text column.&#39;</span><span class="p">)</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="n">licenses</span> <span class="o">=</span> <span class="n">licenseList</span>
+
+  <span class="n">uniqueNGrams</span> <span class="o">=</span> <span class="p">[]</span>
+
+  <span class="n">cluster_arr</span> <span class="o">=</span> <span class="n">cluster_licenses</span><span class="p">(</span><span class="n">licenses</span><span class="p">,</span> <span class="n">verbose</span><span class="p">)</span>
+  <span class="k">for</span> <span class="n">cluster</span> <span class="ow">in</span> <span class="n">cluster_arr</span><span class="p">:</span>
+    <span class="n">license_text</span> <span class="o">=</span> <span class="n">licenses</span><span class="p">[</span><span class="n">licenses</span><span class="p">[</span><span class="s1">&#39;shortname&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">cluster</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;processed_text&#39;</span><span class="p">]</span>
+    <span class="n">ngrams</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">ngramrange</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">ngramrange</span><span class="p">:</span>
+      <span class="n">ngrams</span> <span class="o">+=</span> <span class="nb">list</span><span class="p">(</span><span class="n">find_ngrams</span><span class="p">(</span><span class="n">license_text</span><span class="o">.</span><span class="n">split</span><span class="p">(),</span> <span class="n">x</span><span class="p">))</span>
+    <span class="n">obj</span> <span class="o">=</span> <span class="p">{</span>
+      <span class="s1">&#39;shortname&#39;</span><span class="p">:</span> <span class="n">cluster</span><span class="p">,</span>  <span class="c1"># add all shortnames</span>
+      <span class="s1">&#39;ngrams&#39;</span><span class="p">:</span> <span class="n">ngrams</span>
+    <span class="p">}</span>
+    <span class="n">uniqueNGrams</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">uniqueNGrams</span><span class="p">,</span> <span class="n">cluster_arr</span><span class="p">,</span> <span class="n">licenses</span></div>
+
+
+<div class="viewcode-block" id="unique_ngrams"><a class="viewcode-back" href="../../../source/atarashi.libs.ngram.html#atarashi.libs.ngram.unique_ngrams">[docs]</a><span class="k">def</span> <span class="nf">unique_ngrams</span><span class="p">(</span><span class="n">uniqueNGram</span><span class="p">):</span>
+  <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">  :param uniqueNGram: List of all ngrams of a cluster</span>
+<span class="sd">  :return: List/ Array of n-grams that uniquely identify the license cluster</span>
+<span class="sd">  &#39;&#39;&#39;</span>
+  <span class="n">matches</span> <span class="o">=</span> <span class="p">[]</span>
+
+  <span class="n">filtered</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">globalLicenseList</span> <span class="k">if</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">uniqueNGram</span><span class="p">[</span><span class="s1">&#39;shortname&#39;</span><span class="p">]]</span>
+  <span class="k">for</span> <span class="n">ngram</span> <span class="ow">in</span> <span class="n">uniqueNGram</span><span class="p">[</span><span class="s1">&#39;ngrams&#39;</span><span class="p">]:</span>
+    <span class="n">find</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">ngram</span><span class="p">)</span>
+    <span class="n">ismatch</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="c1"># check with all license text except for licenses in cluster</span>
+    <span class="k">for</span> <span class="n">lic</span> <span class="ow">in</span> <span class="n">filtered</span><span class="p">:</span>
+      <span class="k">if</span> <span class="n">find</span> <span class="ow">in</span> <span class="n">lic</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
+        <span class="n">ismatch</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="k">break</span>
+
+    <span class="k">if</span> <span class="n">ismatch</span><span class="p">:</span>
+      <span class="n">matches</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">find</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">matches</span></div>
+
+
+<div class="viewcode-block" id="createNgrams"><a class="viewcode-back" href="../../../source/atarashi.libs.ngram.html#atarashi.libs.ngram.createNgrams">[docs]</a><span class="k">def</span> <span class="nf">createNgrams</span><span class="p">(</span><span class="n">licenseList</span><span class="p">,</span> <span class="n">ngramJsonLoc</span><span class="p">,</span> <span class="n">threads</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">cpu_count</span><span class="p">(),</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+  <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">  Creates a Ngram_keywords.json in location specified by user that contains unique ngrams for each license cluster</span>
+
+<span class="sd">  :param licenseList: Processed License List (CSV)</span>
+<span class="sd">  :param ngramJsonLoc: Specify N-Gram Json File location</span>
+<span class="sd">  :param threads: Number of CPU to be used for creating n-grams. This is done to speed up the process.</span>
+<span class="sd">  :param verbose: Specify if verbose mode is on or not (Default is Off/ None)</span>
+<span class="sd">  :return: Returns</span>
+<span class="sd">    - n-gram json file location,</span>
+<span class="sd">    - Array - matched_output (Licenses that has non-zero unique n-gram identifiers)</span>
+<span class="sd">    - Array - no_keyword_matched (licenses woth zero unique n-gram identifiers)</span>
+<span class="sd">  &#39;&#39;&#39;</span>
+  <span class="n">uniqueNGrams</span><span class="p">,</span> <span class="n">cluster_arr</span><span class="p">,</span> <span class="n">licenses</span> <span class="o">=</span> <span class="n">load_database</span><span class="p">(</span><span class="n">licenseList</span><span class="p">,</span> <span class="n">verbose</span><span class="p">)</span>
+  <span class="n">no_keyword_matched</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="n">matched_output</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="n">ngram_keywords</span> <span class="o">=</span> <span class="p">[]</span>
+
+  <span class="n">cpuCount</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">cpu_count</span><span class="p">()</span>
+  <span class="n">threads</span> <span class="o">=</span> <span class="n">cpuCount</span> <span class="o">*</span> <span class="mi">2</span> <span class="k">if</span> <span class="n">threads</span> <span class="o">&gt;</span> <span class="n">cpuCount</span> <span class="o">*</span> <span class="mi">2</span> <span class="k">else</span> <span class="n">threads</span>
+  <span class="n">pool</span> <span class="o">=</span> <span class="n">ThreadPool</span><span class="p">(</span><span class="n">threads</span><span class="p">)</span>
+
+  <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">tqdm</span><span class="p">(</span><span class="n">pool</span><span class="o">.</span><span class="n">imap_unordered</span><span class="p">(</span><span class="n">unique_ngrams</span><span class="p">,</span> <span class="n">uniqueNGrams</span><span class="p">),</span>
+                                 <span class="n">desc</span><span class="o">=</span><span class="s2">&quot;Licenses processed&quot;</span><span class="p">,</span> <span class="n">total</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">cluster_arr</span><span class="p">),</span>
+                                 <span class="n">unit</span><span class="o">=</span><span class="s2">&quot;license&quot;</span><span class="p">)):</span>
+
+    <span class="n">matched_output</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="nb">str</span><span class="p">(</span><span class="n">uniqueNGrams</span><span class="p">[</span><span class="n">idx</span><span class="p">][</span><span class="s1">&#39;shortname&#39;</span><span class="p">]),</span> <span class="nb">len</span><span class="p">(</span><span class="n">row</span><span class="p">)])</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">row</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="n">no_keyword_matched</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">uniqueNGrams</span><span class="p">[</span><span class="n">idx</span><span class="p">][</span><span class="s1">&#39;shortname&#39;</span><span class="p">])</span>
+
+    <span class="n">ngram_keywords</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+      <span class="s1">&#39;shortname&#39;</span><span class="p">:</span> <span class="n">uniqueNGrams</span><span class="p">[</span><span class="n">idx</span><span class="p">][</span><span class="s1">&#39;shortname&#39;</span><span class="p">],</span>
+      <span class="s1">&#39;ngrams&#39;</span><span class="p">:</span> <span class="n">row</span>
+    <span class="p">})</span>
+
+  <span class="n">ngramJsonLoc</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">ngramJsonLoc</span><span class="p">)</span>
+  <span class="n">folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">ngramJsonLoc</span><span class="p">)</span>
+
+  <span class="n">Path</span><span class="p">(</span><span class="n">folder</span><span class="p">)</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+  <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">ngramJsonLoc</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">myfile</span><span class="p">:</span>
+    <span class="n">myfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">ngram_keywords</span><span class="p">))</span>
+  <span class="k">return</span> <span class="n">ngramJsonLoc</span><span class="p">,</span> <span class="n">matched_output</span><span class="p">,</span> <span class="n">no_keyword_matched</span></div>
+
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+  <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">()</span>
+  <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;processedLicenseList&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Specify the processed license list file&quot;</span><span class="p">)</span>
+  <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;ngramJson&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Specify the location to store &quot;</span>
+                                        <span class="s2">&quot;NGRAM JSON&quot;</span><span class="p">)</span>
+  <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;-t&quot;</span><span class="p">,</span> <span class="s2">&quot;--threads&quot;</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">cpu_count</span><span class="p">(),</span>
+                      <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span>
+                      <span class="n">help</span><span class="o">=</span><span class="s2">&quot;No of threads to use for download. Default: CPU count&quot;</span><span class="p">)</span>
+  <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;-v&quot;</span><span class="p">,</span> <span class="s2">&quot;--verbose&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;increase output verbosity&quot;</span><span class="p">,</span>
+                      <span class="n">action</span><span class="o">=</span><span class="s2">&quot;count&quot;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+  <span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+
+  <span class="n">licenseList</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">processedLicenseList</span>
+  <span class="n">threads</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">threads</span>
+  <span class="n">ngramJsonLoc</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">ngramJson</span>
+  <span class="n">verbose</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">verbose</span>
+
+  <span class="n">createNgrams</span><span class="p">(</span><span class="n">licenseList</span><span class="p">,</span> <span class="n">ngramJsonLoc</span><span class="p">,</span> <span class="n">threads</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">)</span>
+  <span class="k">if</span> <span class="n">verbose</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">matched_output</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;licenses with no unique keywords&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">no_keyword_matched</span><span class="p">)</span>
+
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">Steps:</span>
+<span class="sd">1. Get all licenses (processed)</span>
+<span class="sd">2. Make ngrams of it and store somewhere</span>
+<span class="sd">3. Now check all the ngrams of each license</span>
+<span class="sd">4. store the unique ngrams in a file (maybe csv or any file)</span>
+
+<span class="sd">&#39;&#39;&#39;</span>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">atarashi 0.0.9 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Aman Jain.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>

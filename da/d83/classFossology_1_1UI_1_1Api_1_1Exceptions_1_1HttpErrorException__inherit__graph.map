@@ -1,0 +1,12 @@
+<map id="Fossology\UI\Api\Exceptions\HttpErrorException" name="Fossology\UI\Api\Exceptions\HttpErrorException">
+<area shape="rect" id="node1" title=" " alt="" coords="836,131,1041,281"/>
+<area shape="rect" id="node3" href="$d2/d70/classFossology_1_1UI_1_1Api_1_1Exceptions_1_1HttpBadRequestException.html" title=" " alt="" coords="5,329,211,421"/>
+<area shape="rect" id="node4" href="$db/dff/classFossology_1_1UI_1_1Api_1_1Exceptions_1_1HttpConflictException.html" title=" " alt="" coords="235,329,440,421"/>
+<area shape="rect" id="node5" href="$dc/dd8/classFossology_1_1UI_1_1Api_1_1Exceptions_1_1HttpForbiddenException.html" title=" " alt="" coords="464,329,669,421"/>
+<area shape="rect" id="node6" href="$de/d8c/classFossology_1_1UI_1_1Api_1_1Exceptions_1_1HttpInternalServerErrorException.html" title=" " alt="" coords="694,329,935,421"/>
+<area shape="rect" id="node7" href="$dd/dfb/classFossology_1_1UI_1_1Api_1_1Exceptions_1_1HttpNotFoundException.html" title=" " alt="" coords="960,329,1165,421"/>
+<area shape="rect" id="node8" href="$d7/d9c/classFossology_1_1UI_1_1Api_1_1Exceptions_1_1HttpPreconditionFailException.html" title=" " alt="" coords="1189,329,1411,421"/>
+<area shape="rect" id="node9" href="$da/dbb/classFossology_1_1UI_1_1Api_1_1Exceptions_1_1HttpServiceUnavailableException.html" title=" " alt="" coords="1435,329,1679,421"/>
+<area shape="rect" id="node10" href="$d0/d11/classFossology_1_1UI_1_1Api_1_1Exceptions_1_1HttpTooManyRequestException.html" title=" " alt="" coords="1704,329,1933,421"/>
+<area shape="rect" id="node2" title=" " alt="" coords="895,5,982,83"/>
+</map>

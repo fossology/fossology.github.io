@@ -1,0 +1,28 @@
+var classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate =
+[
+    [ "__construct", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#a5c729d43db9f8f200cc3f0b1e5be232f", null ],
+    [ "convertDbArray", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#a9160c8b96f19d062e8d3b700649f7e41", null ],
+    [ "createFromArray", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#a8bbc30983e36295742a66391247fb495", null ],
+    [ "getArray", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#a17474e4654cc44e74346509e841c0316", null ],
+    [ "getFullname", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#ab687dbc5ba866c2baa6bd3e775d146be", null ],
+    [ "getGroupId", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#a7ed0f3c87c6f69efaa8f97922d8710ac", null ],
+    [ "getGroupName", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#aaee982c0609b95bcc6a1f4c4dea3b950", null ],
+    [ "getId", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#ace38b273344df3848b4e5ac6887501e8", null ],
+    [ "getShortname", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#a616edfb344919310d9b9d638a7ab9ebc", null ],
+    [ "getSpdxid", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#ab16cec7840d11c6aae373f1fedf9bed7", null ],
+    [ "getText", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#ae9d21450a668614ba48b17ee04dc37c8", null ],
+    [ "setFullname", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#a46166f2b6048029a37c9062907ed38a0", null ],
+    [ "setGroupId", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#aca5861a590c8c1733810114dff4bd2c7", null ],
+    [ "setGroupName", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#ae4050155227afab86380cc13807ad2b7", null ],
+    [ "setId", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#ae375df7fbfdb251a8dac6a2f70cd084f", null ],
+    [ "setShortname", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#aa2c16507e733e7c8b9d1471b1807d8f4", null ],
+    [ "setSpdxid", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#a341de63b0c49480a376eeeb4453f83f7", null ],
+    [ "setText", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#a8664e01cec7e53717f8711d9ec0a95b0", null ],
+    [ "$fullname", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#a875b7522d23cf17fa4b07bfecc2205a0", null ],
+    [ "$group_id", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#adffeba2cb90f168f8b9d733d0a537d90", null ],
+    [ "$group_name", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#a4546194553563c07502441649fbd7ca6", null ],
+    [ "$id", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#a057faf96614734d6e9c96f1a7dc6e91e", null ],
+    [ "$shortname", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#ab24567f1edfb4a47f3f20ffc467c9118", null ],
+    [ "$spdxid", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#a97af09e40d4c961bb50017145e1fc0de", null ],
+    [ "$text", "d6/d94/classFossology_1_1UI_1_1Api_1_1Models_1_1LicenseCandidate.html#a7f2306304f305453e9cd3328f296d692", null ]
+];
