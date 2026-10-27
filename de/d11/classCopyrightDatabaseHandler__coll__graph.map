@@ -1,0 +1,6 @@
+<map id="CopyrightDatabaseHandler" name="CopyrightDatabaseHandler">
+<area shape="rect" id="node1" title="Manages database related requests for agent." alt="" coords="191,637,413,876"/>
+<area shape="rect" id="node2" href="$de/d65/classfo_1_1AgentDatabaseHandler.html" title="Database handler for agents." alt="" coords="5,321,239,560"/>
+<area shape="rect" id="node3" href="$d3/d64/classfo_1_1DbManager.html" title="DB wrapper for agents." alt="" coords="29,5,215,259"/>
+<area shape="rect" id="node4" href="$d6/d05/structCopyrightDatabaseHandler_1_1ColumnDef.html" title="Holds the column related data for table creation." alt="" coords="263,380,461,501"/>
+</map>

@@ -1,0 +1,26 @@
+var classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory =
+[
+    [ "__construct", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#ada4858c0bb13bd3b6cbac64ae4e68352", null ],
+    [ "getAddedLicenses", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a94618ae23410508f84d184fb9453741d", null ],
+    [ "getArray", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#af33a0e798b94710bad0ea78c6826e087", null ],
+    [ "getBulkId", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a911e677f25533440e501a5765cd3fd86", null ],
+    [ "getClearingEventId", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a39d2a51a4868e0037c0302222260295c", null ],
+    [ "getMatched", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#ab6cb6236cd509b26647f9b1c204839e2", null ],
+    [ "getRemovedLicenses", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#acd9270fc0c9d9e062cb11d7df701361b", null ],
+    [ "getText", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a2923989cac15946c0003881a91bc330b", null ],
+    [ "getTried", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a8f4df5f40db5d81d1e5b0837b3a24da1", null ],
+    [ "setAddedLicenses", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a786ecf4cef95e4d4afb321e3c1cf6095", null ],
+    [ "setBulkId", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a2798c20d47409aba47d228b9fde921af", null ],
+    [ "setClearingEventId", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a4c584a3a999a901c8d692944269fd0f9", null ],
+    [ "setMatched", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a0a32e65f627420ad371395a587a94788", null ],
+    [ "setRemovedLicenses", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#ae216f8d23066e8a07de2397c998df8c1", null ],
+    [ "setText", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a1d42e47196e330ea60ebd666068b83e8", null ],
+    [ "setTried", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#ac13202b38dc55e0a5e2167075c1b2fed", null ],
+    [ "$addedLicenses", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a0705401df56224ead79e050786fe6f06", null ],
+    [ "$bulkId", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a5b2588e59a787d45311b36f7358919a3", null ],
+    [ "$clearingEventId", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a08d7f4d7aa9be7d9e1b88092683265a9", null ],
+    [ "$matched", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a23c844c70460beaa91c93ebdf0d83c30", null ],
+    [ "$removedLicenses", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a08c9c7e0d2e2c0947ab933c2ac9c4a3d", null ],
+    [ "$text", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a0ad051ef567497c2bce0f179a0833d36", null ],
+    [ "$tried", "d8/d81/classFossology_1_1UI_1_1Api_1_1Models_1_1BulkHistory.html#a0c01bb3b72f9beee401001c2c6a89d03", null ]
+];
