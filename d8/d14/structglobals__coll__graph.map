@@ -1,0 +1,6 @@
+<map id="globals" name="globals">
+<area shape="rect" id="node1" title="Structure holding data truly global in that it remains consistent for each file scanned." alt="" coords="70,417,175,612"/>
+<area shape="rect" id="node2" href="$d0/de7/structfo__dbManager.html" title=" " alt="" coords="5,241,120,318"/>
+<area shape="rect" id="node3" href="$d8/d10/structlist.html" title="list_t type structure used to keep various lists. (e.g. there are multiple lists)." alt="" coords="145,204,223,355"/>
+<area shape="rect" id="node4" href="$d9/df5/structlistitem.html" title="tricky data structure used for a list of &#39;items&#39;" alt="" coords="148,5,220,141"/>
+</map>

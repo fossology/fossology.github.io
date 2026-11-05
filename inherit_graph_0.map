@@ -1,0 +1,225 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="161,4527,376,4553"/>
+<area shape="rect" id="node2" href="$de/de0/classAdminLicenseFileTest.html" title="Test for admin_license_file::isAgentPlaceholderText() @runTestsInSeparateProcesses @preserveGlobalSta..." alt="" coords="480,461,643,488"/>
+<area shape="rect" id="node3" href="$db/d23/classAgentAdderTest.html" title="Test for AgentAdder::agentsAdd(), covering the scheduling&#45;order fix @runTestsInSeparateProcesses @pre..." alt="" coords="499,512,623,539"/>
+<area shape="rect" id="node4" href="$de/dab/classCommonCliTest.html" title="Tests for common CLI operations." alt="" coords="499,563,623,589"/>
+<area shape="rect" id="node15" href="$df/de6/classCompatibilityScheduledTest.html" title="Functional test cases for compatibility agent using scheduler." alt="" coords="460,613,663,640"/>
+<area shape="rect" id="node16" href="$db/dc6/classDeciderAgentPluginTest.html" title="Test for class DeciderAgentPlugin, covering the malformed&#45;request guards on scheduleAgent(),..." alt="" coords="473,664,649,691"/>
+<area shape="rect" id="node17" href="$d2/d2f/classFossology_1_1CliXml_1_1Test_1_1SchedulerTest.html" title=" " alt="" coords="479,715,643,757"/>
+<area shape="rect" id="node18" href="$da/d90/classFossology_1_1Decider_1_1DeciderAgentKotobaTest.html" title="Unit tests for DeciderAgent::autodecideIfKotobaMatchesNoContradiction()" alt="" coords="464,781,659,822"/>
+<area shape="rect" id="node19" href="$d7/d70/classFossology_1_1Decider_1_1DeciderAgentTest.html" title=" " alt="" coords="464,846,659,887"/>
+<area shape="rect" id="node20" href="$dc/d3f/classFossology_1_1Decider_1_1Test_1_1SchedulerTest.html" title="Test cases for interaction between decider and scheduler." alt="" coords="476,911,647,953"/>
+<area shape="rect" id="node21" href="$d6/d41/classFossology_1_1DeciderJob_1_1Test_1_1SchedulerTest.html" title="Test interactions between scheduler and agent." alt="" coords="481,977,642,1018"/>
+<area shape="rect" id="node22" href="$d3/d8d/classFossology_1_1Lib_1_1Application_1_1BulkTextExportTest.html" title="Test for class BulkTextExport." alt="" coords="468,1042,655,1083"/>
+<area shape="rect" id="node23" href="$d1/dc5/classFossology_1_1Lib_1_1Application_1_1CustomTextEscapingTest.html" title="Test for class CustomTextEscaping." alt="" coords="468,1107,655,1149"/>
+<area shape="rect" id="node24" href="$d7/d32/classFossology_1_1Lib_1_1Application_1_1CustomTextImportTest.html" title="Test for class CustomTextImport." alt="" coords="468,1173,655,1214"/>
+<area shape="rect" id="node25" href="$d5/dfb/classFossology_1_1Lib_1_1Application_1_1LicenseCompatibilityRulesYamlImportTest.html" title="Test for LicenseCompatibilityRulesYamlImport." alt="" coords="446,1239,677,1295"/>
+<area shape="rect" id="node26" href="$da/dd4/classFossology_1_1Lib_1_1Application_1_1LicenseCsvExportTest.html" title="Test for class LicenseCsvExport." alt="" coords="468,1319,655,1361"/>
+<area shape="rect" id="node27" href="$d6/dd5/classFossology_1_1Lib_1_1Application_1_1LicenseCsvImportTest.html" title="Test for LicenseCsvImport." alt="" coords="468,1385,655,1426"/>
+<area shape="rect" id="node28" href="$d4/d5c/classFossology_1_1Lib_1_1Application_1_1RepositoryApiTest.html" title="Test for RepositoryApi." alt="" coords="468,1450,655,1491"/>
+<area shape="rect" id="node29" href="$dd/d2c/classFossology_1_1Lib_1_1Application_1_1UserInfoTest.html" title="Unit tests for UserInfo class." alt="" coords="468,1515,655,1557"/>
+<area shape="rect" id="node30" href="$d1/de3/classFossology_1_1Lib_1_1Auth_1_1AuthTest.html" title="Test for class Auth." alt="" coords="489,1581,633,1622"/>
+<area shape="rect" id="node31" href="$d6/d02/classFossology_1_1Lib_1_1BusinessRules_1_1AgentLicenseEventProcessorTest.html" title=" " alt="" coords="442,1646,681,1687"/>
+<area shape="rect" id="node32" href="$df/de5/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionFilterTest.html" title=" " alt="" coords="457,1711,665,1753"/>
+<area shape="rect" id="node33" href="$dc/dac/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingDecisionProcessorTest.html" title=" " alt="" coords="449,1777,674,1818"/>
+<area shape="rect" id="node34" href="$da/d80/classFossology_1_1Lib_1_1BusinessRules_1_1ClearingEventProcessorTest.html" title=" " alt="" coords="457,1842,665,1883"/>
+<area shape="rect" id="node35" href="$d3/dce/classFossology_1_1Lib_1_1BusinessRules_1_1LicenseMapTest.html" title=" " alt="" coords="457,1907,665,1949"/>
+<area shape="rect" id="node36" href="$d7/d54/classFossology_1_1Lib_1_1Dao_1_1AgentDaoTest.html" title=" " alt="" coords="444,1973,679,2000"/>
+<area shape="rect" id="node37" href="$d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html" title=" " alt="" coords="462,2025,661,2066"/>
+<area shape="rect" id="node38" href="$d0/da0/classFossology_1_1Lib_1_1Dao_1_1CopyrightDaoTest.html" title=" " alt="" coords="458,2090,665,2131"/>
+<area shape="rect" id="node39" href="$dd/d05/classFossology_1_1Lib_1_1Dao_1_1Data_1_1ItemTreeBoundsTest.html" title=" " alt="" coords="474,2155,649,2197"/>
+<area shape="rect" id="node40" href="$dd/d52/classFossology_1_1Lib_1_1Dao_1_1FolderDaoTest.html" title=" " alt="" coords="469,2221,653,2262"/>
+<area shape="rect" id="node41" href="$d4/d7e/classFossology_1_1Lib_1_1Dao_1_1LicenseDaoTest.html" title=" " alt="" coords="465,2286,658,2327"/>
+<area shape="rect" id="node42" href="$d1/d4b/classFossology_1_1Lib_1_1Dao_1_1PfileDaoTest.html" title="Test cases for PfileDao." alt="" coords="449,2352,673,2379"/>
+<area shape="rect" id="node43" href="$d5/d68/classFossology_1_1Lib_1_1Dao_1_1ShowJobsDaoTest.html" title=" " alt="" coords="458,2403,665,2445"/>
+<area shape="rect" id="node44" href="$d9/d11/classFossology_1_1Lib_1_1Dao_1_1TreeDaoTest.html" title=" " alt="" coords="450,2469,673,2496"/>
+<area shape="rect" id="node45" href="$db/d02/classFossology_1_1Lib_1_1Dao_1_1UploadDaoTest.html" title=" " alt="" coords="466,2521,657,2562"/>
+<area shape="rect" id="node46" href="$d5/d6d/classFossology_1_1Lib_1_1Dao_1_1UploadPermissionDaoTest.html" title=" " alt="" coords="466,2586,657,2627"/>
+<area shape="rect" id="node47" href="$d5/d2b/classFossology_1_1Lib_1_1Dao_1_1UserDaoTest.html" title=" " alt="" coords="448,2652,675,2679"/>
+<area shape="rect" id="node48" href="$de/d4b/classFossology_1_1Lib_1_1Data_1_1AgentRefTest.html" title=" " alt="" coords="489,2703,634,2745"/>
+<area shape="rect" id="node49" href="$d9/d3c/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1AgentClearingEventTest.html" title=" " alt="" coords="442,2769,681,2810"/>
+<area shape="rect" id="node50" href="$de/db1/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEventTest.html" title=" " alt="" coords="461,2834,662,2875"/>
+<area shape="rect" id="node51" href="$dd/d9c/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingResultTest.html" title=" " alt="" coords="459,2899,664,2941"/>
+<area shape="rect" id="node52" href="$d3/d3d/classFossology_1_1Lib_1_1Data_1_1ClearingDecisionBuilderTest.html" title=" " alt="" coords="457,2965,665,3006"/>
+<area shape="rect" id="node53" href="$dd/d17/classFossology_1_1Lib_1_1Data_1_1Folder_1_1FolderTest.html" title=" " alt="" coords="489,3030,634,3071"/>
+<area shape="rect" id="node54" href="$d1/dc2/classFossology_1_1Lib_1_1Data_1_1HighlightTest.html" title=" " alt="" coords="489,3095,634,3137"/>
+<area shape="rect" id="node55" href="$df/da9/classFossology_1_1Lib_1_1Data_1_1LicenseMatchTest.html" title=" " alt="" coords="489,3161,634,3202"/>
+<area shape="rect" id="node56" href="$d9/df1/classFossology_1_1Lib_1_1Data_1_1LicenseRefTest.html" title=" " alt="" coords="489,3226,634,3267"/>
+<area shape="rect" id="node57" href="$d7/da3/classFossology_1_1Lib_1_1Data_1_1LicenseTest.html" title=" " alt="" coords="489,3291,634,3333"/>
+<area shape="rect" id="node58" href="$d8/d4a/classFossology_1_1Lib_1_1Data_1_1Package_1_1PackageTest.html" title=" " alt="" coords="480,3357,643,3398"/>
+<area shape="rect" id="node59" href="$d2/d26/classFossology_1_1Lib_1_1Data_1_1TextFragmentTest.html" title=" " alt="" coords="489,3422,634,3463"/>
+<area shape="rect" id="node60" href="$d2/deb/classFossology_1_1Lib_1_1Data_1_1Tree_1_1ItemTest.html" title=" " alt="" coords="489,3487,634,3529"/>
+<area shape="rect" id="node61" href="$d8/df7/classFossology_1_1Lib_1_1Data_1_1Upload_1_1UploadTest.html" title=" " alt="" coords="487,3553,635,3594"/>
+<area shape="rect" id="node62" href="$d1/d0d/classFossology_1_1Lib_1_1Db_1_1DbManagerTest.html" title=" " alt="" coords="443,3619,680,3645"/>
+<area shape="rect" id="node63" href="$d8/d7d/classFossology_1_1Lib_1_1Db_1_1DbManagerTestCase.html" title=" " alt="" coords="456,3670,667,3711"/>
+<area shape="rect" id="node66" href="$db/d0a/classFossology_1_1Lib_1_1Html_1_1LinkElementTest.html" title=" " alt="" coords="488,3735,635,3777"/>
+<area shape="rect" id="node67" href="$de/d25/classFossology_1_1Lib_1_1Html_1_1SimpleElementTest.html" title=" " alt="" coords="486,3801,637,3842"/>
+<area shape="rect" id="node68" href="$dd/dbb/classFossology_1_1Lib_1_1Plugin_1_1DefaultPluginTest.html" title=" " alt="" coords="484,3866,639,3907"/>
+<area shape="rect" id="node69" href="$df/dc8/classFossology_1_1Lib_1_1Proxy_1_1DbViewProxyTest.html" title=" " alt="" coords="486,3931,637,3973"/>
+<area shape="rect" id="node70" href="$d3/d1f/classFossology_1_1Lib_1_1Proxy_1_1LatestScannerProxyTest.html" title=" " alt="" coords="471,3997,652,4038"/>
+<area shape="rect" id="node71" href="$df/d79/classFossology_1_1Lib_1_1Proxy_1_1LicenseViewProxyTest.html" title=" " alt="" coords="476,4062,647,4103"/>
+<area shape="rect" id="node72" href="$d7/db1/classFossology_1_1Lib_1_1Proxy_1_1ScanJobProxyTest.html" title=" " alt="" coords="486,4127,637,4169"/>
+<area shape="rect" id="node73" href="$d2/ddd/classFossology_1_1Lib_1_1Proxy_1_1UploadBrowseProxyTest.html" title=" " alt="" coords="470,4193,653,4234"/>
+<area shape="rect" id="node74" href="$dc/d7c/classFossology_1_1Lib_1_1Proxy_1_1UploadTreeProxyTest.html" title=" " alt="" coords="480,4258,643,4299"/>
+<area shape="rect" id="node75" href="$d7/d9c/classFossology_1_1Lib_1_1Proxy_1_1UploadTreeViewProxyTest.html" title=" " alt="" coords="464,4323,659,4365"/>
+<area shape="rect" id="node76" href="$d6/d52/classFossology_1_1Lib_1_1Report_1_1ClearedGetterCommonTest.html" title=" " alt="" coords="460,4389,663,4430"/>
+<area shape="rect" id="node77" href="$d0/d77/classFossology_1_1Lib_1_1Test_1_1EnumMapTestBase.html" title=" " alt="" coords="487,4454,636,4495"/>
+<area shape="rect" id="node81" href="$d9/d4e/classFossology_1_1Lib_1_1Test_1_1ReflectoryTest.html" title=" " alt="" coords="491,4519,631,4561"/>
+<area shape="rect" id="node82" href="$d2/da9/classFossology_1_1Lib_1_1Test_1_1TestLiteDbTest.html" title=" " alt="" coords="491,4585,631,4626"/>
+<area shape="rect" id="node83" href="$de/dc7/classFossology_1_1Lib_1_1Test_1_1TestPgDbTest.html" title=" " alt="" coords="491,4650,631,4691"/>
+<area shape="rect" id="node84" href="$d1/d74/classFossology_1_1Lib_1_1Text_1_1EncodingConverterTest.html" title=" " alt="" coords="474,4715,649,4757"/>
+<area shape="rect" id="node85" href="$d9/dcd/classFossology_1_1Lib_1_1UI_1_1FolderNavTest.html" title=" " alt="" coords="449,4781,673,4808"/>
+<area shape="rect" id="node86" href="$dc/d1b/classFossology_1_1Lib_1_1UI_1_1MenuHookTest.html" title="Test for class MenuHook." alt="" coords="447,4832,675,4859"/>
+<area shape="rect" id="node87" href="$d8/d98/classFossology_1_1Lib_1_1Util_1_1ArrayOperationTest.html" title=" " alt="" coords="486,4883,637,4925"/>
+<area shape="rect" id="node88" href="$d5/d2a/classFossology_1_1Lib_1_1Util_1_1StringOperationTest.html" title=" " alt="" coords="484,4949,639,4990"/>
+<area shape="rect" id="node89" href="$d2/df6/classFossology_1_1Lib_1_1Util_1_1TimingLoggerTest.html" title=" " alt="" coords="491,5014,632,5055"/>
+<area shape="rect" id="node90" href="$d5/d47/classFossology_1_1Lib_1_1View_1_1HighlightProcessorTest.html" title=" " alt="" coords="474,5079,649,5121"/>
+<area shape="rect" id="node91" href="$dc/d97/classFossology_1_1Lib_1_1View_1_1HighlightRendererTest.html" title=" " alt="" coords="476,5145,647,5186"/>
+<area shape="rect" id="node92" href="$d3/d8b/classFossology_1_1Lib_1_1View_1_1HighlightStateTest.html" title=" " alt="" coords="488,5210,635,5251"/>
+<area shape="rect" id="node93" href="$da/d90/classFossology_1_1Lib_1_1View_1_1PagedHexResultTest.html" title=" " alt="" coords="482,5275,641,5317"/>
+<area shape="rect" id="node94" href="$de/d33/classFossology_1_1Lib_1_1View_1_1PagedResultTest.html" title=" " alt="" coords="488,5341,635,5382"/>
+<area shape="rect" id="node95" href="$d1/d7e/classFossology_1_1Lib_1_1View_1_1PagedTextResultTest.html" title=" " alt="" coords="482,5406,641,5447"/>
+<area shape="rect" id="node96" href="$da/dd1/classFossology_1_1Lib_1_1View_1_1TextRendererTest.html" title=" " alt="" coords="488,5471,635,5513"/>
+<area shape="rect" id="node97" href="$de/d80/classFossology_1_1Lib_1_1View_1_1UrlBuilderTest.html" title=" " alt="" coords="488,5537,635,5578"/>
+<area shape="rect" id="node98" href="$d3/dba/classFossology_1_1Report_1_1Test_1_1SchedulerTest.html" title="Test for unified report." alt="" coords="479,5602,643,5643"/>
+<area shape="rect" id="node99" href="$df/db5/classFossology_1_1Reuser_1_1Test_1_1SchedulerTest.html" title="Tests for Reuser agent and scheduler interaction." alt="" coords="478,5667,645,5709"/>
+<area shape="rect" id="node100" href="$d1/d20/classFossology_1_1Spdx_1_1Test_1_1SchedulerTest.html" title="Tests for Spdx agent and scheduler interaction." alt="" coords="485,5733,638,5774"/>
+<area shape="rect" id="node101" href="$d9/df6/classFossology_1_1Spdx_1_1spdxutilTest.html" title=" " alt="" coords="459,5799,664,5825"/>
+<area shape="rect" id="node102" href="$d2/dc2/classFossology_1_1UI_1_1Api_1_1Helper_1_1RestHelperTest.html" title="Test cases for RestHelper." alt="" coords="473,5850,650,5891"/>
+<area shape="rect" id="node103" href="$d3/dfc/classFossology_1_1UI_1_1Api_1_1Test_1_1Controllers_1_1AuthControllerTest.html" title="Test for AuthController." alt="" coords="451,5915,672,5957"/>
+<area shape="rect" id="node104" href="$d4/d73/classFossology_1_1UI_1_1Api_1_1Test_1_1Controllers_1_1CopyrightControllerTest.html" title=" " alt="" coords="434,5981,689,6022"/>
+<area shape="rect" id="node105" href="$d7/d4f/classFossology_1_1UI_1_1Api_1_1Test_1_1Controllers_1_1FolderControllerTest.html" title="Test for FolderController." alt="" coords="446,6046,677,6087"/>
+<area shape="rect" id="node106" href="$d4/d95/classFossology_1_1UI_1_1Api_1_1Test_1_1Controllers_1_1GroupControllerTest.html" title="Tests for GroupController." alt="" coords="446,6111,677,6153"/>
+<area shape="rect" id="node107" href="$d5/df0/classFossology_1_1UI_1_1Api_1_1Test_1_1Controllers_1_1InfoControllerTest.html" title="Test cases for InfoController." alt="" coords="453,6177,669,6218"/>
+<area shape="rect" id="node108" href="$dc/d61/classFossology_1_1UI_1_1Api_1_1Test_1_1Controllers_1_1JobControllerTest.html" title="Tests for JobController." alt="" coords="456,6242,667,6283"/>
+<area shape="rect" id="node109" href="$de/da9/classFossology_1_1UI_1_1Api_1_1Test_1_1Controllers_1_1LicenseCompatibilityRuleControllerTest.html" title="Unit tests for LicenseCompatibilityRuleController." alt="" coords="442,6308,681,6364"/>
+<area shape="rect" id="node110" href="$d1/dc2/classFossology_1_1UI_1_1Api_1_1Test_1_1Controllers_1_1LicenseControllerTest.html" title="Unit tests for LicenseController." alt="" coords="441,6389,681,6430"/>
+<area shape="rect" id="node111" href="$d3/df1/classFossology_1_1UI_1_1Api_1_1Test_1_1Controllers_1_1MaintenanceControllerTest.html" title="Tests for MaintenanceController." alt="" coords="424,6454,699,6495"/>
+<area shape="rect" id="node112" href="$d2/dda/classFossology_1_1UI_1_1Api_1_1Test_1_1Controllers_1_1ReportControllerTest.html" title="Tests for ReportController." alt="" coords="444,6519,679,6561"/>
+<area shape="rect" id="node113" href="$dc/d78/classFossology_1_1UI_1_1Api_1_1Test_1_1Controllers_1_1UploadControllerTest.html" title="Unit tests for UploadController." alt="" coords="443,6585,680,6626"/>
+<area shape="rect" id="node114" href="$d1/d44/classFossology_1_1UI_1_1Api_1_1Test_1_1Controllers_1_1UploadTreeControllerTest.html" title=" " alt="" coords="429,6650,693,6691"/>
+<area shape="rect" id="node115" href="$dd/da8/classFossology_1_1UI_1_1Api_1_1Test_1_1Controllers_1_1UserControllerTest.html" title="Test cases for UserController." alt="" coords="451,6715,672,6757"/>
+<area shape="rect" id="node116" href="$df/dc8/classFossology_1_1UI_1_1Api_1_1Test_1_1Helper_1_1AuthHelperTest.html" title="Test cases for AuthHelper." alt="" coords="475,6781,647,6822"/>
+<area shape="rect" id="node117" href="$d9/d60/classFossology_1_1UI_1_1Api_1_1Test_1_1Helper_1_1DbHelperTest.html" title="Tests for DbHelper." alt="" coords="481,6846,641,6887"/>
+<area shape="rect" id="node118" href="$dc/d81/classFossology_1_1UI_1_1Api_1_1Test_1_1Models_1_1AnalysisTest.html" title="Tests for Analysis model." alt="" coords="481,6911,641,6953"/>
+<area shape="rect" id="node119" href="$de/d53/classFossology_1_1UI_1_1Api_1_1Test_1_1Models_1_1DeciderTest.html" title="Tests for Decider model." alt="" coords="481,6977,641,7018"/>
+<area shape="rect" id="node120" href="$dd/da8/classFossology_1_1UI_1_1Api_1_1Test_1_1Models_1_1FileTest.html" title="Tests for File model." alt="" coords="481,7042,641,7083"/>
+<area shape="rect" id="node121" href="$d8/d70/classFossology_1_1UI_1_1Api_1_1Test_1_1Models_1_1FolderTest.html" title="Tests for Folder model." alt="" coords="481,7107,641,7149"/>
+<area shape="rect" id="node122" href="$dd/de9/classFossology_1_1UI_1_1Api_1_1Test_1_1Models_1_1InfoTest.html" title="Tests for Info model." alt="" coords="481,7173,641,7214"/>
+<area shape="rect" id="node123" href="$d4/ddf/classFossology_1_1UI_1_1Api_1_1Test_1_1Models_1_1LicenseTest.html" title="Test for License model." alt="" coords="481,7238,641,7279"/>
+<area shape="rect" id="node124" href="$d3/d56/classFossology_1_1UI_1_1Api_1_1Test_1_1Models_1_1ReuserTest.html" title="Tests for Reuser model." alt="" coords="481,7303,641,7345"/>
+<area shape="rect" id="node125" href="$df/dcc/classFossology_1_1UI_1_1Api_1_1Test_1_1Models_1_1ScanOptionsTest.html" title="Tests for ScanOption model." alt="" coords="469,7369,653,7410"/>
+<area shape="rect" id="node126" href="$d3/d76/classKotobaAgentPluginTest.html" title="Test for class KotobaAgentPlugin::isAgentScheduledForUpload()" alt="" coords="476,7435,647,7461"/>
+<area shape="rect" id="node127" href="$d6/df2/classMonkScheduledTest.html" title=" " alt="" coords="486,7485,637,7512"/>
+<area shape="rect" id="node128" href="$d6/dc3/classNinkaScheduledTest.html" title=" " alt="" coords="485,7536,637,7563"/>
+<area shape="rect" id="node129" href="$dd/d38/classOjoScheduledTest.html" title="Functional test cases for ojo agent using scheduler." alt="" coords="493,7587,630,7613"/>
+<area shape="rect" id="node130" href="$dd/d10/classStartUpTest.html" title=" " alt="" coords="513,7637,610,7664"/>
+<area shape="rect" id="node131" href="$d7/d7a/classTestCLib.html" title=" " alt="" coords="523,7688,599,7715"/>
+<area shape="rect" id="node132" href="$d2/d81/classUIExportListTest.html" title=" " alt="" coords="498,7739,625,7765"/>
+<area shape="rect" id="node133" href="$d3/db6/classUploadPermissionPageTest.html" title="Test for UploadPermissionPage::insertPermission(), covering the broken upload membership check fix @r..." alt="" coords="463,7789,660,7816"/>
+<area shape="rect" id="node134" href="$d3/d04/classbulkTest.html" title=" " alt="" coords="523,7840,599,7867"/>
+<area shape="rect" id="node135" href="$de/df5/classcli1Test.html" title=" " alt="" coords="526,7891,597,7917"/>
+<area shape="rect" id="node136" href="$d0/d42/classcliParamsTest4Mimetype.html" title="Test mimetype agent from cli." alt="" coords="469,7941,654,7968"/>
+<area shape="rect" id="node137" href="$d1/db6/classcliParamsTest4Ununpack.html" title="Test the ununpack agent cli parameters. (Normal)" alt="" coords="469,7992,653,8019"/>
+<area shape="rect" id="node138" href="$d9/d2e/classcliParamsTest4UnunpackExcption.html" title="Test the ununpack agent cli parameters. (Exceptions)" alt="" coords="441,8043,681,8069"/>
+<area shape="rect" id="node139" href="$d9/da5/classcliParamsTest4Wget.html" title=" " alt="" coords="485,8093,638,8120"/>
+<area shape="rect" id="node140" href="$da/d75/classcliTest.html" title=" " alt="" coords="530,8144,593,8171"/>
+<area shape="rect" id="node141" href="$d6/d5a/classft__DelagentTest.html" title="test delagent cli" alt="" coords="500,8195,623,8221"/>
+<area shape="rect" id="node142" href="$d7/d64/classft__cliDelagentTest.html" title="test the delagent agent thru command line." alt="" coords="492,8245,631,8272"/>
+<area shape="rect" id="node143" href="$d3/dbd/classft__cliPkgagentTest.html" title="Test cli parameter i and v and rpm file and no parameters." alt="" coords="491,8296,631,8323"/>
+<area shape="rect" id="node144" href="$de/d3c/classschedulerTest.html" title=" " alt="" coords="506,8347,617,8373"/>
+<area shape="rect" id="node145" href="$d4/d53/classtest__common__active.html" title=" " alt="" coords="482,8397,641,8424"/>
+<area shape="rect" id="node146" href="$d5/d5d/classtest__common__auth.html" title=" " alt="" coords="488,8448,635,8475"/>
+<area shape="rect" id="node147" href="$d2/df8/classtest__common__cached.html" title=" " alt="" coords="479,8499,643,8525"/>
+<area shape="rect" id="node148" href="$d9/dd8/classtest__common__cli.html" title=" " alt="" coords="495,8549,628,8576"/>
+<area shape="rect" id="node149" href="$db/d08/classtest__common__dir.html" title=" " alt="" coords="494,8600,629,8627"/>
+<area shape="rect" id="node150" href="$db/dec/classtest__common__license__file.html" title=" " alt="" coords="466,8651,657,8677"/>
+<area shape="rect" id="node151" href="$d2/dd2/classtest__common__multicompare.html" title=" " alt="" coords="457,8701,666,8728"/>
+<area shape="rect" id="node152" href="$de/d56/classtest__common__parm.html" title=" " alt="" coords="485,8752,637,8779"/>
+<area shape="rect" id="node153" href="$d2/d68/classtest__common__pkg.html" title=" " alt="" coords="490,8803,633,8829"/>
+<area shape="rect" id="node154" href="$d5/d76/classtest__common__sysconfig.html" title=" " alt="" coords="472,8853,651,8880"/>
+<area shape="rect" id="node155" href="$db/df0/classtest__common__ui.html" title=" " alt="" coords="496,5,627,32"/>
+<area shape="rect" id="node156" href="$d2/d31/classtest__cp2foss.html" title="test cli cp2foss" alt="" coords="509,56,613,83"/>
+<area shape="rect" id="node157" href="$d0/d0a/classtest__fo__copyright__list.html" title=" " alt="" coords="480,107,643,133"/>
+<area shape="rect" id="node158" href="$d4/d55/classtest__fo__nomos__license__list.html" title="test cli fo_nomos_license_list" alt="" coords="462,157,661,184"/>
+<area shape="rect" id="node159" href="$d8/d52/classtest__fossdash__config.html" title=" " alt="" coords="482,208,641,235"/>
+<area shape="rect" id="node160" href="$d1/dda/classtest__fossjobs.html" title="test cli fossjobs" alt="" coords="507,259,615,285"/>
+<area shape="rect" id="node161" href="$d1/d21/classtest__oneshot.html" title="test for one&#45;shot nomos/copyright" alt="" coords="508,309,615,336"/>
+<area shape="rect" id="node162" href="$df/d92/classtest__showjobs.html" title=" " alt="" coords="504,360,619,387"/>
+<area shape="rect" id="node163" href="$d0/da2/classui__picker__Test.html" title=" " alt="" coords="505,411,618,437"/>
+<area shape="rect" id="node5" href="$d7/d4c/classNomosFunTest.html" title="Runs regression test on NOMOS." alt="" coords="815,360,932,387"/>
+<area shape="rect" id="node6" href="$dd/d21/classOneShotJSON.html" title="Run one&#45;shot license analysis on JSON license." alt="" coords="819,411,928,437"/>
+<area shape="rect" id="node7" href="$d0/dca/classOneShotMultiFileTest.html" title="Perform a one&#45;shot license analysis on multiple files." alt="" coords="794,461,953,488"/>
+<area shape="rect" id="node8" href="$da/da4/classOneShotOracleBerkeleyDB.html" title="Perform a one&#45;shot license analysis on Oracle&#45;Berkeley&#45;DB and sleepycat license." alt="" coords="776,512,971,539"/>
+<area shape="rect" id="node9" href="$db/dd5/classOneShotafferoTest.html" title="Perform a one&#45;shot license analysis on a affero 2 and 3 licenses." alt="" coords="803,563,944,589"/>
+<area shape="rect" id="node10" href="$d2/dc6/classOneShotbsdTest.html" title="Perform a one&#45;shot license analysis on a file (include bsd license)" alt="" coords="810,613,937,640"/>
+<area shape="rect" id="node11" href="$d0/d1c/classOneShotemptyTest.html" title="Run a one&#45;shot license test on an empty file." alt="" coords="801,664,946,691"/>
+<area shape="rect" id="node12" href="$d0/dd9/classOneShotgpl3Test.html" title="Perform a one&#45;shot analysis on GPL_v3 license." alt="" coords="808,715,939,741"/>
+<area shape="rect" id="node13" href="$d8/d6f/classOneShotgplv21Test.html" title="Run one&#45;shot license analysis on LGPL_v2.1 license." alt="" coords="800,3677,947,3704"/>
+<area shape="rect" id="node14" href="$db/d00/classOneShotnoneTest.html" title="Perform a one&#45;shot license analysis on a file with no license." alt="" coords="806,765,941,792"/>
+<area shape="rect" id="node64" href="$d8/dfd/classFossology_1_1Lib_1_1Db_1_1ModernDbManagerTest.html" title=" " alt="" coords="772,3729,975,3770"/>
+<area shape="rect" id="node65" href="$df/dad/classFossology_1_1Lib_1_1Db_1_1SolidDbManagerTest.html" title=" " alt="" coords="780,3611,967,3653"/>
+<area shape="rect" id="node78" href="$df/d4d/classFossology_1_1Lib_1_1Data_1_1Clearing_1_1ClearingEventTypesTest.html" title=" " alt="" coords="754,4389,993,4430"/>
+<area shape="rect" id="node79" href="$d6/da3/classFossology_1_1Lib_1_1Data_1_1DecisionScopesTest.html" title=" " alt="" coords="796,4454,951,4495"/>
+<area shape="rect" id="node80" href="$d6/d34/classFossology_1_1Lib_1_1Data_1_1DecisionTypesTest.html" title=" " alt="" coords="801,4519,946,4561"/>
+<area shape="rect" id="node164" title=" " alt="" coords="5,9031,113,9057"/>
+<area shape="rect" id="node165" href="$df/ded/classTestAboutMenu.html" title=" " alt="" coords="812,10323,935,10349"/>
+<area shape="rect" id="node166" href="$da/d0f/classTestCreateFolder.html" title=" " alt="" coords="203,9107,334,9133"/>
+<area shape="rect" id="node167" href="$d1/dcd/classTestOrganizeFolders.html" title=" " alt="" coords="192,9157,345,9184"/>
+<area shape="rect" id="node168" href="$df/d23/classTestRepoLogin.html" title=" " alt="" coords="815,7637,931,7664"/>
+<area shape="rect" id="node169" href="$d9/d04/classTestToolsMenu.html" title=" " alt="" coords="210,8955,327,8981"/>
+<area shape="rect" id="node170" href="$d5/dcd/classfossologyTest.html" title=" " alt="" coords="213,9005,324,9032"/>
+<area shape="rect" id="node171" href="$d5/d51/classfossologyTestCase.html" title=" " alt="" coords="490,8980,633,9007"/>
+<area shape="rect" id="node172" href="$de/d5c/classAddUserTest.html" title=" " alt="" coords="822,10221,925,10248"/>
+<area shape="rect" id="node173" href="$da/dff/classAdminCustomTextManagementTest.html" title=" " alt="" coords="747,10272,1000,10299"/>
+<area shape="rect" id="node174" href="$d0/df5/classBasicFolderTest.html" title=" " alt="" coords="812,7688,935,7715"/>
+<area shape="rect" id="node175" href="$d0/dac/classCreateDeleteFldrTest.html" title=" " alt="" coords="794,7739,953,7765"/>
+<area shape="rect" id="node176" href="$df/d73/classCreateFolderTest.html" title=" " alt="" coords="808,7789,939,7816"/>
+<area shape="rect" id="node177" href="$db/d62/classDeleteFolderTest.html" title=" " alt="" coords="808,7840,939,7867"/>
+<area shape="rect" id="node178" href="$df/d0d/classDupFolderTest.html" title=" " alt="" coords="816,7891,931,7917"/>
+<area shape="rect" id="node179" href="$da/d6c/classDupUploadTest.html" title=" " alt="" coords="813,7941,933,7968"/>
+<area shape="rect" id="node180" href="$d9/d9e/classDupUserTest.html" title=" " alt="" coords="821,7992,925,8019"/>
+<area shape="rect" id="node181" href="$d0/d4a/classEditFolderDescriptionOnlyTest.html" title=" " alt="" coords="765,8043,982,8069"/>
+<area shape="rect" id="node182" href="$db/d8b/classEditFolderNameOnlyTest.html" title=" " alt="" coords="782,8093,965,8120"/>
+<area shape="rect" id="node183" href="$db/d5a/classEditFolderTest.html" title=" " alt="" coords="817,8144,930,8171"/>
+<area shape="rect" id="node184" href="$d5/d03/classEmailUserTest.html" title=" " alt="" coords="816,8195,931,8221"/>
+<area shape="rect" id="node185" href="$d1/dfc/classFoldersCreateMenuTest.html" title=" " alt="" coords="786,8245,961,8272"/>
+<area shape="rect" id="node186" href="$d4/dcd/classFoldersDeleteMenuTest.html" title=" " alt="" coords="786,8296,961,8323"/>
+<area shape="rect" id="node187" href="$d0/dc8/classFoldersEditMenuTest.html" title=" " alt="" coords="795,8347,951,8373"/>
+<area shape="rect" id="node188" href="$d0/def/classFoldersMoveMenuTest.html" title=" " alt="" coords="790,8397,957,8424"/>
+<area shape="rect" id="node189" href="$da/dd5/classMoveFolderTest.html" title=" " alt="" coords="811,8448,935,8475"/>
+<area shape="rect" id="node190" href="$d9/d33/classOneShotTablegplv21Test.html" title=" " alt="" coords="783,8499,964,8525"/>
+<area shape="rect" id="node191" href="$d1/d12/classSearchMenuTest.html" title=" " alt="" coords="809,8549,937,8576"/>
+<area shape="rect" id="node192" href="$d9/d2f/classUploadFileMenuTest.html" title=" " alt="" coords="797,8600,950,8627"/>
+<area shape="rect" id="node193" href="$d7/dcb/classUploadFileTest.html" title=" " alt="" coords="815,8651,932,8677"/>
+<area shape="rect" id="node194" href="$d7/d2d/classUploadInstructMenuTest.html" title=" " alt="" coords="784,8701,963,8728"/>
+<area shape="rect" id="node195" href="$df/d66/classUploadOneShotMenuTest.html" title=" " alt="" coords="781,8752,966,8779"/>
+<area shape="rect" id="node196" href="$d4/dfd/classUploadServerMenuTest.html" title=" " alt="" coords="787,8803,959,8829"/>
+<area shape="rect" id="node197" href="$d8/d6d/classUploadSrvTest.html" title=" " alt="" coords="816,8853,931,8880"/>
+<area shape="rect" id="node198" href="$db/d0b/classUploadUrlMenuTest.html" title=" " alt="" coords="799,8904,948,8931"/>
+<area shape="rect" id="node199" href="$d2/d85/classUploadUrlTest.html" title=" " alt="" coords="817,8955,930,8981"/>
+<area shape="rect" id="node200" href="$d9/d26/classUploadsDeleteMenuTest.html" title=" " alt="" coords="783,9005,963,9032"/>
+<area shape="rect" id="node201" href="$d2/d04/classUploadsMoveMenuTest.html" title=" " alt="" coords="787,9056,960,9083"/>
+<area shape="rect" id="node202" href="$dd/d8f/classbrowseUPloadedTest.html" title=" " alt="" coords="795,9107,952,9133"/>
+<area shape="rect" id="node203" href="$d0/d7c/classcleanupRF.html" title=" " alt="" coords="828,9157,919,9184"/>
+<area shape="rect" id="node204" href="$dd/dc2/classcleanupTestData.html" title=" " alt="" coords="808,9208,939,9235"/>
+<area shape="rect" id="node205" href="$d0/da2/classcreateSuiUsers.html" title=" " alt="" coords="813,9259,933,9285"/>
+<area shape="rect" id="node206" href="$db/dbe/classcreateUIUsers.html" title=" " alt="" coords="816,9309,931,9336"/>
+<area shape="rect" id="node207" href="$da/d92/classmyFirstTest.html" title=" " alt="" coords="825,9360,922,9387"/>
+<area shape="rect" id="node208" href="$d8/dbe/classnoEmailUserTest.html" title=" " alt="" coords="808,9411,939,9437"/>
+<area shape="rect" id="node209" href="$df/d44/classrhelTest.html" title=" " alt="" coords="837,9461,910,9488"/>
+<area shape="rect" id="node210" href="$d8/dff/classrunMyTest.html" title=" " alt="" coords="829,9512,918,9539"/>
+<area shape="rect" id="node211" href="$d5/d20/classsomeTest.html" title=" " alt="" coords="831,9563,915,9589"/>
+<area shape="rect" id="node212" href="$d7/d44/classuploadSrvDirTest.html" title=" " alt="" coords="807,9613,939,9640"/>
+<area shape="rect" id="node213" href="$d1/d90/classuploadSrvFileTest.html" title=" " alt="" coords="805,9664,941,9691"/>
+<area shape="rect" id="node214" href="$d2/dab/classuploadTestDataTest.html" title=" " alt="" coords="799,9715,948,9741"/>
+<area shape="rect" id="node215" href="$db/de2/classuploadUnpack.html" title=" " alt="" coords="816,9765,931,9792"/>
+<area shape="rect" id="node216" href="$db/d49/classuploadWEMailTest.html" title=" " alt="" coords="803,9816,944,9843"/>
+<area shape="rect" id="node217" href="$dc/dca/classuploadWoutEMailTest.html" title=" " alt="" coords="793,9867,954,9893"/>
+<area shape="rect" id="node218" href="$d9/d10/classuserEditAnyTest.html" title=" " alt="" coords="810,9917,937,9944"/>
+<area shape="rect" id="node219" href="$d2/dc1/classverify23D1F1L.html" title=" " alt="" coords="815,9968,931,9995"/>
+<area shape="rect" id="node220" href="$da/dc1/classverifyDirsOnly.html" title=" " alt="" coords="816,10019,931,10045"/>
+<area shape="rect" id="node221" href="$d6/ddc/classverifyFossolyTest.html" title=" " alt="" coords="806,10069,941,10096"/>
+<area shape="rect" id="node222" href="$d5/d2b/classverifySimpletest.html" title=" " alt="" coords="809,10120,938,10147"/>
+<area shape="rect" id="node223" href="$d2/d4e/classzendTest.html" title=" " alt="" coords="834,10171,913,10197"/>
+</map>

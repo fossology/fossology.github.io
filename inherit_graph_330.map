@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$df/df2/classscanner.html" title="Abstract class to provide interface to scanners." alt="" coords="5,31,79,57"/>
+<area shape="rect" id="node2" href="$dc/dd7/classhCopyrightScanner.html" title="Implementation of scanner class for copyright." alt="" coords="127,5,272,32"/>
+<area shape="rect" id="node3" href="$d2/db7/classregexScanner.html" title="Provides a regex scanner using predefined regexs." alt="" coords="144,56,255,83"/>
+</map>
