@@ -1,0 +1,27 @@
+var classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest =
+[
+    [ "buildDecisions", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a6020afe093fa9119aa6bdc85d8eaed25", null ],
+    [ "buildProposals", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a78f00590863fb9655e227fa704e85385", null ],
+    [ "collectBulkLicenses", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#ac8132b40c0e5b9c8560563d18c6cfd8a", null ],
+    [ "getMyDate", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#ac41945579c90fefa1623094b787007d6", null ],
+    [ "insertBulkEvents", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a8fb2370f2ae3825542eb587d004f63be", null ],
+    [ "setUp", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a352143316f5e3261d8cb4023acc76bda", null ],
+    [ "tearDown", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a65b4e5228c88e6cfb01f2fddc67b9e5c", null ],
+    [ "testBulkHistoryWithAMatch", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a640939cb9e987cf39a7b58b40e9f131f", null ],
+    [ "testBulkHistoryWithAMatchReturningAlsoNotTried", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a13feef2b863d529274ff642b68ec6de5", null ],
+    [ "testBulkHistoryWithoutMatches", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a232eee6fbec1ce2713338eaf4a42818f", null ],
+    [ "testBulkHistoryWithoutMatchesFromDifferentFolder", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a0abc04411d1b6dd9ebf6b9ad619ca733", null ],
+    [ "testGetClearedLicenseMultiplicities", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#ad115fb3f35463c98a7d0a9fd61018795", null ],
+    [ "testGetClearedLicenses", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a4cd45737847105b61070511e37728fa2", null ],
+    [ "testMainLicenseIds", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a9d355356e072d4436e9e459835fafc1d", null ],
+    [ "testRelevantClearingEvents", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#ad92bd2ff08e12df3c749f59a1304428c", null ],
+    [ "testupdateClearingEvent", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a93f954a9e78d3f9b35cf9b483f9aca66", null ],
+    [ "testWip", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a38d5430efa0eef6939b11078a24acc5a", null ],
+    [ "$clearingDao", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a3ad928128b52b8054e28fd74513f3fc3", null ],
+    [ "$dbManager", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a05bf6d6fb1047bad909b5f8d3fa06b2f", null ],
+    [ "$groupId", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a8ec0db144d239ca37dd77fdbf5cbf39a", null ],
+    [ "$items", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#ae3e3ff1e171319aa74c12f9527215dc4", null ],
+    [ "$now", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a3de6d17cd03ce7cd048ce4861be8f540", null ],
+    [ "$testDb", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a056a124de8e840a817828236d3868e4e", null ],
+    [ "$uploadDao", "d5/dc2/classFossology_1_1Lib_1_1Dao_1_1ClearingDaoTest.html#a6e096b3752c926eb242501312cb933f1", null ]
+];
