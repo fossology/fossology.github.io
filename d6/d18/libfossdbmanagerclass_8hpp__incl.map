@@ -1,0 +1,13 @@
+<map id="src/lib/cpp/libfossdbmanagerclass.hpp" name="src/lib/cpp/libfossdbmanagerclass.hpp">
+<area shape="rect" id="node1" title="DB wrapper for agents." alt="" coords="213,5,483,32"/>
+<area shape="rect" id="node2" href="$d4/d4c/libfossdbmanager_8h_source.html" title=" " alt="" coords="58,155,209,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="158,80,229,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="479,155,542,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="467,80,525,107"/>
+<area shape="rect" id="node9" href="$d6/d11/libfossdbQueryResult_8hpp.html" title="Wrapper for DB result." alt="" coords="253,80,443,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="187,229,271,256"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,229,80,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="104,229,163,256"/>
+<area shape="rect" id="node10" href="$d6/dc0/uniquePtr_8hpp.html" title="Defined which unique to be used by creating new unptr namespace." alt="" coords="293,155,403,181"/>
+<area shape="rect" id="node11" title=" " alt="" coords="309,229,387,256"/>
+</map>

@@ -1,0 +1,27 @@
+var classReuserScenarioTest =
+[
+    [ "CPPUNIT_TEST", "d4/dec/classReuserScenarioTest.html#aa252d6eca2ba46117aa8d99bfd8ec8bf", null ],
+    [ "CPPUNIT_TEST", "d4/dec/classReuserScenarioTest.html#a9534d60cf7caa556e3c65ad10a56117d", null ],
+    [ "CPPUNIT_TEST", "d4/dec/classReuserScenarioTest.html#ac0f5fc55a55e50c58d0821bd5f9ae044", null ],
+    [ "CPPUNIT_TEST", "d4/dec/classReuserScenarioTest.html#a3cbc64418b0e8ea8a2898903bda44772", null ],
+    [ "CPPUNIT_TEST", "d4/dec/classReuserScenarioTest.html#a9413bc9059d2acea3a58b56234ade4d5", null ],
+    [ "CPPUNIT_TEST", "d4/dec/classReuserScenarioTest.html#a2df424fccac42bf70ed51b6831201aec", null ],
+    [ "CPPUNIT_TEST", "d4/dec/classReuserScenarioTest.html#a23750c85741a48ffe286d615e77d8542", null ],
+    [ "CPPUNIT_TEST", "d4/dec/classReuserScenarioTest.html#a6411a43fc748fe55f0ecbe644530601d", null ],
+    [ "CPPUNIT_TEST", "d4/dec/classReuserScenarioTest.html#af81f7d190b465cf0a43e9313fb3d23b1", null ],
+    [ "CPPUNIT_TEST", "d4/dec/classReuserScenarioTest.html#a48c8d2c4a948e0db07c651b16a5aa74b", null ],
+    [ "CPPUNIT_TEST", "d4/dec/classReuserScenarioTest.html#ae470f9eea0b8684871603e0e0df0d0c5", null ],
+    [ "CPPUNIT_TEST_SUITE", "d4/dec/classReuserScenarioTest.html#a62aab21227bff9aede978a8454ed3b1a", null ],
+    [ "CPPUNIT_TEST_SUITE_END", "d4/dec/classReuserScenarioTest.html#a1a8586fd5e95dbeb08cc1de27cb54ea8", null ],
+    [ "testCorrectArgumentsForwardedToProcessUploadReuse", "d4/dec/classReuserScenarioTest.html#a18383d77c659b56db86cf741eff4dc0d", null ],
+    [ "testEnhancedReuseFailurePropagates", "d4/dec/classReuserScenarioTest.html#a76f6e5cdc8f7f3b6cd68515b70e1299a", null ],
+    [ "testEnhancedReuseUsesEnhancedPath", "d4/dec/classReuserScenarioTest.html#a4ff0581e5faee30871a97a829f5b7983", null ],
+    [ "testMultipleReuseLinksAllProcessed", "d4/dec/classReuserScenarioTest.html#a05f89d8beb08c021fee1362e1ec549c7", null ],
+    [ "testNoReuseLinkSucceedsWithoutProcessing", "d4/dec/classReuserScenarioTest.html#a570de5f92cceb60b6cd688928085809f", null ],
+    [ "testOptionalFlagsNotCalledWithoutBits", "d4/dec/classReuserScenarioTest.html#a1c9bba07f93884b0bc3ecc987bee78c5", null ],
+    [ "testRepoClearingUsesStandardReusePath", "d4/dec/classReuserScenarioTest.html#ad287280d2df9f8fbbf3847af04e37a73", null ],
+    [ "testReuseConfFlagOnly", "d4/dec/classReuserScenarioTest.html#ad902765b8a790ec256ab3a544d359010", null ],
+    [ "testReuseCopyrightFlagOnly", "d4/dec/classReuserScenarioTest.html#af51ddff5f51dac7f8d7d26983b06220e", null ],
+    [ "testReuseExistsButSourceHasNoClearings", "d4/dec/classReuserScenarioTest.html#abb4297a3ea42c4fb38df575c5d08fb66", null ],
+    [ "testReuseMainLicenseFlagOnly", "d4/dec/classReuserScenarioTest.html#ab841ecec7d14440fd603502dc49906f3", null ]
+];

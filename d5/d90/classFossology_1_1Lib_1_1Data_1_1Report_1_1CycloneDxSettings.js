@@ -1,0 +1,27 @@
+var classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings =
+[
+    [ "__construct", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#af29502e2e6093666a40bef34d028fbd3", null ],
+    [ "flag", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a16f9733192071ad7694cbac1203d0f48", null ],
+    [ "fromReportInfo", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#aa9ce831a1d06f8b1a9da4bcba72759ef", null ],
+    [ "fromUserSettings", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a07ed12cfe475d3382e14f99606cc610b", null ],
+    [ "getSpecVersion", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a8f79e92e3e6e7a2709eb902325cb9a69", null ],
+    [ "getTagNamespace", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#af29508e4ca3c5ff98d3b0f5c0049af4d", null ],
+    [ "isIgnoreFilesWithoutInfo", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#ab16aeea3abe26e891e33a360183cd683", null ],
+    [ "isLicenseCommentChecked", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a7bf1962525e66ceeb60bb624b414ff13", null ],
+    [ "isLicenseCommentEnabled", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a059ec6e7cef387193baadad6fd6b23c4", null ],
+    [ "isOsselotExport", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a64aa84054545ec694f00a7e1ccc2fbc1", null ],
+    [ "normaliseNamespace", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#ae22226cdab1a1a5b62af9f5a43f15269", null ],
+    [ "normaliseSpecVersion", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a16134fbbd0c794ffcb7c153f34946501", null ],
+    [ "toReportInfo", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a681d03bf2b7ca235e2d9624454c0c8cd", null ],
+    [ "toUserSettings", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a69fbb1d3a11ef52c268c14d854540f81", null ],
+    [ "$ignoreFilesWithoutInfo", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a870486f1cc6a6bfd58bc1912d6777214", null ],
+    [ "$licenseComment", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#ae79e7bedda42011397eaab4446b620a1", null ],
+    [ "$osselotExport", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#abe015566f140e2f86dee912a833287b0", null ],
+    [ "$specVersion", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a9b545949e1d22b9112724b90c265ac8b", null ],
+    [ "$tagNamespace", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a74e506be58d8caa2413960caca870853", null ],
+    [ "DEFAULT_NAMESPACE", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a00fdd598d0468e42df6fcceb019aa035", null ],
+    [ "DEFAULT_VERSION", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a50bef1227fed42a1fdc76de158486439", null ],
+    [ "MAX_NAMESPACE_LENGTH", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a1ac022e58b5fa32df2ce869f952dc330", null ],
+    [ "NAMESPACE_PATTERN", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#a5f84fd384652940b673fc6e59972780b", null ],
+    [ "SUPPORTED_VERSIONS", "d5/d90/classFossology_1_1Lib_1_1Data_1_1Report_1_1CycloneDxSettings.html#ad9fb3ada34d1d9209af07594edd45e96", null ]
+];

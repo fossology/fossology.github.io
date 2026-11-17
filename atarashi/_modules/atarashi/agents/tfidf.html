@@ -1,0 +1,256 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>atarashi.agents.tfidf &#8212; atarashi 0.0.9 documentation</title>
+    <link rel="stylesheet" href="../../../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">atarashi 0.0.9 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for atarashi.agents.tfidf</h1><div class="highlight"><pre>
+<span class="ch">#!/usr/bin/python</span>
+<span class="c1"># -*- coding: utf-8 -*-</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Copyright 2018 Aman Jain (amanjain5221@gmail.com)</span>
+
+<span class="sd">This program is free software; you can redistribute it and/or</span>
+<span class="sd">modify it under the terms of the GNU General Public License</span>
+<span class="sd">version 2 as published by the Free Software Foundation.</span>
+<span class="sd">This program is distributed in the hope that it will be useful,</span>
+<span class="sd">but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span class="sd">MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span class="sd">GNU General Public License for more details.</span>
+
+<span class="sd">You should have received a copy of the GNU General Public License along</span>
+<span class="sd">with this program; if not, write to the Free Software Foundation, Inc.,</span>
+<span class="sd">51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="n">__author__</span> <span class="o">=</span> <span class="s2">&quot;Aman Jain&quot;</span>
+<span class="n">__email__</span> <span class="o">=</span> <span class="s2">&quot;amanjain5221@gmail.com&quot;</span>
+
+<span class="kn">import</span> <span class="nn">argparse</span>
+<span class="kn">from</span> <span class="nn">enum</span> <span class="k">import</span> <span class="n">Enum</span>
+<span class="kn">import</span> <span class="nn">itertools</span>
+<span class="kn">import</span> <span class="nn">time</span>
+
+<span class="kn">from</span> <span class="nn">numpy</span> <span class="k">import</span> <span class="n">unique</span><span class="p">,</span> <span class="nb">sum</span><span class="p">,</span> <span class="n">dot</span>
+<span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="k">import</span> <span class="n">TfidfVectorizer</span>
+
+<span class="kn">from</span> <span class="nn">atarashi.agents.atarashiAgent</span> <span class="k">import</span> <span class="n">AtarashiAgent</span>
+<span class="kn">from</span> <span class="nn">atarashi.libs.initialmatch</span> <span class="k">import</span> <span class="n">initial_match</span>
+<span class="kn">from</span> <span class="nn">atarashi.libs.utils</span> <span class="k">import</span> <span class="n">l2_norm</span>
+
+
+<div class="viewcode-block" id="tokenize"><a class="viewcode-back" href="../../../source/atarashi.agents.tfidf.html#atarashi.agents.tfidf.tokenize">[docs]</a><span class="k">def</span> <span class="nf">tokenize</span><span class="p">(</span><span class="n">data</span><span class="p">):</span> <span class="k">return</span> <span class="n">data</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="TFIDF"><a class="viewcode-back" href="../../../source/atarashi.agents.tfidf.html#atarashi.agents.tfidf.TFIDF">[docs]</a><span class="k">class</span> <span class="nc">TFIDF</span><span class="p">(</span><span class="n">AtarashiAgent</span><span class="p">):</span>
+
+<div class="viewcode-block" id="TFIDF.TfidfAlgo"><a class="viewcode-back" href="../../../source/atarashi.agents.tfidf.html#atarashi.agents.tfidf.TFIDF.TfidfAlgo">[docs]</a>  <span class="k">class</span> <span class="nc">TfidfAlgo</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="n">scoreSim</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">cosineSim</span> <span class="o">=</span> <span class="mi">2</span></div>
+
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">licenseList</span><span class="p">,</span> <span class="n">algo</span><span class="o">=</span><span class="n">TfidfAlgo</span><span class="o">.</span><span class="n">cosineSim</span><span class="p">):</span>
+    <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="n">licenseList</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">algo</span> <span class="o">=</span> <span class="n">algo</span>
+
+  <span class="k">def</span> <span class="nf">__cosine_similarity</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    https://blog.nishtahir.com/2015/09/19/fuzzy-string-matching-using-cosine-similarity/</span>
+
+<span class="sd">    :return: Cosine similarity value of two word frequency arrays</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">dot_product</span> <span class="o">=</span> <span class="n">dot</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+    <span class="n">temp</span> <span class="o">=</span> <span class="n">l2_norm</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="o">*</span> <span class="n">l2_norm</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">temp</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="k">return</span> <span class="mi">0</span>
+    <span class="k">else</span><span class="p">:</span>
+      <span class="k">return</span> <span class="n">dot_product</span> <span class="o">/</span> <span class="n">temp</span>
+
+  <span class="k">def</span> <span class="nf">__tfidfsumscore</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">inputFile</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    TF-IDF Sum Score Algorithm. Used TfidfVectorizer to implement it.</span>
+
+<span class="sd">    :param inputFile: Input file path</span>
+<span class="sd">    :return: Sorted array of JSON of scanner results with sim_type as __tfidfsumscore</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">processedData1</span> <span class="o">=</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">loadFile</span><span class="p">(</span><span class="n">inputFile</span><span class="p">)</span>
+    <span class="n">matches</span> <span class="o">=</span> <span class="n">initial_match</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">commentFile</span><span class="p">,</span> <span class="n">processedData1</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">licenseList</span><span class="p">)</span>
+
+    <span class="n">startTime</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+
+    <span class="c1"># unique words from tokenized input file</span>
+    <span class="n">processedData</span> <span class="o">=</span> <span class="n">unique</span><span class="p">(</span><span class="n">processedData1</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">))</span>
+
+    <span class="n">all_documents</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">licenseList</span><span class="p">[</span><span class="s1">&#39;processed_text&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+    <span class="n">all_documents</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">processedData1</span><span class="p">)</span>
+    <span class="n">sklearn_tfidf</span> <span class="o">=</span> <span class="n">TfidfVectorizer</span><span class="p">(</span><span class="n">min_df</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">use_idf</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">smooth_idf</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                                    <span class="n">sublinear_tf</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">tokenizer</span><span class="o">=</span><span class="n">tokenize</span><span class="p">,</span>
+                                    <span class="n">vocabulary</span><span class="o">=</span><span class="n">processedData</span><span class="p">)</span>
+
+    <span class="n">sklearn_representation</span> <span class="o">=</span> <span class="n">sklearn_tfidf</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">all_documents</span><span class="p">)</span>
+
+    <span class="n">score_arr</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">counter</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">sklearn_representation</span><span class="o">.</span><span class="n">toarray</span><span class="p">()[:</span><span class="nb">len</span><span class="p">(</span><span class="n">sklearn_representation</span><span class="o">.</span><span class="n">toarray</span><span class="p">())</span> <span class="o">-</span> <span class="mi">1</span><span class="p">],</span>
+                                    <span class="n">start</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+      <span class="n">sim_score</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+      <span class="n">score_arr</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+        <span class="s1">&#39;shortname&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">licenseList</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">result</span><span class="p">][</span><span class="s1">&#39;shortname&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;sim_type&#39;</span><span class="p">:</span> <span class="s2">&quot;Sum of TF-IDF score&quot;</span><span class="p">,</span>
+        <span class="s1">&#39;sim_score&#39;</span><span class="p">:</span> <span class="n">sim_score</span><span class="p">,</span>
+        <span class="s1">&#39;desc&#39;</span><span class="p">:</span> <span class="s2">&quot;Score can be greater than 1 also&quot;</span>
+      <span class="p">})</span>
+    <span class="n">score_arr</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;sim_score&#39;</span><span class="p">],</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">matches</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">chain</span><span class="p">(</span><span class="n">matches</span><span class="p">,</span> <span class="n">score_arr</span><span class="p">[:</span><span class="mi">5</span><span class="p">]))</span>
+    <span class="n">matches</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;sim_score&#39;</span><span class="p">],</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;time taken is &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">startTime</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; sec&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">matches</span>
+
+  <span class="k">def</span> <span class="nf">__tfidfcosinesim</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">inputFile</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    TF-IDF Cosine Similarity Algorithm. Used TfidfVectorizer to implement it.</span>
+
+<span class="sd">    :param inputFile: Input file path</span>
+<span class="sd">    :return: Sorted array of JSON of scanner results with sim_type as __tfidfcosinesim</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">processedData1</span> <span class="o">=</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">loadFile</span><span class="p">(</span><span class="n">inputFile</span><span class="p">)</span>
+    <span class="n">matches</span> <span class="o">=</span> <span class="n">initial_match</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">commentFile</span><span class="p">,</span> <span class="n">processedData1</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">licenseList</span><span class="p">)</span>
+
+    <span class="n">startTime</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+
+    <span class="n">all_documents</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">licenseList</span><span class="p">[</span><span class="s1">&#39;processed_text&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+    <span class="n">all_documents</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">processedData1</span><span class="p">)</span>
+    <span class="n">sklearn_tfidf</span> <span class="o">=</span> <span class="n">TfidfVectorizer</span><span class="p">(</span><span class="n">min_df</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">use_idf</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">smooth_idf</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">sublinear_tf</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">tokenizer</span><span class="o">=</span><span class="n">tokenize</span><span class="p">)</span>
+
+    <span class="n">sklearn_representation</span> <span class="o">=</span> <span class="n">sklearn_tfidf</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">all_documents</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">counter</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">sklearn_representation</span><span class="o">.</span><span class="n">toarray</span><span class="p">()[:</span><span class="nb">len</span><span class="p">(</span><span class="n">sklearn_representation</span><span class="o">.</span><span class="n">toarray</span><span class="p">())</span> <span class="o">-</span> <span class="mi">1</span><span class="p">],</span>
+                                    <span class="n">start</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+      <span class="n">sim_score</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__cosine_similarity</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">sklearn_representation</span><span class="o">.</span><span class="n">toarray</span><span class="p">()[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+      <span class="k">if</span> <span class="n">sim_score</span> <span class="o">&gt;=</span> <span class="mf">0.8</span><span class="p">:</span>
+        <span class="n">matches</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+          <span class="s1">&#39;shortname&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">licenseList</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">counter</span><span class="p">][</span><span class="s1">&#39;shortname&#39;</span><span class="p">],</span>
+          <span class="s1">&#39;sim_type&#39;</span><span class="p">:</span> <span class="s2">&quot;TF-IDF Cosine Sim&quot;</span><span class="p">,</span>
+          <span class="s1">&#39;sim_score&#39;</span><span class="p">:</span> <span class="n">sim_score</span><span class="p">,</span>
+          <span class="s1">&#39;desc&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span>
+        <span class="p">})</span>
+    <span class="n">matches</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;sim_score&#39;</span><span class="p">],</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;time taken is &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">startTime</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; sec&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">matches</span>
+
+<div class="viewcode-block" id="TFIDF.scan"><a class="viewcode-back" href="../../../source/atarashi.agents.tfidf.html#atarashi.agents.tfidf.TFIDF.scan">[docs]</a>  <span class="k">def</span> <span class="nf">scan</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">filePath</span><span class="p">):</span>
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">algo</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">TfidfAlgo</span><span class="o">.</span><span class="n">cosineSim</span><span class="p">:</span>
+      <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__tfidfcosinesim</span><span class="p">(</span><span class="n">filePath</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">algo</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">TfidfAlgo</span><span class="o">.</span><span class="n">scoreSim</span><span class="p">:</span>
+      <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__tfidfsumscore</span><span class="p">(</span><span class="n">filePath</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+      <span class="k">return</span> <span class="o">-</span><span class="mi">1</span></div>
+
+<div class="viewcode-block" id="TFIDF.getSimAlgo"><a class="viewcode-back" href="../../../source/atarashi.agents.tfidf.html#atarashi.agents.tfidf.TFIDF.getSimAlgo">[docs]</a>  <span class="k">def</span> <span class="nf">getSimAlgo</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">algo</span></div>
+
+<div class="viewcode-block" id="TFIDF.setSimAlgo"><a class="viewcode-back" href="../../../source/atarashi.agents.tfidf.html#atarashi.agents.tfidf.TFIDF.setSimAlgo">[docs]</a>  <span class="k">def</span> <span class="nf">setSimAlgo</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">newAlgo</span><span class="p">):</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">newAlgo</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">TfidfAlgo</span><span class="p">):</span>
+      <span class="bp">self</span><span class="o">.</span><span class="n">algo</span> <span class="o">=</span> <span class="n">newAlgo</span></div></div>
+
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+  <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">()</span>
+  <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;-s&quot;</span><span class="p">,</span> <span class="s2">&quot;--tfidf_similarity&quot;</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                      <span class="n">default</span><span class="o">=</span><span class="s2">&quot;ScoreSim&quot;</span><span class="p">,</span>
+                      <span class="n">choices</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;CosineSim&quot;</span><span class="p">,</span> <span class="s2">&quot;ScoreSim&quot;</span><span class="p">],</span>
+                      <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Specify the similarity algorithm that you want&quot;</span><span class="p">)</span>
+  <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;inputFile&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Specify the input file which needs to be scanned&quot;</span><span class="p">)</span>
+  <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;processedLicenseList&quot;</span><span class="p">,</span>
+                      <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Specify the processed license list file which contains licenses&quot;</span><span class="p">)</span>
+  <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;-v&quot;</span><span class="p">,</span> <span class="s2">&quot;--verbose&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;increase output verbosity&quot;</span><span class="p">,</span>
+                      <span class="n">action</span><span class="o">=</span><span class="s2">&quot;count&quot;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+  <span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+
+  <span class="n">tfidf_similarity</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">tfidf_similarity</span>
+  <span class="n">filename</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">inputFile</span>
+  <span class="n">licenseList</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">processedLicenseList</span>
+  <span class="n">verbose</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">verbose</span>
+
+  <span class="n">scanner</span> <span class="o">=</span> <span class="n">TFIDF</span><span class="p">(</span><span class="n">licenseList</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">)</span>
+  <span class="k">if</span> <span class="n">tfidf_similarity</span> <span class="o">==</span> <span class="s2">&quot;CosineSim&quot;</span><span class="p">:</span>
+    <span class="n">scanner</span><span class="o">.</span><span class="n">setSimAlgo</span><span class="p">(</span><span class="n">TFIDF</span><span class="o">.</span><span class="n">TfidfAlgo</span><span class="o">.</span><span class="n">cosineSim</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;License Detected using TF-IDF algorithm + cosine similarity &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">scanner</span><span class="o">.</span><span class="n">scan</span><span class="p">(</span><span class="n">filename</span><span class="p">)))</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="n">scanner</span><span class="o">.</span><span class="n">setSimAlgo</span><span class="p">(</span><span class="n">TFIDF</span><span class="o">.</span><span class="n">TfidfAlgo</span><span class="o">.</span><span class="n">scoreSim</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;License Detected using TF-IDF algorithm + sum score &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">scanner</span><span class="o">.</span><span class="n">scan</span><span class="p">(</span><span class="n">filename</span><span class="p">)))</span>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">atarashi 0.0.9 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Aman Jain.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>

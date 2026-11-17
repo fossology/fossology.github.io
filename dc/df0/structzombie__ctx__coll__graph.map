@@ -1,0 +1,3 @@
+<map id="zombie_ctx" name="zombie_ctx">
+<area shape="rect" id="node1" title="Context passed to collect_zombie_agents()." alt="" coords="5,5,103,97"/>
+</map>

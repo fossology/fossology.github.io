@@ -1,0 +1,28 @@
+var classFoScanner_1_1Spdx3Report_1_1Spdx3Report =
+[
+    [ "__init__", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#a78bc42d1fb851c74552d71d3924e8f68", null ],
+    [ "_deduplicate_creation_info", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#a0e940f78ac9df02e55531f1ca8a746a4", null ],
+    [ "_fixup_rdf_graph", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#a02892687c7c1a72bf48736c32c03b81c", null ],
+    [ "_get_license_object", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#af12631c153b98a5ad185b1319056c489", null ],
+    [ "_get_or_create_dep_package", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#a4469b90c8fc22a87c5e2fc460328a573", null ],
+    [ "_load_spdx_shacl_model", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#ad2567971d47a6682594ca0313c2fb3ca", null ],
+    [ "_make_base_uri", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#a51f115c19271ba93781191c6b1b70273", null ],
+    [ "_process_component", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#a490b52caf682462a7f536e12f5b7071f", null ],
+    [ "_rdf_format_for_file", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#a25cf43cbe00e032618f7335b63633101", null ],
+    [ "_resolve_licenses", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#ad33ed2b7a018933e4c9f9202b504939e", null ],
+    [ "_sanitize_xml_literals", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#abef04498d84f6259884c5f31fe4c575b", null ],
+    [ "_type_satisfies", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#aac0a28119f284a09c2b69a3cc8d68696", null ],
+    [ "_validate_report", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#a1e1bb42b46af385ff22e763673eda5dc", null ],
+    [ "finalize_document", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#a10732ed979f1fee617372ef3958bb404", null ],
+    [ "write_report", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#acceccda9c58e44f54989ea0d3199d4e1", null ],
+    [ "_base", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#af9bdedf45e07974cb7d56aa6dc502a52", null ],
+    [ "_file_idx", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#a22bceba0a7bfe1a6eadd4db996613ea7", null ],
+    [ "_rel_idx", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#a44fe445c3596ed7a8200fb246059b008", null ],
+    [ "_spdx_licensing", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#ac0a53474ea884f61127c10484b0326e7", null ],
+    [ "_XML_INVALID_RE", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#ab902d6f2773a6baa812922d824743340", null ],
+    [ "cli_options", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#a4e0dd575d8a9897414c8bf602c8b00ac", null ],
+    [ "creation_info", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#abcac7930c74647b9ba1cb4146af718c3", null ],
+    [ "payload", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#a624e76f5f289b0dc64a2ec2318b325ff", null ],
+    [ "root_package", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#aa644153f7c94fef895b7af77c8215ed3", null ],
+    [ "scanner", "d7/d6f/classFoScanner_1_1Spdx3Report_1_1Spdx3Report.html#a3a8dfcb2dd668aec67da69159830760b", null ]
+];

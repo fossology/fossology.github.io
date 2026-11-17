@@ -1,0 +1,149 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>atarashi.atarashii module &#8212; atarashi 0.0.9 documentation</title>
+    <link rel="stylesheet" href="../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">atarashi 0.0.9 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-atarashi.atarashii">
+<span id="atarashi-atarashii-module"></span><h1>atarashi.atarashii module<a class="headerlink" href="#module-atarashi.atarashii" title="Permalink to this headline">¶</a></h1>
+<p>Copyright 2018 Aman Jain (<a class="reference external" href="mailto:amanjain5221&#37;&#52;&#48;gmail&#46;com">amanjain5221<span>&#64;</span>gmail<span>&#46;</span>com</a>)</p>
+<p>This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+version 2 as published by the Free Software Foundation.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.</p>
+<p>You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</p>
+<dl class="function">
+<dt id="atarashi.atarashii.atarashii_runner">
+<code class="descclassname">atarashi.atarashii.</code><code class="descname">atarashii_runner</code><span class="sig-paren">(</span><em>inputFile</em>, <em>processedLicense</em>, <em>agent_name</em>, <em>similarity='CosineSim'</em>, <em>ngramJsonLoc=None</em>, <em>verbose=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/atarashi/atarashii.html#atarashii_runner"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#atarashi.atarashii.atarashii_runner" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>inputFile</strong> – Input File for scanning of license</li>
+<li><strong>processedLicense</strong> – Processed License List (CSV) path (Default path already provided)</li>
+<li><strong>agent_name</strong> – Specify the agent that you want to use for scanning</li>
+<li><strong>similarity</strong> – Specify the similarity type to be used for the particular agent</li>
+<li><strong>ngramJsonLoc</strong> – Specify N-Gram Json File location</li>
+<li><strong>verbose</strong> – Specify if verbose mode is on or not (Default is Off/ None)</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">Returns the array of JSON with scan results</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="17%" />
+<col width="83%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>shortname</td>
+<td>Short name of the license</td>
+</tr>
+<tr class="row-even"><td>sim_type</td>
+<td>Type of similarity from which the result is generated</td>
+</tr>
+<tr class="row-odd"><td>sim_score</td>
+<td>Similarity score for the algorithm used mentioned above</td>
+</tr>
+<tr class="row-even"><td>desc</td>
+<td>Description/ comments for the similarity measure</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="atarashi.atarashii.main">
+<code class="descclassname">atarashi.atarashii.</code><code class="descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/atarashi/atarashii.html#main"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#atarashi.atarashii.main" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calls atarashii_runner for each file in the folder/ repository specified by user
+Prints the Input file path and the JSON output from atarashii_runner</p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/source/atarashi.atarashii.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">atarashi 0.0.9 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Aman Jain.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>
